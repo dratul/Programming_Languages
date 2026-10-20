@@ -63,14 +63,5 @@ in every engineering report and data science
 notebook. This unit opens the door to AI, IoT,
 and Data Science using the same Python
 basics learnt in Unit IV.
-## Tutorials Unit-01
-## Basics of C
-| S. N. | Tutorial Problems | 
-| --- | --- | 
-|1. | Write a program using C to Print your name and branch | 
-|2. | Write a program using C to Add two numbers entered by user.| 
-|3. | Write a program using C to find area of a rectangle | 
-|4. | Write a program using C to calculate area of circle | 
-|5. | Write a program using C to Swap two numbers| 
 
 
