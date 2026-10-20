@@ -64,3 +64,9 @@ in every engineering report and data science
 notebook. This unit opens the door to AI, IoT,
 and Data Science using the same Python
 basics learnt in Unit IV.
+## Tutorials Unit-01
+## Basics of C
+| S. N. | Tutorial Problems | 
+| --- | --- | 
+|1. | Write a program using C to 1. Print your name and branch | 
+| 2. | Row 2, Col 2 | 
