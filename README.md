@@ -1,8 +1,7 @@
 # Programming_Languages
 For AKTU First Year Students
-## Programming Basics (C):
-1. Structure of a C program; compilation and
-execution
+## Unit-01 Programming Basics (C):
+1. Structure of a C program; compilation and execution
 2. Data types, variables, constants, operators
 (arithmetic, relational, logical)
 3. Input/output — scanf/printf in C
@@ -69,9 +68,9 @@ basics learnt in Unit IV.
 | S. N. | Tutorial Problems | 
 | --- | --- | 
 |1. | Write a program using C to Print your name and branch | 
-| 2. | Write a program using C to Add two numbers
-entered by user.| 
+|2. | Write a program using C to Add two numbers entered by user.| 
 |3. | Write a program using C to find area of a rectangle | 
-| 4. | Write a program using C to calculate area of circle | 
-|5. | Write a program using C to Print your name and branch | 
-| 6. | Write a program using C to | 
+|4. | Write a program using C to calculate area of circle | 
+|5. | Write a program using C to Swap two numbers| 
+
+
