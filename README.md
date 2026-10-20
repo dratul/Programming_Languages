@@ -68,5 +68,10 @@ basics learnt in Unit IV.
 ## Basics of C
 | S. N. | Tutorial Problems | 
 | --- | --- | 
-|1. | Write a program using C to 1. Print your name and branch | 
-| 2. | Row 2, Col 2 | 
+|1. | Write a program using C to Print your name and branch | 
+| 2. | Write a program using C to Add two numbers
+entered by user.| 
+|3. | Write a program using C to find area of a rectangle | 
+| 4. | Write a program using C to calculate area of circle | 
+|5. | Write a program using C to Print your name and branch | 
+| 6. | Write a program using C to | 
