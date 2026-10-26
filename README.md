@@ -1,5 +1,5 @@
 # Programming_Languages
-For AKTU First Year Students
+For BIET Jhansi First Year Students
 ## Unit-01 Programming Basics (C):
 1. Structure of a C program; compilation and execution
 2. Data types, variables, constants, operators
