@@ -8,7 +8,7 @@ For BIET Jhansi First Year Students
 4. Type conversion; simple expressions
 Real connect: C powers embedded systems,
 microcontrollers, and OS kernels.
-## Decision Making and Control Flow (C):
+## Unit-02 Decision Making and Control Flow (C):
 1. Control Statements
 2. Loops — for, while, do-while; break and
 continue
@@ -19,7 +19,7 @@ value
 Real connect: Control flow is the brain of every
 program — from traffic signal logic to drone
 autopilot decision-making.
-## [Advanced Programming Concepts (C):](Unit_03.md)
+## [Unit-03 Advanced Programming Concepts (C):](Unit_03.md)
 1. 1D array — declaration, input, output,
 traversal
 2. Simple operations — find max, min, sum,
@@ -34,7 +34,7 @@ Real connect: Arrays store sensor readings,
 image pixels, and stock prices. Pointers are the
 foundation of memory management in
 embedded systems.
-## Python Introduction:
+## Unit-04 Python Introduction:
 1. Why Python — where it is used (AI, Data
 Science, Web, Automation)
 2. Python basics — variables, data types,
@@ -47,7 +47,7 @@ Real connect: Python is #1 in AI/ML, Data
 Science, and automation — same syntax, more
 power, less boilerplate.
 
-## Python Data Structures and Emerging Applications
+## Unit-05 Python Data Structures and Emerging Applications
 1. Python list, tuple, dictionary, set — basic
 operations only
 2. File handling — read and write a text file;
