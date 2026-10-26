@@ -97,8 +97,10 @@ int main(void) {
     return 0;
 }
 ```c
-### 1D Array Practice Examples
-#### Example 3.1: Calculating Sum and Average :
+
+## 3.2 1D Array Practice Examples
+
+### Example 3.1: Calculating Sum and Average :
 Calculate the total sum and average score of a student's marks stored in an array.
 
 ```c
@@ -134,7 +136,7 @@ Average Score: 79.00
 
 ---
 
-#### Example 3.2: Finding Maximum and Minimum Elements
+### Example 3.2: Finding Maximum and Minimum Elements
 Find the highest and lowest grades in an array of test scores.
 
 #### C Source Code
@@ -170,7 +172,7 @@ Lowest Mark: 68
 
 ---
 
-### Example 3: Reversing an Array in Place
+## Example 3.3: Reversing an Array in Place
 Reverse the order of elements inside an array directly without using an auxiliary array.
 
 ### C Source Code
@@ -292,3 +294,5 @@ Total Odd Numbers: 3
 | **Max / Min** | Compare current element with running `max` or `min` | $O(n)$ |
 | **Reverse** | Swap `arr[i]` with `arr[n - 1 - i]` up to `n / 2` | $O(n)$ |
 | **Linear Search** | Compare each element against `target` | $O(n)$ |
+
+[Return to Complete Syllabus ](README.md)
