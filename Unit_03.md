@@ -74,8 +74,33 @@ Each element has an index (position), and in C, array indexing starts at 0, not 
 *	marks[1] gives 82.
 *	marks[4] gives 79.
 
-### 1D Array Practice Examples
-#### Example 3.1: Calculating Sum and Average :
+When declaring an array in C, you must specify the data type and the number of elements.
+```c
+#include <stdio.h>
+
+int main(void) {
+    // 1. Declaration without initialization (contains garbage values)
+    int arr1[5];
+
+    // 2. Declaration with full initialization
+    int arr2[5] = {10, 20, 30, 40, 50};
+
+    // 3. Partial initialization (remaining elements are automatically set to 0)
+    int arr3[5] = {10, 20}; // {10, 20, 0, 0, 0}
+
+    // 4. Initializing all elements to 0
+    int arr4[5] = {0};
+
+    // 5. Implicit sizing (compiler infers size = 4)
+    int arr5[] = {1, 2, 3, 4};
+
+    return 0;
+}
+```c
+
+## 3.2 1D Array Practice Examples
+
+### Example 3.1: Calculating Sum and Average :
 Calculate the total sum and average score of a student's marks stored in an array.
 
 ```c
@@ -111,7 +136,7 @@ Average Score: 79.00
 
 ---
 
-#### Example 3.2: Finding Maximum and Minimum Elements
+### Example 3.2: Finding Maximum and Minimum Elements
 Find the highest and lowest grades in an array of test scores.
 
 #### C Source Code
@@ -147,7 +172,7 @@ Lowest Mark: 68
 
 ---
 
-### Example 3: Reversing an Array in Place
+## Example 3.3: Reversing an Array in Place
 Reverse the order of elements inside an array directly without using an auxiliary array.
 
 ### C Source Code
@@ -269,3 +294,5 @@ Total Odd Numbers: 3
 | **Max / Min** | Compare current element with running `max` or `min` | $O(n)$ |
 | **Reverse** | Swap `arr[i]` with `arr[n - 1 - i]` up to `n / 2` | $O(n)$ |
 | **Linear Search** | Compare each element against `target` | $O(n)$ |
+
+[Return to Complete Syllabus ](README.md)
