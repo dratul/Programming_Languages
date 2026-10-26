@@ -2,17 +2,17 @@
 
 **Decision Making and Control Flow (C):**
 
-1\. 1D array — declaration, input, output, traversal
+3.1\. 1D array — declaration, input, output, traversal
 
-2\. Simple operations — find max, min, sum, average
+3.2\. Simple operations — find max, min, sum, average
 
-3\. Strings in C — gets/puts, strlen, strcpy, strcmp
+3.3\. Strings in C — gets/puts, strlen, strcpy, strcmp
 
-4\. Pointer — concept of address and pointer variable (concept only, not deep)
+3.4\. Pointer — concept of address and pointer variable (concept only, not deep)
 
-5\. Structures,
+3.5\. Structures,
 
-6\. File Handling
+3.6\. File Handling
 
 ## 3.1 1D Array
 
