@@ -6,7 +6,7 @@ For BIET Jhansi/ AKTU Lucknow affilited  First Year Students
 (arithmetic, relational, logical)\
 1.3. Input/output — scanf/printf in C \
 1.4. Type conversion; simple expressions \
-1.5. [Tutorials](Tutorial_unit_01.md)
+1.5. [Tutorials](Tutorial_unit_01.md) \
 Real connect: C powers embedded systems, microcontrollers, and OS kernels.
 ## Unit-02 Decision Making and Control Flow (C):
 1. Control Statements
