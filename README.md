@@ -2,11 +2,11 @@
 For BIET Jhansi/ AKTU Lucknow affilited  First Year Students
 ## [Unit-01 Programming Basics (C):](Unit_01_programming_basics_in_c.md)
  1.1. Structure of a C program; compilation and execution \
-1.2. Data types, variables, constants, operators \
+1.2. Data types, variables, constants, operators 
 (arithmetic, relational, logical)\
 1.3. Input/output — scanf/printf in C \
-1.4. Type conversion; simple expressions
-1.5. [Tutorials]()
+1.4. Type conversion; simple expressions \
+1.5. [Tutorials](Tutorial_unit_01.md)
 Real connect: C powers embedded systems, microcontrollers, and OS kernels.
 ## Unit-02 Decision Making and Control Flow (C):
 1. Control Statements
