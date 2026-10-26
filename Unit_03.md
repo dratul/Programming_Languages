@@ -20,13 +20,12 @@ A one-dimensional array (1D array) is one of the most basic and useful concepts 
 
 What is an array? Imagine you want to store the marks of five students. Without an array, you might declare five separate variables:
 
-# C Marks Variables Example
+### C Marks Variables & Array Example
 
-Below is the C code representation extracted from your image:
+Below is the original C code representation:
 
 ```c
 #include <stdio.h>
-
 int main() 
 {
     int m1 = 75;
@@ -34,14 +33,9 @@ int main()
     int m3 = 68;
     int m4 = 91;
     int m5 = 79;
-
     return 0;
 }
 ```
-
----
-
-## Alternative: Using an Array
 
 Instead of creating five individual variables (`m1` to `m5`), you can simplify the code by storing the marks in an array:
 
@@ -50,18 +44,32 @@ Instead of creating five individual variables (`m1` to `m5`), you can simplify t
 
 int main() 
 {
+    // Storing five integer values in a 1D array named marks
     int marks[5] = {75, 82, 68, 91, 79};
 
     // Example: Print all marks using a loop
     for (int i = 0; i < 5; i++) {
-        printf("Mark %d: %d\n", i + 1, marks[i]);
+        printf("Mark %d (Index %d): %d\n", i + 1, i, marks[i]);
     }
 
     return 0;
 }
 ```
-This stores five integer values in one array named marks
-Key idea: Each element has an index (position), and in C, array indexing starts at 0, not 1.
-•	marks[0] gives 75.
-•	marks[1] gives 82.
-•	marks[4] gives 79.
+Key idea: 
+This stores five integer values in one array named `marks`.
+
+### Visual Representation of a 1D Array
+
+| Index 0 | Index 1 | Index 2 | Index 3 | Index 4 |
+| :---: | :---: | :---: | :---: | :---: |
+| **75** | **82** | **68** | **91** | **79** |
+
+* **Array name:** `marks`
+* **Number of elements:** 5
+* **First index:** 0
+
+
+Each element has an index (position), and in C, array indexing starts at 0, not 1.
+*	marks[0] gives 75.
+*	marks[1] gives 82.
+*	marks[4] gives 79.
