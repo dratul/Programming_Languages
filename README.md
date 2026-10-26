@@ -25,7 +25,7 @@ traversal
 2. Simple operations — find max, min, sum,
 average
 3. [Strings in C — gets/puts, strlen, strcpy,
-strcmp](Unit_03_ 02.md)
+strcmp](Unit_03_02.md)
 4. Pointer — concept of address and pointer
 variable (concept only, not deep)
 5. Structures,
