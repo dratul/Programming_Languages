@@ -1,28 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int marks;
-    printf("Enter marks: ");
-    scanf("%d", &marks);
-    if (marks >= 90)
-    {
-        printf("Grade A");
-    }
-    else if (marks >= 80)
-    {
-        printf("Grade B");
-    }
-    else if (marks >= 70)
-    {
-        printf("Grade C");
-    }
-    else if (marks >= 60)
-    {
-        printf("Grade D");
-    }
-    else
-    {
-        printf("Grade F");
-    }
-    return 0;
+int m1 = 75;
+int m2 = 82;
+int m3 = 68;
+int m4 = 91;
+int m5 = 79;
 }
