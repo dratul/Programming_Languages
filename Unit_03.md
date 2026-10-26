@@ -63,6 +63,7 @@ This stores five integer values in one array named `marks`.
 | Index 0 | Index 1 | Index 2 | Index 3 | Index 4 |
 | :---: | :---: | :---: | :---: | :---: |
 | **75** | **82** | **68** | **91** | **79** |
+
 Note: 
 * Array name: `marks`
 * Number of elements: 5
