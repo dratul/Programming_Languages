@@ -74,18 +74,10 @@ Each element has an index (position), and in C, array indexing starts at 0, not 
 *	marks[1] gives 82.
 *	marks[4] gives 79.
 
-### 1D Array Practice Examples in C
-
-This guide provides practical programming exercises using one-dimensional (1D) arrays in C. Each example includes the scenario, source code, explanation, and expected console output.
-
----
-
-## Example 1: Calculating Sum and Average
-
-### Scenario
+### 1D Array Practice Examples
+#### Example 3.1: Calculating Sum and Average :
 Calculate the total sum and average score of a student's marks stored in an array.
 
-### C Source Code
 ```c
 #include <stdio.h>
 
@@ -111,7 +103,7 @@ int main() {
 }
 ```
 
-### Output
+#### Output
 ```text
 Total Marks: 395
 Average Score: 79.00
@@ -119,12 +111,10 @@ Average Score: 79.00
 
 ---
 
-## Example 2: Finding Maximum and Minimum Elements
-
-### Scenario
+#### Example 3.2: Finding Maximum and Minimum Elements
 Find the highest and lowest grades in an array of test scores.
 
-### C Source Code
+#### C Source Code
 ```c
 #include <stdio.h>
 
@@ -149,7 +139,7 @@ int main() {
 }
 ```
 
-### Output
+#### Output
 ```text
 Highest Mark: 91
 Lowest Mark: 68
@@ -157,9 +147,7 @@ Lowest Mark: 68
 
 ---
 
-## Example 3: Reversing an Array in Place
-
-### Scenario
+### Example 3: Reversing an Array in Place
 Reverse the order of elements inside an array directly without using an auxiliary array.
 
 ### C Source Code
@@ -177,8 +165,9 @@ int main() {
     printf("\n");
 
     // Reverse array logic
-    for (int i = 0; i < n / 2; i++) {
-        int temp = arr[i];
+    for (int i = 0; i < n / 2; i++)
+   {
+        int temp = arr[i]; //stores in temporary variable
         arr[i] = arr[n - 1 - i];
         arr[n - 1 - i] = temp;
     }
@@ -193,7 +182,7 @@ int main() {
 }
 ```
 
-### Output
+#### Output
 ```text
 Original Array: 75 82 68 91 79 
 Reversed Array: 79 91 68 82 75 
@@ -201,12 +190,10 @@ Reversed Array: 79 91 68 82 75
 
 ---
 
-## Example 4: Linear Search in an Array
-
-### Scenario
+### Example 3.4: Linear Search in an Array
 Search for a target value within an array and display its index position if found.
 
-### C Source Code
+#### C Source Code
 ```c
 #include <stdio.h>
 
@@ -232,16 +219,14 @@ int main() {
 }
 ```
 
-### Output
+#### Output
 ```text
 Element 91 found at index 3.
 ```
 
 ---
 
-## Example 5: Counting Even and Odd Numbers
-
-### Scenario
+### Example 3.5: Counting Even and Odd Numbers
 Count how many values in an array are even numbers and how many are odd.
 
 ### C Source Code
@@ -268,7 +253,7 @@ int main() {
 }
 ```
 
-### Output
+#### Output
 ```text
 Total Even Numbers: 3
 Total Odd Numbers: 3
@@ -276,7 +261,7 @@ Total Odd Numbers: 3
 
 ---
 
-## Quick Reference Summary
+### Quick Reference Summary
 
 | Operation | Typical Logic | Time Complexity |
 | :--- | :--- | :--- |
