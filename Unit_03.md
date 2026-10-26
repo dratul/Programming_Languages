@@ -61,3 +61,7 @@ int main()
 }
 ```
 This stores five integer values in one array named marks
+Key idea: Each element has an index (position), and in C, array indexing starts at 0, not 1.
+•	marks[0] gives 75.
+•	marks[1] gives 82.
+•	marks[4] gives 79.
