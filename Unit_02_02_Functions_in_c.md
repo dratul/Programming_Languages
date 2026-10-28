@@ -207,6 +207,9 @@ void countdown(int n)
 ### Example 3: Power Calculation 
 math base^exp
 
+$$
+e = mc^2
+$$
 
 
 $$
