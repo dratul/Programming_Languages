@@ -1,16 +1,5 @@
 # UNIT 02: Decision Making and Control Flow (C)
 
-## Syllabus
-
-* **Decision Making and Control Flow (C):**
-   Control Statements
- 2.1. Loops: `for`, `while`, `do-while`; `break` and `continue`
- 2.2. Functions: definition, call, return; call by value
- 2.3. Recursion: factorial and Fibonacci (simple examples only)
-* **Real connect:** Control flow is the brain of every program—from traffic signal logic to drone autopilot decision-making.
-
----
-
 ## 2.2 Functions
 
 A **function** is an independent block of modular code designed to perform a distinct, well-defined task.
@@ -66,23 +55,21 @@ int addNumbers(int a, int b)
 * **Call by Value:** In standard C, parameters receive *copies* of actual parameters. Changes made to formal parameters within the function do not affect the original arguments in the caller.
 
 ---
-##
-Example
+#### Tutorial 02_02_01: Write a function to calculate maximum of three numbers using a separate function in c
 ```c
 #include <stdio.h>
-int find_max(int a, int b, int c);
+int find_max(int a, int b, int c); // Declaration of function
 
 int main() {
     int a, b, c ,answer;
     printf("enter three number: ");
     scanf("%d %d %d" ,&a ,&b ,&c);
-    answer = find_max(a,b,c);
+    answer = find_max(a,b,c);   // Function call 
     printf("the maximum number is: %d\n" , answer);
-    
-
-    return 0;
+        return 0;
 }
-int find_max(int x, int y, int z){
+int find_max(int x, int y, int z)   // Function Prototype
+{
 
     if (x>=y && x>=z){
         return x;
@@ -92,6 +79,25 @@ int find_max(int x, int y, int z){
     }
     else 
         return z;
+}
+```
+
+
+#### Tutorial 02_02_02: Write the main function for the user defined function given below to check if number is even in c
+```c
+#include <stdio.h> 
+/** * Checks if a number is even. 
+* @param n The integer to check. 
+* @return 1 if the number is even, 0 if it is odd. 
+*/ int isEven(int n) 
+{ 
+// The modulo operator (%) returns the remainder of division by 2. // If the remainder is 0, the number is even. 
+if (n % 2 == 0) 
+{
+ return 1; 
+} else 
+{ 
+return 0; 
 }
 ```
 
