@@ -16,7 +16,7 @@ continue \
 value \
 2.4. Recursion — factorial and Fibonacci
 (simple examples only) \
-2.5 Tutorial 
+2.5 Tutorials\
 Real connect: Control flow is the brain of every
 program — from traffic signal logic to drone
 autopilot decision-making.
