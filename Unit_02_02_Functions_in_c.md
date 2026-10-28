@@ -204,9 +204,13 @@ void countdown(int n)
 
 ---
 
-### Example 3: Power Calculation ($\text{base}^{\text{exp}}$)
+### Example 3: Power Calculation ($$
+\text{base}^{\text{exp}}
+$$)
 
-$$\text{base}^{\text{exp}} = \text{base} \times \text{base}^{(\text{exp}-1)}, \quad \text{where } \text{base}^0 = 1$$
+$$
+\text{base}^{\text{exp}} = \text{base} \times \text{base}^{(\text{exp}-1)}, \quad \text{where } \text{base}^0 = 1
+$$
 
 ```c
 #include <stdio.h>
