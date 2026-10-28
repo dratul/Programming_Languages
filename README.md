@@ -8,7 +8,7 @@ For BIET Jhansi/ AKTU Lucknow affilited  First Year Students
 1.4. Type conversion; simple expressions \
 1.5. [Tutorials](Tutorial_unit_01.md) \
 Real connect: C powers embedded systems, microcontrollers, and OS kernels.
-## [Unit-02 Decision Making and Control Flow (C):](unit_02_descision_making_and_control_flow_in_c.md)
+## [Unit-02 Decision Making and Control Flow (C):](Unit_02_Control_flow_in_c.md)
 2.1. Control Statements \
 2.2. Loops — for, while, do-while; break and
 continue \
@@ -20,13 +20,13 @@ value \
 Real connect: Control flow is the brain of every
 program — from traffic signal logic to drone
 autopilot decision-making.
-## [Unit-03 Advanced Programming Concepts (C):](Unit_03.md)
+## [Unit-03 Advanced Programming Concepts (C):](Unit_03_01_1D_Array.md)
 1. 1D array — declaration, input, output,
 traversal
 2. Simple operations — find max, min, sum,
 average
-3. [Strings in C — gets/puts, strlen, strcpy,
-strcmp](Unit_03_02.md)
+3. [Strings in C](Unit_03_03_Strings.md)— gets/puts, strlen, strcpy,
+strcmp]
 4. Pointer — concept of address and pointer
 variable (concept only, not deep)
 5. Structures,
