@@ -205,9 +205,8 @@ void countdown(int n)
 ---
 
 ### Example 3: Power Calculation 
-$$
-base^exp
-$$
+math base^exp
+
 
 
 $$
