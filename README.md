@@ -20,45 +20,45 @@ value \
 Real connect: Control flow is the brain of every
 program — from traffic signal logic to drone
 autopilot decision-making.
-## [Unit-03 Advanced Programming Concepts (C):](Unit_03_01_1D_Array.md)
+## [Unit-03 Advanced Programming Concepts (C):](Unit_03_01_1D_Array.md)\
 3.1. 1D array — declaration, input, output,
-traversal
+traversal\
 3.2. Simple operations — find max, min, sum,
-average
+average\
 3.3. [Strings in C](Unit_03_03_Strings.md)— gets/puts, strlen, strcpy,
-strcmp]
+strcmp]\
 3.4. Pointer — concept of address and pointer
-variable (concept only, not deep)
-3.5. Structures,
-3.6. File Handling
+variable (concept only, not deep)\
+3.5. Structures\
+3.6. File Handling\
 Real connect: Arrays store sensor readings,
 image pixels, and stock prices. Pointers are the
 foundation of memory management in
 embedded systems.
-## Unit-04 Python Introduction:
+## Unit-04 Python Introduction\
 4.1. Why Python — where it is used (AI, Data
-Science, Web, Automation)
+Science, Web, Automation)\
 4.2. Python basics — variables, data types,
-print, input, operators
+print, input, operators\
 4.3. Python control flow — if/else, for loop,
-while loop
+while loop\
 4.4. Python functions — def, return, default
-arguments
+arguments\
 Real connect: Python is #1 in AI/ML, Data
 Science, and automation — same syntax, more
 power, less boilerplate.
 
-## Unit-05 Python Data Structures and Emerging Applications
+## Unit-05 Python Data Structures and Emerging Applications\
 5.1. Python list, tuple, dictionary, set — basic
-operations only
+operations only\
 5.2. File handling — read and write a text file;
-read a CSV (2–3 lines)
+read a CSV (2–3 lines)\
 5.3. Introduction to NumPy — array, mean,
-simple arithmetic (5 lines)
+simple arithmetic (5 lines)\
 5.4. Introduction to Matplotlib — plot a simple
-line graph (5 lines)
-5.5. One mini-demo — IoT sensor simulation
-5.6. Real connect: Python lists power NumPy which
+line graph (5 lines)\
+5.5. One mini-demo — IoT sensor simulation\
+Real connect: Python lists power NumPy which
 powers TensorFlow. Matplotlib plots are used
 in every engineering report and data science
 notebook. This unit opens the door to AI, IoT,
