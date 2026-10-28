@@ -136,12 +136,12 @@ return 0;
 
 ---
 
-### Tutorial 02_02_04: Factorial Calculation ($$n!$$)
+### Tutorial 02_02_04: Factorial Calculation ($n!$)
 
-$$\begin{aligned}
+$'\begin{aligned}
 0! &= 1 \\
 n! &= n \times (n-1)! \quad \text{for } n \ge 1
-\end{aligned}$$
+\end{aligned}'$
 
 ```c
 #include <stdio.h>
