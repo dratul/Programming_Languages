@@ -113,7 +113,7 @@ return 0;
 
 ---
 
-### Example 1: Factorial Calculation ($n!$)
+### Tutorial 02_02_04: Factorial Calculation ($n!$)
 
 $$\begin{aligned}
 0! &= 1 \\
@@ -158,7 +158,7 @@ factorial(4) = 4 * 6 = 24
 
 ---
 
-### Example 2: Recursive Countdown
+### Tutorial 02_02_05: Recursive Countdown : Write a recursive function to countdown from a number n to zero
 ```c
 #include <stdio.h>
 
