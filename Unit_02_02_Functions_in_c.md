@@ -82,7 +82,6 @@ int find_max(int x, int y, int z)   // Function Prototype
 }
 ```
 
-
 #### Tutorial 02_02_02: Write the main function for the user defined function given below to check if number is even in c
 ```c
 #include <stdio.h> 
@@ -102,10 +101,6 @@ return 0;
 ```
 
 #### Tutorial 02_02_03: Write the user defined function for calculation of factorial of a number in c
-```c
-#### Tutorial 02_02_02: Write the main function for the user defined function given below to check if number is even in c
-```c
-
 ```c
 #include <stdio.h>
 
@@ -128,6 +123,8 @@ printf("Factorial of %d = %llu", n, fact);
 return 0;
 }
 ```
+
+
 
 ## 2.5 Recursion
 
