@@ -21,44 +21,44 @@ Real connect: Control flow is the brain of every
 program — from traffic signal logic to drone
 autopilot decision-making.
 ## [Unit-03 Advanced Programming Concepts (C):](Unit_03_01_1D_Array.md)
-1. 1D array — declaration, input, output,
+3.1. 1D array — declaration, input, output,
 traversal
-2. Simple operations — find max, min, sum,
+3.2. Simple operations — find max, min, sum,
 average
-3. [Strings in C](Unit_03_03_Strings.md)— gets/puts, strlen, strcpy,
+3.3. [Strings in C](Unit_03_03_Strings.md)— gets/puts, strlen, strcpy,
 strcmp]
-4. Pointer — concept of address and pointer
+3.4. Pointer — concept of address and pointer
 variable (concept only, not deep)
-5. Structures,
-6. File Handling
+3.5. Structures,
+3.6. File Handling
 Real connect: Arrays store sensor readings,
 image pixels, and stock prices. Pointers are the
 foundation of memory management in
 embedded systems.
 ## Unit-04 Python Introduction:
-1. Why Python — where it is used (AI, Data
+4.1. Why Python — where it is used (AI, Data
 Science, Web, Automation)
-2. Python basics — variables, data types,
+4.2. Python basics — variables, data types,
 print, input, operators
-3. Python control flow — if/else, for loop,
+4.3. Python control flow — if/else, for loop,
 while loop
-4. Python functions — def, return, default
+4.4. Python functions — def, return, default
 arguments
 Real connect: Python is #1 in AI/ML, Data
 Science, and automation — same syntax, more
 power, less boilerplate.
 
 ## Unit-05 Python Data Structures and Emerging Applications
-1. Python list, tuple, dictionary, set — basic
+5.1. Python list, tuple, dictionary, set — basic
 operations only
-2. File handling — read and write a text file;
+5.2. File handling — read and write a text file;
 read a CSV (2–3 lines)
-3. Introduction to NumPy — array, mean,
+5.3. Introduction to NumPy — array, mean,
 simple arithmetic (5 lines)
-4. Introduction to Matplotlib — plot a simple
+5.4. Introduction to Matplotlib — plot a simple
 line graph (5 lines)
-5. One mini-demo — IoT sensor simulation
-6. Real connect: Python lists power NumPy which
+5.5. One mini-demo — IoT sensor simulation
+5.6. Real connect: Python lists power NumPy which
 powers TensorFlow. Matplotlib plots are used
 in every engineering report and data science
 notebook. This unit opens the door to AI, IoT,
