@@ -136,7 +136,7 @@ return 0;
 
 ---
 
-### Tutorial 02_02_04: Factorial Calculation ($n!$)
+### Tutorial 02_02_04: Factorial Calculation ($$n!$$)
 
 $$\begin{aligned}
 0! &= 1 \\
