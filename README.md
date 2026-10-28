@@ -20,7 +20,7 @@ value \
 Real connect: Control flow is the brain of every
 program — from traffic signal logic to drone
 autopilot decision-making.
-## [Unit-03 Advanced Programming Concepts (C):](Unit_03_01_1D_Array.md)\
+## [Unit-03 Advanced Programming Concepts (C):](Unit_03_01_1D_Array.md)
 3.1. 1D array — declaration, input, output,
 traversal\
 3.2. Simple operations — find max, min, sum,
@@ -35,7 +35,7 @@ Real connect: Arrays store sensor readings,
 image pixels, and stock prices. Pointers are the
 foundation of memory management in
 embedded systems.
-## Unit-04 Python Introduction\
+## Unit-04 Python Introduction
 4.1. Why Python — where it is used (AI, Data
 Science, Web, Automation)\
 4.2. Python basics — variables, data types,
@@ -48,7 +48,7 @@ Real connect: Python is #1 in AI/ML, Data
 Science, and automation — same syntax, more
 power, less boilerplate.
 
-## Unit-05 Python Data Structures and Emerging Applications\
+## Unit-05 Python Data Structures and Emerging Applications
 5.1. Python list, tuple, dictionary, set — basic
 operations only\
 5.2. File handling — read and write a text file;
