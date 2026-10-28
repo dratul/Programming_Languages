@@ -210,7 +210,7 @@ math base^exp
 $$
 e = mc^2
 $$
-
+math e = mc^2 
 
 $$
 \text{base}^{\text{exp}} = \text{base} \times \text{base}^{(\text{exp}-1)}, \quad \text{where } \text{base}^0 = 1
