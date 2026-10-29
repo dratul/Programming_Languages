@@ -1,18 +1,18 @@
 # UNIT-03 : Syllabus
 
-**Decision Making and Control Flow (C):**
+**Advanced Programming Concepts (C):**
 
-3.1\. [1D array](Unit_03_01_1D_Array) — declaration, input, output, traversal
+3.1\. [1D array](Unit_03_01_1D_Array.md) — declaration, input, output, traversal
 
-3.2\. [Simple operations](Unit_03_02_Array_Applications) — find max, min, sum, average
+3.2\. [Simple operations](Unit_03_02_Array_Applications.md) — find max, min, sum, average
 
-3.3\.[ Strings in C ](Unit_03_03_Strings)— gets/puts, strlen, strcpy, strcmp
+3.3\. [Strings in C](Unit_03_03_Strings.md) — `fgets`/`puts`, `strlen`, `strcpy`, `strcmp`
 
-3.4\. Pointer — concept of address and pointer variable (concept only, not deep)
+3.4\. [Pointers](Unit_03_04_Pointers.md) — address and pointer variable (concept only)
 
-3.5\. Structures,
+3.5\. [Structures](Unit_03_05_Structures.md)
 
-3.6\. File Handling
+3.6\. [File handling](Unit_03_06_File_Handling.md)
 
 ## 3.1 1D Array
 

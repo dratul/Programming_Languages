@@ -20,17 +20,18 @@ value \
 Real connect: Control flow is the brain of every
 program — from traffic signal logic to drone
 autopilot decision-making.
-## [Unit-03 Advanced Programming Concepts (C):](Unit_03_01_1D_Array.md)
+## Unit-03 Advanced Programming Concepts (C)
 3.1. [1D array](Unit_03_01_1D_Array.md) — declaration, input, output,
 traversal\
 3.2. [Simple operations](Unit_03_02_Array_Applications.md) — find max, min, sum,
 average\
-3.3. [Strings in C](Unit_03_03_Strings.md)— gets/puts, strlen, strcpy,
-strcmp]\
-3.4. Pointer — concept of address and pointer
-variable (concept only, not deep)\
-3.5. Structures\
-3.6. File Handling\
+3.3. [Strings in C](Unit_03_03_Strings.md) — `fgets`/`puts`, `strlen`, `strcpy`,
+`strcmp`\
+3.4. [Pointers](Unit_03_04_Pointers.md) — address and pointer variable
+(concept only)\
+3.5. [Structures](Unit_03_05_Structures.md)\
+3.6. [File handling](Unit_03_06_File_Handling.md)\
+Practice: [Unit 3 tutorials](tutorials/Tutorials_Unit_03.md)\
 Real connect: Arrays store sensor readings,
 image pixels, and stock prices. Pointers are the
 foundation of memory management in
@@ -64,4 +65,3 @@ in every engineering report and data science
 notebook. This unit opens the door to AI, IoT,
 and Data Science using the same Python
 basics learnt in Unit IV.
-

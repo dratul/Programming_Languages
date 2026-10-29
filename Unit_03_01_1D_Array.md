@@ -1,12 +1,12 @@
 # UNIT-03 : Syllabus
 
-**Decision Making and Control Flow (C):**
+**Advanced Programming Concepts (C):**
 
 3.1\. 1D array — declaration, input, output, traversal
 
 3.2\. Simple operations — find max, min, sum, average
 
-3.3\. Strings in C — gets/puts, strlen, strcpy, strcmp
+3.3\. Strings in C — `fgets`/`puts`, `strlen`, `strcpy`, `strcmp`
 
 3.4\. Pointer — concept of address and pointer variable (concept only, not deep)
 
