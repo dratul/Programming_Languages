@@ -789,4 +789,18 @@ int main(void)
 
 [Next topic: Functions and recursion](Unit_02_02_Functions_in_c.md)
 
+## Why this unit matters
+
+* Decision-making and loops are used in real systems such as traffic lights, menus, and automated control logic.
+* Functions help developers write cleaner, reusable, and easier-to-debug programs.
+* Recursion introduces the idea of solving a problem by breaking it into smaller subproblems, a key concept in computer science.
+
+## AKTU Previous-Year Practice Questions
+
+1. Write a C program using `if-else` to check whether a number is positive, negative, or zero.
+2. Explain the difference between `for`, `while`, and `do-while` loops with suitable examples.
+3. Write a recursive C function to calculate the factorial of a number and explain the base case.
+
+---
+
 [Back to syllabus](../README.md)

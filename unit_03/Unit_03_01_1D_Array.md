@@ -300,4 +300,18 @@ int main(void) {
 
 [Next topic: Simple array operations](Unit_03_02_Array_Applications.md)
 
+## Why this unit matters
+
+* Arrays help store many values under one name, which is essential in scientific and engineering calculations.
+* Strings, pointers, and structures are the building blocks of data handling in real programs.
+* File handling makes it possible to save, read, and process data for lab records, reports, and projects.
+
+## AKTU Previous-Year Practice Questions
+
+1. Write a C program to read five integers into an array and display their sum and average.
+2. Explain `strcpy()`, `strlen()`, and `strcmp()` with suitable examples in C.
+3. Define a `struct Student` with fields for name, roll number, and marks and write a program to input and print the data.
+
+---
+
 [Back to syllabus](../README.md)

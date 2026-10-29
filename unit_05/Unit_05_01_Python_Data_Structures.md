@@ -126,4 +126,18 @@ These structures are foundational for Python programming and are used heavily in
 
 [Next topic: Python file handling](Unit_05_02_Python_File_Handling.md)
 
+## Why this unit matters
+
+* Lists, tuples, dictionaries, and sets are used everywhere in data processing and software development.
+* File handling and plotting are important for real engineering reports, experiments, and analysis.
+* These concepts connect directly with data science, IoT, and automation projects.
+
+## AKTU Previous-Year Practice Questions
+
+1. Explain the differences between list, tuple, dictionary, and set with examples.
+2. Write a Python program to read a CSV file and display its content on the screen.
+3. Create a NumPy array of temperature values and calculate the mean, minimum, and maximum values.
+
+---
+
 [Back to syllabus](../README.md)

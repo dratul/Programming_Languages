@@ -70,4 +70,18 @@ The equivalent C program needs a `main()` function and the `stdio.h` header. The
 
 [Next topic: Python basics](Unit_04_02_Python_Basics.md)
 
+## Why this unit matters
+
+* Python is beginner-friendly and is widely used in AI, data science, web development, and automation.
+* This unit builds the logic needed for all later Python topics like loops, functions, files, and data analysis.
+* Strong fundamentals here help students learn advanced tools more quickly and confidently.
+
+## AKTU Previous-Year Practice Questions
+
+1. Write a Python program to input two numbers and print their sum, difference, product, and quotient.
+2. Explain the use of `if`, `elif`, and `else` in Python with a small example.
+3. Write a Python function to calculate the area of a rectangle and call it from the main program.
+
+---
+
 [Back to syllabus](../README.md)

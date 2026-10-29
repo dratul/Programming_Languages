@@ -18,4 +18,18 @@ This unit introduces the C language and the programming fundamentals used throug
 * [Tutorials and assignment](Tutorial_unit_01.md)
 * [Quick practice list](tutorials/Tutorials_Unit_01.md)
 
+## Why this unit matters
+
+* C is the foundation for understanding memory, logic, and program structure used in embedded systems and operating systems.
+* The concepts learned here are reused in almost every later programming language, including Python and C++.
+* Solving small programs in this unit builds confidence for lab work, assignments, and technical interviews.
+
+## AKTU Previous-Year Practice Questions
+
+1. Explain the structure of a C program and write a C program to read two integers and print their sum and product.
+2. Differentiate between `int`, `float`, and `double` with examples. Also explain why `float` is used for decimal values.
+3. What is type conversion in C? Explain implicit and explicit conversion with a suitable example.
+
+---
+
 [Back to syllabus](../README.md)
