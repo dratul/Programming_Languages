@@ -1,6 +1,6 @@
 # UNIT 02: Decision Making and Control Flow (C)
 
-## 2.2 Functions
+## 2.3 Functions
 
 A **function** is an independent block of modular code designed to perform a distinct, well-defined task.
 
@@ -54,79 +54,125 @@ int addNumbers(int a, int b)
 * **Formal Arguments:** Variables defined in the function prototype/header: `int add(int a, int b)`.
 * **Call by Value:** In standard C, parameters receive *copies* of actual parameters. Changes made to formal parameters within the function do not affect the original arguments in the caller.
 
+The following example shows that changing a parameter inside a function does not change the original variable:
+
+```c
+#include <stdio.h>
+
+void try_to_change(int value)
+{
+value = 100;
+printf("Inside function: %d\n", value);
+}
+
+int main(void)
+{
+int number = 5;
+
+try_to_change(number);
+printf("In main: %d\n", number);
+return 0;
+}
+```
+
+The function prints `100`, but `main` still prints `5` because `value` is a copy.
+
 ---
-#### Tutorial 02_02_01: Write a function to calculate maximum of three numbers using a separate function in c
-```c
-#include <stdio.h>
-int find_max(int a, int b, int c); // Declaration of function
+### Example: Find the Maximum of Three Numbers
 
-int main() {
-    int a, b, c ,answer;
-    printf("enter three number: ");
-    scanf("%d %d %d" ,&a ,&b ,&c);
-    answer = find_max(a,b,c);   // Function call 
-    printf("the maximum number is: %d\n" , answer);
-        return 0;
-}
-int find_max(int x, int y, int z)   // Function Prototype
-{
-
-    if (x>=y && x>=z){
-        return x;
-    }
-    if (y>=x && y>=z) {
-        return y;
-    }
-    else 
-        return z;
-}
-```
-
-#### Tutorial 02_02_02: Write the main function for the user defined function given below to check if number is even in c
-```c
-#include <stdio.h> 
-/** * Checks if a number is even. 
-* @param n The integer to check. 
-* @return 1 if the number is even, 0 if it is odd. 
-*/ int isEven(int n) 
-{ 
-// The modulo operator (%) returns the remainder of division by 2. // If the remainder is 0, the number is even. 
-if (n % 2 == 0) 
-{
- return 1; 
-} else 
-{ 
-return 0; 
-}
-```
-
-#### Tutorial 02_02_03: Write the user defined function for calculation of factorial of a number in c
 ```c
 #include <stdio.h>
 
-int main() {
-int n, i;
-int fact = 1; 
+int find_max(int a, int b, int c);
+
+int main(void) {
+int a, b, c;
+
+printf("Enter three integers: ");
+if (scanf("%d %d %d", &a, &b, &c) != 3) {
+    printf("Invalid input.\n");
+    return 1;
+}
+
+printf("The maximum number is: %d\n", find_max(a, b, c));
+return 0;
+}
+
+int find_max(int x, int y, int z)
+{
+if (x >= y && x >= z) {
+    return x;
+}
+if (y >= x && y >= z) {
+    return y;
+}
+return z;
+}
+```
+
+### Example: Check Whether a Number Is Even
+
+```c
+#include <stdio.h>
+
+int is_even(int number)
+{
+return number % 2 == 0;
+}
+
+int main(void)
+{
+int number;
 
 printf("Enter an integer: ");
-scanf("%d", &n);
-
-if (n < 0)
-printf("Error! Factorial of a negative number doesn't exist.");
-else {
-for (i = 1; i <= n; ++i) {
-fact *= i;
+if (scanf("%d", &number) != 1) {
+    printf("Invalid input.\n");
+    return 1;
 }
-printf("Factorial of %d = %llu", n, fact);
+
+if (is_even(number)) {
+    printf("%d is even.\n", number);
+} else {
+    printf("%d is odd.\n", number);
 }
 
 return 0;
 }
 ```
 
+### Example: Factorial Using a Function and a Loop
 
+This example calculates the factorial of a non-negative integer from `0` to `20`. Larger values do not fit in the return type used here.
 
-## 2.5 Recursion
+```c
+#include <stdio.h>
+
+unsigned long long factorial(unsigned int n)
+{
+unsigned long long result = 1;
+
+for (unsigned int i = 1; i <= n; i++) {
+    result *= i;
+}
+return result;
+}
+
+int main(void)
+{
+int number;
+
+printf("Enter an integer from 0 to 20: ");
+if (scanf("%d", &number) != 1 || number < 0 || number > 20) {
+    printf("Please enter a whole number from 0 to 20.\n");
+    return 1;
+}
+
+printf("%d! = %llu\n", number, factorial((unsigned int)number));
+return 0;
+}
+```
+
+## 2.4 Recursion
 
 **Recursion** is a programming technique in which a function calls itself directly or indirectly to solve a subproblem of the same type.
 
@@ -136,110 +182,106 @@ return 0;
 
 ---
 
-### Tutorial 02_02_04: Factorial Calculation ($n!$)
+### Example: Factorial Using Recursion ($n!$)
 
-$'\begin{aligned}
-0! &= 1 \\
-n! &= n \times (n-1)! \quad \text{for } n \ge 1
-\end{aligned}'$
+```text
+0! = 1
+n! = n * (n - 1)! for n >= 1
+```
 
 ```c
 #include <stdio.h>
 
-long long factorial(int n)
+unsigned long long factorial_recursive(unsigned int n)
 {
-    // 1. Base Case
-    if (n <= 1)
-    {
+    if (n <= 1) {
         return 1;
     }
-    // 2. Recursive Step
-    return n * factorial(n - 1);
+    return n * factorial_recursive(n - 1);
 }
 
 int main(void)
 {
-    int num = 5;
-    printf("Factorial of %d is: %lld\n", num, factorial(num));
+    unsigned int number = 5;
+    printf("Factorial of %u is: %llu\n", number, factorial_recursive(number));
     return 0;
 }
 ```
 
-#### Call Stack Trace for `factorial(4)`
+Both the loop-based and recursive factorial methods return the same result. For a recursive function, the **base case** stops further calls; each recursive call must move closer to that case.
+
+#### Call Stack Trace for `factorial_recursive(4)`
 ```
-factorial(4) -> 4 * factorial(3)
-factorial(3) -> 3 * factorial(2)
-factorial(2) -> 2 * factorial(1)
-factorial(1) -> returns 1 (Base case reached)
+factorial_recursive(4) -> 4 * factorial_recursive(3)
+factorial_recursive(3) -> 3 * factorial_recursive(2)
+factorial_recursive(2) -> 2 * factorial_recursive(1)
+factorial_recursive(1) -> returns 1 (base case)
 
 Unwinding:
-factorial(1) = 1
-factorial(2) = 2 * 1 = 2
-factorial(3) = 3 * 2 = 6
-factorial(4) = 4 * 6 = 24
+factorial_recursive(1) = 1
+factorial_recursive(2) = 2 * 1 = 2
+factorial_recursive(3) = 3 * 2 = 6
+factorial_recursive(4) = 4 * 6 = 24
 ```
 
----
+### Example: Fibonacci Using Recursion
 
-### Tutorial 02_02_05: Recursive Countdown : Write a recursive function to countdown from a number n to zero
-```c
-#include <stdio.h>
+The Fibonacci sequence starts with `0` and `1`. Each later value is the sum of the two previous values:
 
-void countdown(int n)
-{
-    // 1. Base Case
-    if (n == 0)
-    {
-        printf("Counting over!\n");
-        return;
-    }
-
-    // 2. Work
-    printf("%d... ", n);
-
-    // 3. Recursive Step
-    countdown(n - 1);
-}
+```text
+F(0) = 0
+F(1) = 1
+F(n) = F(n - 1) + F(n - 2), for n >= 2
 ```
-
----
-
-### Example 3: Power Calculation 
-math base^exp
-
-$$
-e = mc^2
-$$
-math e = mc^2 
-
-$$
-\text{base}^{\text{exp}} = \text{base} \times \text{base}^{(\text{exp}-1)}, \quad \text{where } \text{base}^0 = 1
-$$
 
 ```c
 #include <stdio.h>
 
-int power(int base, int exp)
+unsigned int fibonacci(unsigned int n)
 {
-    // 1. Base Case
-    if (exp == 0)
-    {
-        return 1;
+    if (n <= 1) {
+        return n;
     }
-
-    // 2. Recursive Step
-    return base * power(base, exp - 1);
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 int main(void)
 {
-    int b = 3, e = 3;
-    printf("%d raised to the power of %d is: %d\n", b, e, power(b, e));
+    for (unsigned int i = 0; i < 10; i++) {
+        printf("%u ", fibonacci(i));
+    }
+    printf("\n");
     return 0;
 }
 ```
 
 **Output:**
+
+```text
+0 1 1 2 3 5 8 13 21 34
 ```
-3 raised to the power of 3 is: 27
+
+This simple recursive version repeats some calculations, so it is suitable for learning recursion rather than for large values of `n`.
+
+### Optional Example: Recursive Countdown
+
+```c
+#include <stdio.h>
+
+void countdown(int n)
+{
+    if (n <= 0) {
+        printf("Done!\n");
+        return;
+    }
+
+    printf("%d\n", n);
+    countdown(n - 1);
+}
+
+int main(void)
+{
+    countdown(3);
+    return 0;
+}
 ```

@@ -1,28 +1,20 @@
 #include <stdio.h>
-int main()
+
+int main(void)
 {
-    int marks;
-    printf("Enter marks: ");
-    scanf("%d", &marks);
-    if (marks >= 90)
-    {
-        printf("Grade A");
+    int number;
+
+    printf("Enter an integer: ");
+    if (scanf("%d", &number) != 1) {
+        printf("Invalid input.\n");
+        return 1;
     }
-    else if (marks >= 80)
-    {
-        printf("Grade B");
+
+    if (number % 2 == 0) {
+        printf("%d is even.\n", number);
+    } else {
+        printf("%d is odd.\n", number);
     }
-    else if (marks >= 70)
-    {
-        printf("Grade C");
-    }
-    else if (marks >= 60)
-    {
-        printf("Grade D");
-    }
-    else
-    {
-        printf("Grade F");
-    }
+
     return 0;
 }

@@ -8,15 +8,15 @@ For BIET Jhansi/ AKTU Lucknow affilited  First Year Students
 1.4. Type conversion; simple expressions \
 1.5. [Tutorials](Tutorial_unit_01.md) \
 Real connect: C powers embedded systems, microcontrollers, and OS kernels.
-## [Unit-02 Decision Making and Control Flow (C):](Unit_02_Control_flow_in_c.md)
-2.1. Control Statements \
-2.2. Loops — for, while, do-while; break and
+## Unit-02 Decision Making and Control Flow (C)
+2.1. [Control statements](Unit_02_01_LOOPs_in_c.md) \
+2.2. [Loops](Unit_02_01_LOOPs_in_c.md) — for, while, do-while; break and
 continue \
-2.3. Functions — definition, call, return; call by
-value \
-2.4. Recursion — factorial and Fibonacci
-(simple examples only) \
-2.5 Tutorials\
+2.3. [Functions](Unit_02_02_Functions_in_c.md) — definition, call, return;
+call by value \
+2.4. Recursion — factorial and Fibonacci (simple examples in
+[Functions and Recursion](Unit_02_02_Functions_in_c.md)) \
+2.5. [Tutorials](tutorials/Tutorials_Unit_02.md)\
 Real connect: Control flow is the brain of every
 program — from traffic signal logic to drone
 autopilot decision-making.

@@ -66,7 +66,7 @@ For these purposes, C provides **control statements**.
 
 ---
 
-## 2.2 Types of Control Statements
+### Types of Control Statements
 
 Before learning decision-making statements, we must understand conditions. A **condition** is an expression that evaluates to either **True** (non-zero) or **False** ($0$).
 
@@ -438,11 +438,11 @@ The `default` case executes if none of the explicit `case` values match the expr
 | **Condition Types** | Evaluates logical expressions, inequalities ($<, >$), ranges | Tests exact discrete integer or character constants |
 | **Flexibility** | Supports compound conditions (`&&`, `\|\|`) | Tests a single expression against distinct case labels |
 | **Readability** | Can become messy with numerous branches | Clean and structured for multi-way branches/menus |
-| **Speed** | Evaluates sequentially ($O(n)$) | Often optimized into jump tables by compilers ($O(1)$) |
+| **Best suited to** | Conditions, ranges, and compound tests | Matching one expression against discrete constant values |
 
 ---
 
-## 2.3 Iteration Statements (Loops)
+## 2.2 Iteration Statements (Loops)
 
 Loops repeat a block of code until a terminating condition is met.
 
@@ -748,4 +748,3 @@ int main(void)
     return 0;
 }
 ```
-
