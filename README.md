@@ -73,6 +73,10 @@ notebook. This unit opens the door to AI, IoT,
 and Data Science using the same Python
 basics introduced in Units 1–4.
 
+## Tutorial coverage rule
+
+Each unit topic in this repository is paired with at least two beginner-friendly tutorial examples so the concept is practiced more than once.
+
 ## Maintainer Check
 
 Run the repository checks from the root folder with Python 3:
