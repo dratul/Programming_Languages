@@ -5,10 +5,9 @@ File handling allows a program to read and write data stored in files. This is i
 ## Writing to a Text File
 
 ```python
-file = open("demo.txt", "w")
-file.write("Hello, Python!\n")
-file.write("This is file handling.\n")
-file.close()
+with open("demo.txt", "w") as file:
+    file.write("Hello, Python!\n")
+    file.write("This is file handling.\n")
 print("File written successfully.")
 ```
 
@@ -23,10 +22,9 @@ File written successfully.
 ## Reading a Text File
 
 ```python
-file = open("demo.txt", "r")
-content = file.read()
+with open("demo.txt", "r") as file:
+    content = file.read()
 print(content)
-file.close()
 ```
 
 **Output:**
@@ -39,9 +37,8 @@ This is file handling.
 ## Appending to a File
 
 ```python
-file = open("demo.txt", "a")
-file.write("Appended line.\n")
-file.close()
+with open("demo.txt", "a") as file:
+    file.write("Appended line.\n")
 print("Data appended.")
 ```
 
@@ -82,7 +79,7 @@ with open("data.csv", "r") as file:
 
 ## Important Note
 
-The `with` statement is preferred because it automatically closes the file after reading or writing.
+The `with` statement automatically closes the file after reading or writing, even if an error occurs inside the block.
 
 ## Key Points
 

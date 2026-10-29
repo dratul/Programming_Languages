@@ -1,0 +1,9 @@
+# Compiled C programs and build output
+*.exe
+*.o
+*.out
+build/
+
+# Python cache files
+__pycache__/
+*.py[cod]

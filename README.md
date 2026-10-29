@@ -3,7 +3,8 @@
 **Instructor:** Dr Atul Kumar Dwivedi  
 **Institution:** BIET Jhansi
 
-For BIET Jhansi/ AKTU Lucknow affilited  First Year Students
+For first-year students at BIET Jhansi (affiliated with AKTU Lucknow).
+
 ## [Unit-01 Programming Basics (C)](unit_01/Unit_01_programming_basics_in_c.md)
 1.1. [Introduction to C](unit_01/Unit_01_01_Introduction_to_C.md) — history, applications, and overview\
 1.2. [Program structure, input/output, and compilation](unit_01/Unit_01_02_Program_Structure_and_Compilation.md)\
@@ -70,4 +71,14 @@ powers TensorFlow. Matplotlib plots are used
 in every engineering report and data science
 notebook. This unit opens the door to AI, IoT,
 and Data Science using the same Python
-basics learnt in Unit IV.
+basics introduced in Units 1–4.
+
+## Maintainer Check
+
+Run the repository checks from the root folder with Python 3:
+
+```powershell
+python scripts\validate_examples.py
+```
+
+The script checks local Markdown links and code fences, validates Python examples, and syntax-checks standalone C files when GCC is available.

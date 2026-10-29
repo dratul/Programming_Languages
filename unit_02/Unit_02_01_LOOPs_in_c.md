@@ -154,7 +154,10 @@ int main(void)
     int age;
 
     printf("Enter your age: ");
-    scanf("%d", &age);
+    if (scanf("%d", &age) != 1) {
+        printf("Invalid age.\n");
+        return 1;
+    }
 
     if (age >= 18)
     {
@@ -191,7 +194,10 @@ int main(void)
     int number;
 
     printf("Enter a number: ");
-    scanf("%d", &number);
+    if (scanf("%d", &number) != 1) {
+        printf("Invalid integer.\n");
+        return 1;
+    }
 
     if (number % 2 == 0)
     {
@@ -259,8 +265,11 @@ int main(void)
 {
     int marks;
 
-    printf("Enter marks: ");
-    scanf("%d", &marks);
+    printf("Enter marks from 0 to 100: ");
+    if (scanf("%d", &marks) != 1 || marks < 0 || marks > 100) {
+        printf("Invalid marks.\n");
+        return 1;
+    }
 
     if (marks >= 90)
     {
@@ -314,9 +323,15 @@ int main(void)
     int citizen;
 
     printf("Enter age: ");
-    scanf("%d", &age);
+    if (scanf("%d", &age) != 1 || age < 0) {
+        printf("Invalid age.\n");
+        return 1;
+    }
     printf("Are you a citizen? Enter 1 for Yes, 0 for No: ");
-    scanf("%d", &citizen);
+    if (scanf("%d", &citizen) != 1 || (citizen != 0 && citizen != 1)) {
+        printf("Enter 1 for Yes or 0 for No.\n");
+        return 1;
+    }
 
     if (age >= 18)
     {
@@ -405,7 +420,10 @@ int main(void)
     int choice;
 
     printf("Enter a number from 1 to 3: ");
-    scanf("%d", &choice);
+    if (scanf("%d", &choice) != 1) {
+        printf("Invalid choice.\n");
+        return 1;
+    }
 
     switch (choice)
     {
@@ -686,14 +704,20 @@ int main(void)
     float a, b;
 
     printf("Enter two numbers: ");
-    scanf("%f %f", &a, &b);
+    if (scanf("%f %f", &a, &b) != 2) {
+        printf("Invalid numbers.\n");
+        return 1;
+    }
 
     printf("\n1. Addition");
     printf("\n2. Subtraction");
     printf("\n3. Multiplication");
     printf("\n4. Division");
     printf("\nEnter your choice: ");
-    scanf("%d", &choice);
+    if (scanf("%d", &choice) != 1) {
+        printf("Invalid choice.\n");
+        return 1;
+    }
 
     switch (choice)
     {
@@ -736,7 +760,10 @@ int main(void)
     for (attempts = 1; attempts <= 3; attempts++)
     {
         printf("Enter password: ");
-        scanf("%d", &password);
+        if (scanf("%d", &password) != 1) {
+            printf("Invalid password input.\n");
+            return 1;
+        }
 
         if (password == 1234)
         {

@@ -105,7 +105,7 @@ int main(void) {
 
     return 0;
 }
-```c
+```
 
 
 ---
@@ -193,7 +193,10 @@ int main(void) {
     printf("Enter %d integers:\n", SIZE);
     for (int i = 0; i < SIZE; i++) {
         printf("Element %d: ", i);
-        scanf("%d", &arr[i]); // Notice the address-of operator '&'
+        if (scanf("%d", &arr[i]) != 1) {
+            printf("Invalid integer.\n");
+            return 1;
+        }
     }
 
     return 0;
@@ -250,7 +253,10 @@ int main(void) {
     printf("\n--- Input ---\n");
     for (int i = 0; i < n; i++) {
         printf("Enter value for index [%d]: ", i);
-        scanf("%d", &arr[i]);
+        if (scanf("%d", &arr[i]) != 1) {
+            printf("Invalid integer.\n");
+            return 1;
+        }
     }
 
     // 3. Traversal & Output
