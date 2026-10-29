@@ -1,6 +1,6 @@
 # Unit 1.4: Operators and Expressions
 
-## 1.14 Operators in C
+## 1.4.1 Operators in C
 
 Operators are special symbols used to perform operations on variables and values (operands).
 
@@ -31,7 +31,7 @@ For integer operands, `/` performs integer division and `%` gives the remainder;
 
 ---
 
-## 1.15 Operator Precedence & Associativity
+## 1.4.2 Operator Precedence & Associativity
 
 | Precedence Group | Operators | Associativity |
 | :--- | :--- | :--- |

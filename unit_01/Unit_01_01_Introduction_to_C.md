@@ -4,7 +4,7 @@
 
 ---
 
-## 1.1 Syllabus
+## 1.1.1 Syllabus
 
 * **Programming Basics (C):**
   1. Structure of a C program; compilation and execution
@@ -16,7 +16,7 @@
 
 ---
 
-## 1.2 History
+## 1.1.2 History
 
 The C programming language was developed in the early 1970s at Bell Laboratories by Dennis Ritchie. It was created to overcome the limitations of earlier languages like B and BCPL and to facilitate the rewriting of the UNIX operating system.
 
@@ -50,7 +50,7 @@ The timeline below is an extension for interested learners; focus on the basic C
 
 ---
 
-## 1.3 Why C is Taught to EE/ECE Students
+## 1.1.3 Why C is Taught to EE/ECE Students
 
 C is foundational for Electrical, Electronics, and Communication Engineering (ECE) students because it bridges the gap between software logic and hardware execution.
 
@@ -72,14 +72,14 @@ C is foundational for Electrical, Electronics, and Communication Engineering (EC
 
 ---
 
-## 1.5 Practice Platforms for C Programming (IDE)
+## 1.1.4 Practice Platforms for C Programming (IDE)
 
 1. **CodeChef:** [https://www.codechef.com/practice/c](https://www.codechef.com/practice/c)
 2. **HackerRank:** [https://www.hackerrank.com/domains/c](https://www.hackerrank.com/domains/c)
 
 ---
 
-## 1.6 Programming Languages (Optional Background)
+## 1.1.5 Programming Languages (Optional Background)
 
 A programming language is a formal set of instructions, commands, and syntax used by programmers to write software and communicate instructions to a computer to execute specific tasks.
 * It bridges human logic with machine-readable binary code ($0\text{s}$ and $1\text{s}$).
@@ -142,7 +142,7 @@ Computers only understand machine code. Translators convert source code into mac
 
 ---
 
-## 1.9 Tutorials / Practice Programs & Quick Quiz
+## 1.1.6 Tutorials / Practice Programs & Quick Quiz
 
 * Practice submissions can be made on [onlinegdb.com](https://www.onlinegdb.com/).
 

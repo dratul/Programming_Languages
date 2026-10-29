@@ -1,6 +1,6 @@
 # Unit 1.2: Program Structure, Input/Output, and Compilation
 
-## 1.4 Basic Structure of a C Program
+## 1.2.1 Basic Structure of a C Program
 
 There is a close analogy between learning the English language and learning the C language. The classical method of learning English is to first learn the alphabets used in the language, then learn to combine these alphabets to form words, which in turn are combined to form sentences, and sentences are combined to form paragraphs. 
 
@@ -108,7 +108,7 @@ The `%c` conversion reads the next character exactly, including whitespace. To s
 
 ---
 
-## 1.7 The C Program Development Cycle
+## 1.2.2 The C Program Development Cycle
 
 ```
                       +---------------+
@@ -162,7 +162,7 @@ The `%c` conversion reads the next character exactly, including whitespace. To s
 
 ---
 
-## 1.8 To Compile and Execute a C Program
+## 1.2.3 To Compile and Execute a C Program
 
 In Windows PowerShell, you need a C compiler (such as GCC via MinGW or MSVC via Visual Studio).
 

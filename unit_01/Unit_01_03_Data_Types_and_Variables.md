@@ -1,6 +1,6 @@
 # Unit 1.3: Data Types, Variables, and Constants
 
-## 1.10 Data Types in C
+## 1.3.1 Data Types in C
 
 Data types in C define the type of data a variable can hold, determining its memory size, range of values, and the operations that can be performed on it. Every variable in C must be declared with a specific data type.
 
@@ -29,7 +29,7 @@ Built by combining or modifying basic data types:
 
 ---
 
-## 1.11 Data Type Modifiers
+## 1.3.2 Data Type Modifiers
 
 Modifiers alter the memory size or range of values of basic data types:
 * **`signed` / `unsigned`:** `signed` allows both positive and negative values. `unsigned` disallows negative numbers and uses the available range for non-negative values.
@@ -37,7 +37,7 @@ Modifiers alter the memory size or range of values of basic data types:
 
 ---
 
-## 1.12 Range of Data Types
+## 1.3.3 Range of Data Types
 
 The following are common sizes and ranges, not guarantees for every compiler or platform. Use the limits in `<limits.h>` and `<float.h>` when a program needs exact values for its target system.
 
@@ -65,7 +65,7 @@ The following are common sizes and ranges, not guarantees for every compiler or 
 
 ---
 
-## 1.13 Constants and Variables
+## 1.3.4 Constants and Variables
 
 A **variable** is a named location in memory used to store data that can be modified during program execution. Variables are also called identifiers.
 

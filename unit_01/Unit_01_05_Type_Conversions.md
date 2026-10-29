@@ -1,6 +1,6 @@
 # Unit 1.5: Type Conversion
 
-## 1.16 Type Conversions
+## 1.5.1 Type Conversions
 
 In C programming, every variable has a data type. Converting a value from one data type to another is called **type conversion** or **type casting**.
 
