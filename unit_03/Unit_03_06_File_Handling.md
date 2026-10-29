@@ -89,4 +89,12 @@ This line is saved in a text file.
 
 [Next unit: Python introduction](../unit_04/Unit_04_01_Why_Python.md)
 
+## Practice Tutorials
+
+1. Write two lines to a file, reopen it, and print the contents on the screen.
+
+2. Read a file, count the number of words, and display the word count.
+
+---
+
 [Back to syllabus](../README.md)

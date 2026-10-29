@@ -144,6 +144,14 @@ Area of the rectangle: 15.0
 * Use `print()` to display values and f-strings to include values in text.
 * Python provides arithmetic, comparison, and logical operators.
 
+## Practice Tutorials
+
+1. Read two numbers from the user and display their sum, difference, product, and quotient.
+
+2. Write a Python program to calculate the area of a rectangle using `input()` and arithmetic operators.
+
+---
+
 [Next topic: Python control flow](Unit_04_03_Python_Control_Flow.md)
 
 [Back to syllabus](../README.md)

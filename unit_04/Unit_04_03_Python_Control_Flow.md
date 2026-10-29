@@ -102,6 +102,14 @@ This prints `1`, `2`, `4`, and `5`; the iteration for `3` is skipped.
 * Use `while` when repetition depends on a condition.
 * `break` exits a loop; `continue` skips to its next iteration.
 
+## Practice Tutorials
+
+1. Write a Python program that checks whether a number is even or odd using `if`/`else`.
+
+2. Read marks and print a grade using `if`/`elif`/`else`.
+
+---
+
 [Next topic: Python functions](Unit_04_04_Python_Functions.md)
 
 [Back to syllabus](../README.md)

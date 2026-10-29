@@ -288,4 +288,12 @@ int main(void)
 
 [Next unit: Advanced programming concepts](../unit_03/Unit_03_01_1D_Array.md)
 
+## Practice Tutorials
+
+1. Write a function to find the largest of three integers and call it from `main()`.
+
+2. Write a recursive function to find the factorial of a non-negative integer and print the result.
+
+---
+
 [Back to syllabus](../README.md)

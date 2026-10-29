@@ -103,6 +103,14 @@ The final line demonstrates the optional bitwise AND operator.
 
 [Tutorials and assignment](Tutorial_unit_01.md)
 
+## Practice Tutorials
+
+1. Write a program to calculate the sum, difference, product, and quotient of two numbers using arithmetic operators.
+
+2. Create a small program that uses relational and logical operators to check whether a student is eligible for a scholarship.
+
+---
+
 [Next topic: Type conversion](Unit_01_05_Type_Conversions.md)
 
 [Back to syllabus](../README.md)

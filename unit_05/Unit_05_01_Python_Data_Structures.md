@@ -116,6 +116,14 @@ Sets are useful when you need to remove duplicates.
 
 These structures are foundational for Python programming and are used heavily in data science and automation tasks.
 
+## Practice Tutorials
+
+1. Create a list of five marks, print the list, and calculate the average.
+
+2. Create a dictionary for a student and print each item using its key.
+
+---
+
 [Next topic: Python file handling](Unit_05_02_Python_File_Handling.md)
 
 [Back to syllabus](../README.md)

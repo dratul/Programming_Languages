@@ -290,6 +290,14 @@ int main(void) {
 | **Reverse** | Swap `arr[i]` with `arr[n - 1 - i]` up to `n / 2` | $O(n)$ |
 | **Linear Search** | Compare each element against `target` | $O(n)$ |
 
+## Practice Tutorials
+
+1. Read five integers into an array and print their sum and average.
+
+2. Find the largest and smallest values in an integer array and display them.
+
+---
+
 [Next topic: Simple array operations](Unit_03_02_Array_Applications.md)
 
 [Back to syllabus](../README.md)

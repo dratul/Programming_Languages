@@ -88,6 +88,14 @@ The `with` statement automatically closes the file after reading or writing, eve
 * `"a"` appends new content to the file.
 * CSV files are useful for storing tabular data.
 
+## Practice Tutorials
+
+1. Write three lines to a text file and then read the file again and print its content.
+
+2. Create a small CSV file with names and marks, and read it using Python's `csv` module.
+
+---
+
 [Next topic: Introduction to NumPy](Unit_05_03_NumPy_Intro.md)
 
 [Back to syllabus](../README.md)

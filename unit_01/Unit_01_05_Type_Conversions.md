@@ -343,4 +343,12 @@ Percentage = 90.00%
 
 [Next unit: Decision making and control flow](../unit_02/Unit_02_01_LOOPs_in_c.md)
 
+## Practice Tutorials
+
+1. Write a program that shows how integer division truncates values and then corrects it using explicit casting.
+
+2. Convert a temperature from Celsius to Fahrenheit and print the result with two digits after the decimal point.
+
+---
+
 [Back to syllabus](../README.md)

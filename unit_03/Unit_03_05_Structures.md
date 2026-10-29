@@ -50,6 +50,14 @@ Separate variables can hold the name, roll number, and marks, but a structure ke
 * Declare a structure type with `struct`.
 * Use the dot operator to access a member, for example `student.marks`.
 
+## Practice Tutorials
+
+1. Define a `struct Student` and print all its fields for one student record.
+
+2. Store records of three students in an array and display their details in table form.
+
+---
+
 [Next topic: File handling in C](Unit_03_06_File_Handling.md)
 
 [Back to syllabus](../README.md)

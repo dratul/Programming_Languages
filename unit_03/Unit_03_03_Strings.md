@@ -165,6 +165,14 @@ const char *strPtr = "Hello";
 - [ ] Ensure array size has at least `length + 1` bytes allocated.
 - [ ] Prefer `fgets()` over `scanf()` or `gets()` when taking user input.
 - [ ] Use functions from `<string.h>` (`strlen`, `strcpy`, `strcat`, `strcmp`) rather than attempting assignment like `str1 = str2`.
+## Practice Tutorials
+
+1. Read a line of text using `fgets()` and print its length with `strlen()`.
+
+2. Copy one string into another and compare both strings using `strcpy()` and `strcmp()`.
+
+---
+
 [Next topic: Pointers](Unit_03_04_Pointers.md)
 
 [Back to syllabus](../README.md)

@@ -210,6 +210,14 @@ gcc hello.c -o hello.exe; if ($?) { .\hello.exe }
 
 [Tutorials and assignment](Tutorial_unit_01.md)
 
+## Practice Tutorials
+
+1. Write a program with `#include <stdio.h>`, `int main(void)`, and `printf()`/`scanf()` to read and print two integers.
+
+2. Create a small program that reads a student name and marks, then prints the values in a formatted output line.
+
+---
+
 [Next topic: Data types, variables, and constants](Unit_01_03_Data_Types_and_Variables.md)
 
 [Back to syllabus](../README.md)

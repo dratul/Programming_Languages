@@ -60,6 +60,14 @@ The equivalent C program needs a `main()` function and the `stdio.h` header. The
 * A Python program can be saved in a `.py` file and run with a Python interpreter.
 * This unit introduces Python syntax and programming fundamentals.
 
+## Practice Tutorials
+
+1. Write a Python program that prints your name, branch, and college using `print()`.
+
+2. List three real-world applications of Python and explain why it is useful in engineering.
+
+---
+
 [Next topic: Python basics](Unit_04_02_Python_Basics.md)
 
 [Back to syllabus](../README.md)

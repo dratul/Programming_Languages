@@ -62,6 +62,14 @@ Matplotlib helps present data clearly. Graphs are useful for comparing trends, a
 * Titles and labels make the chart easier to understand.
 * Graphs are useful for reporting scientific and engineering data.
 
+## Practice Tutorials
+
+1. Use Matplotlib to plot a simple line graph of four readings with labels on both axes.
+
+2. Plot two lines on the same graph to compare temperature changes for two days.
+
+---
+
 [Next topic: IoT sensor simulation](Unit_05_05_IoT_Sensor_Simulation.md)
 
 [Back to syllabus](../README.md)

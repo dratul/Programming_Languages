@@ -188,6 +188,14 @@ Computers only understand machine code. Translators convert source code into mac
 
 [Tutorials and assignment](Tutorial_unit_01.md)
 
+## Practice Tutorials
+
+1. Write a short C program to print your name, branch, and college in a neat format.
+
+2. List the steps to compile and run a C program, and explain the role of the compiler and linker.
+
+---
+
 [Next topic: Program structure, input/output, and compilation](Unit_01_02_Program_Structure_and_Compilation.md)
 
 [Back to syllabus](../README.md)

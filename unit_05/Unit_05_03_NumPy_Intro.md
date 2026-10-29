@@ -76,6 +76,14 @@ NumPy arrays are faster and more efficient than Python lists for mathematical wo
 * Functions like `np.mean()` help compute statistical values.
 * Arithmetic can be performed element-wise on arrays.
 
+## Practice Tutorials
+
+1. Create a NumPy array of five readings and print the mean value using `np.mean()`.
+
+2. Create a 2x3 NumPy array and print the row-wise and column-wise sums.
+
+---
+
 [Next topic: Introduction to Matplotlib](Unit_05_04_Matplotlib_Intro.md)
 
 [Back to syllabus](../README.md)

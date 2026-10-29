@@ -40,4 +40,12 @@ This is similar to how IoT systems collect temperature values from sensors, stor
 * Lists are used to store readings.
 * Basic statistics such as average can be computed easily.
 
+## Practice Tutorials
+
+1. Simulate five temperature readings and print the average value.
+
+2. Generate a list of humidity values and display the maximum and minimum values.
+
+---
+
 [Back to syllabus](../README.md)

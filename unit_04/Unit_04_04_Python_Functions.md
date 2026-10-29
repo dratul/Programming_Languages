@@ -107,4 +107,12 @@ The first call calculates the area of a `5` by `3` rectangle. The second uses th
 
 [Next unit: Python data structures and applications](../unit_05/Unit_05_01_Python_Data_Structures.md)
 
+## Practice Tutorials
+
+1. Write a function to add two numbers and call it from the main program.
+
+2. Create a function with a default argument and call it with and without the optional value.
+
+---
+
 [Back to syllabus](../README.md)

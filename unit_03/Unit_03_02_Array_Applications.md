@@ -199,6 +199,14 @@ Total Odd Numbers: 3
 | **Reverse** | Swap `arr[i]` with `arr[n - 1 - i]` up to `n / 2` | $O(n)$ |
 | **Linear Search** | Compare each element against `target` | $O(n)$ |
 
+## Practice Tutorials
+
+1. Write a program to reverse the elements of an array in place and display the reversed result.
+
+2. Count how many even and odd numbers are present in a given array.
+
+---
+
 [Next topic: Strings in C](Unit_03_03_Strings.md)
 
 [Back to syllabus](../README.md)

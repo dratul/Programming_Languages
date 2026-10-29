@@ -130,6 +130,14 @@ int main(void) {
 
 [Tutorials and assignment](Tutorial_unit_01.md)
 
+## Practice Tutorials
+
+1. Declare variables of type `int`, `float`, `double`, and `char`, then print each value with a suitable format specifier.
+
+2. Write a program to display the size in bytes of different data types using `sizeof()`.
+
+---
+
 [Next topic: Operators and expressions](Unit_01_04_Operators.md)
 
 [Back to syllabus](../README.md)

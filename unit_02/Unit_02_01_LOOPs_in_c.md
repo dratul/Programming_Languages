@@ -779,6 +779,14 @@ int main(void)
 }
 ```
 
+## Practice Tutorials
+
+1. Write a program to print the multiplication table of a number entered by the user using a `for` loop.
+
+2. Use a `while` loop to add numbers from 1 to 10 and display the total.
+
+---
+
 [Next topic: Functions and recursion](Unit_02_02_Functions_in_c.md)
 
 [Back to syllabus](../README.md)
