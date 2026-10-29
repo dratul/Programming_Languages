@@ -13,7 +13,7 @@ For first-year students at BIET Jhansi (affiliated with AKTU Lucknow).
 1.5. [Type conversion](unit_01/Unit_01_05_Type_Conversions.md)\
 1.6. [Tutorials and assignment](unit_01/Tutorial_unit_01.md); [quick practice list](unit_01/tutorials/Tutorials_Unit_01.md) \
 Real connect: C powers embedded systems, microcontrollers, and OS kernels.
-## Unit-02 Decision Making and Control Flow (C)
+## [Unit-02 Decision Making and Control Flow (C)](unit_02/Unit_02_01_LOOPs_in_c.md)
 2.1. [Control statements](unit_02/Unit_02_01_LOOPs_in_c.md) \
 2.2. [Loops](unit_02/Unit_02_01_LOOPs_in_c.md) — for, while, do-while; break and
 continue \
@@ -25,7 +25,7 @@ call by value \
 Real connect: Control flow is the brain of every
 program — from traffic signal logic to drone
 autopilot decision-making.
-## Unit-03 Advanced Programming Concepts (C)
+## [Unit-03 Advanced Programming Concepts (C)](unit_03/Unit_03_01_1D_Array.md)
 3.1. [1D array](unit_03/Unit_03_01_1D_Array.md) — declaration, input, output,
 traversal\
 3.2. [Simple operations](unit_03/Unit_03_02_Array_Applications.md) — find max, min, sum,
@@ -41,7 +41,7 @@ Real connect: Arrays store sensor readings,
 image pixels, and stock prices. Pointers are the
 foundation of memory management in
 embedded systems.
-## Unit-04 Python Introduction
+## [Unit-04 Python Introduction](unit_04/Unit_04_01_Why_Python.md)
 4.1. [Why Python](unit_04/Unit_04_01_Why_Python.md) — where it is used (AI, Data
 Science, Web, Automation)\
 4.2. [Python basics](unit_04/Unit_04_02_Python_Basics.md) — variables, data types,
@@ -55,7 +55,7 @@ Real connect: Python is #1 in AI/ML, Data
 Science, and automation — same syntax, more
 power, less boilerplate.
 
-## Unit-05 Python Data Structures and Emerging Applications
+## [Unit-05 Python Data Structures and Emerging Applications](unit_05/Unit_05_01_Python_Data_Structures.md)
 5.1. [Python data structures](unit_05/Unit_05_01_Python_Data_Structures.md) — list, tuple,
 dictionary, set — basic operations only\
 5.2. [File handling](unit_05/Unit_05_02_Python_File_Handling.md) — read and write a text file;
