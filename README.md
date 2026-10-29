@@ -21,9 +21,9 @@ Real connect: Control flow is the brain of every
 program — from traffic signal logic to drone
 autopilot decision-making.
 ## [Unit-03 Advanced Programming Concepts (C):](Unit_03_01_1D_Array.md)
-3.1. 1D array — declaration, input, output,
+3.1. [1D array](Unit_03_01_1D_Array.md) — declaration, input, output,
 traversal\
-3.2. Simple operations — find max, min, sum,
+3.2. [Simple operations](Unit_03_02_Array_Applications.md) — find max, min, sum,
 average\
 3.3. [Strings in C](Unit_03_03_Strings.md)— gets/puts, strlen, strcpy,
 strcmp]\
@@ -36,13 +36,13 @@ image pixels, and stock prices. Pointers are the
 foundation of memory management in
 embedded systems.
 ## Unit-04 Python Introduction
-4.1. Why Python — where it is used (AI, Data
+4.1. [Why Python](Unit_04_01_Why_Python.md) — where it is used (AI, Data
 Science, Web, Automation)\
-4.2. Python basics — variables, data types,
+4.2. [Python basics](Unit_04_02_Python_Basics.md) — variables, data types,
 print, input, operators\
-4.3. Python control flow — if/else, for loop,
+4.3. [Python control flow](Unit_04_03_Python_Control_Flow.md) — if/else, for loop,
 while loop\
-4.4. Python functions — def, return, default
+4.4. [Python functions](Unit_04_04_Python_Functions.md) — def, return, default
 arguments\
 Real connect: Python is #1 in AI/ML, Data
 Science, and automation — same syntax, more
@@ -64,5 +64,4 @@ in every engineering report and data science
 notebook. This unit opens the door to AI, IoT,
 and Data Science using the same Python
 basics learnt in Unit IV.
-
 
