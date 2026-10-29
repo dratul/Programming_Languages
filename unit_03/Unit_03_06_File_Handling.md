@@ -97,4 +97,15 @@ This line is saved in a text file.
 
 ---
 
+## Related topics
+- [1D array](Unit_03_01_1D_Array.md)
+- [Array applications](Unit_03_02_Array_Applications.md)
+- [Strings in C](Unit_03_03_Strings.md)
+- [Pointers](Unit_03_04_Pointers.md)
+- [Structures](Unit_03_05_Structures.md)
+- [File handling](Unit_03_06_File_Handling.md)
+
+---
+
+
 [Back to syllabus](../README.md)

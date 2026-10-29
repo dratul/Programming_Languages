@@ -113,4 +113,15 @@ The final line demonstrates the optional bitwise AND operator.
 
 [Next topic: Type conversion](Unit_01_05_Type_Conversions.md)
 
+## Related topics
+- [Introduction to C](Unit_01_01_Introduction_to_C.md)
+- [Program structure, input/output, and compilation](Unit_01_02_Program_Structure_and_Compilation.md)
+- [Data types, variables, and constants](Unit_01_03_Data_Types_and_Variables.md)
+- [Operators and expressions](Unit_01_04_Operators.md)
+- [Type conversion](Unit_01_05_Type_Conversions.md)
+- [Tutorials and assignment](Tutorial_unit_01.md)
+
+---
+
+
 [Back to syllabus](../README.md)

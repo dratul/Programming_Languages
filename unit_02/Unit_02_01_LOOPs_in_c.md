@@ -803,4 +803,11 @@ int main(void)
 
 ---
 
+## Related topics
+- [Control statements and loops](Unit_02_01_LOOPs_in_c.md)
+- [Functions and recursion](Unit_02_02_Functions_in_c.md)
+
+---
+
+
 [Back to syllabus](../README.md)

@@ -140,4 +140,14 @@ These structures are foundational for Python programming and are used heavily in
 
 ---
 
+## Related topics
+- [Python data structures](Unit_05_01_Python_Data_Structures.md)
+- [Python file handling](Unit_05_02_Python_File_Handling.md)
+- [NumPy introduction](Unit_05_03_NumPy_Intro.md)
+- [Matplotlib introduction](Unit_05_04_Matplotlib_Intro.md)
+- [IoT sensor simulation](Unit_05_05_IoT_Sensor_Simulation.md)
+
+---
+
+
 [Back to syllabus](../README.md)

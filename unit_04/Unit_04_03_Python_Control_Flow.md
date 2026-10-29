@@ -112,4 +112,13 @@ This prints `1`, `2`, `4`, and `5`; the iteration for `3` is skipped.
 
 [Next topic: Python functions](Unit_04_04_Python_Functions.md)
 
+## Related topics
+- [Why Python](Unit_04_01_Why_Python.md)
+- [Python basics](Unit_04_02_Python_Basics.md)
+- [Python control flow](Unit_04_03_Python_Control_Flow.md)
+- [Python functions](Unit_04_04_Python_Functions.md)
+
+---
+
+
 [Back to syllabus](../README.md)

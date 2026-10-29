@@ -84,4 +84,13 @@ The equivalent C program needs a `main()` function and the `stdio.h` header. The
 
 ---
 
+## Related topics
+- [Why Python](Unit_04_01_Why_Python.md)
+- [Python basics](Unit_04_02_Python_Basics.md)
+- [Python control flow](Unit_04_03_Python_Control_Flow.md)
+- [Python functions](Unit_04_04_Python_Functions.md)
+
+---
+
+
 [Back to syllabus](../README.md)
