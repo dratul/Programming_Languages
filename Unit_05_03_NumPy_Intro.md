@@ -1,0 +1,69 @@
+# 5.3 Introduction to NumPy
+
+NumPy is a Python library used for numerical computing. It provides efficient arrays and functions for mathematical operations.
+
+## Installing NumPy
+
+```python
+# pip install numpy
+```
+
+## Creating a NumPy Array
+
+```python
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+```
+
+**Output:**
+
+```text
+[1 2 3 4 5]
+```
+
+## Mean of an Array
+
+```python
+import numpy as np
+
+numbers = np.array([10, 20, 30, 40])
+print(np.mean(numbers))
+```
+
+**Output:**
+
+```text
+25.0
+```
+
+## Simple Arithmetic
+
+```python
+import numpy as np
+
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+
+print(a + b)
+print(a * 2)
+```
+
+**Output:**
+
+```text
+[5 7 9]
+[2 4 6]
+```
+
+## Why Use NumPy?
+
+NumPy arrays are faster and more efficient than Python lists for mathematical work. They are commonly used in data science, machine learning, and engineering calculations.
+
+## Key Points
+
+* NumPy is used for scientific and numerical computation.
+* Arrays are created using `np.array()`.
+* Functions like `np.mean()` help compute statistical values.
+* Arithmetic can be performed element-wise on arrays.

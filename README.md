@@ -49,15 +49,15 @@ Science, and automation — same syntax, more
 power, less boilerplate.
 
 ## Unit-05 Python Data Structures and Emerging Applications
-5.1. Python list, tuple, dictionary, set — basic
-operations only\
-5.2. File handling — read and write a text file;
+5.1. [Python data structures](Unit_05_01_Python_Data_Structures.md) — list, tuple,
+dictionary, set — basic operations only\
+5.2. [File handling](Unit_05_02_Python_File_Handling.md) — read and write a text file;
 read a CSV (2–3 lines)\
-5.3. Introduction to NumPy — array, mean,
+5.3. [Introduction to NumPy](Unit_05_03_NumPy_Intro.md) — array, mean,
 simple arithmetic (5 lines)\
-5.4. Introduction to Matplotlib — plot a simple
+5.4. [Introduction to Matplotlib](Unit_05_04_Matplotlib_Intro.md) — plot a simple
 line graph (5 lines)\
-5.5. One mini-demo — IoT sensor simulation\
+5.5. [Mini demo: IoT sensor simulation](Unit_05_05_IoT_Sensor_Simulation.md)\
 Real connect: Python lists power NumPy which
 powers TensorFlow. Matplotlib plots are used
 in every engineering report and data science
