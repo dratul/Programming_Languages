@@ -103,7 +103,7 @@ if (condition)
 }
 ```
 
-#### Example: Voting Eligibility Check
+#### Example tutorial: Voting Eligibility Check
 ```c
 #include <stdio.h>
 
@@ -145,7 +145,7 @@ else
 }
 ```
 
-#### Example
+#### Example tutorial 
 ```c
 #include <stdio.h>
 
@@ -183,7 +183,7 @@ Not eligible to vote.
 
 ---
 
-#### Tutorial: Checking Even or Odd
+#### example Tutorial: Checking Even or Odd
 A number is even if it is divisible by $2$ with a remainder of zero (using the modulus operator `%`).
 
 ```c
@@ -251,7 +251,7 @@ else
 }
 ```
 
-#### Example: Grading System
+#### Example tutorial: Grading System
 * $90 - 100 \implies \text{Grade A}$
 * $80 - 89 \implies \text{Grade B}$
 * $70 - 79 \implies \text{Grade C}$
