@@ -19,7 +19,7 @@ Steps in learning English language:
 [ Alphabets ] ---> [ Words ] ---> [ Sentences ] ---> [ Paragraphs ]
 
 Steps in learning C:
-[ Alphabets, Digits, Special Symbols ] ---> [ Constants, Variables, Keywords ] ---> [ Instructions ] ---> [ Program ]
+[ Alphabets, Digits, Special Symbols ] ---> [ Constants, Variables, Keywords ] ---> [ Instructions ] ---> [ Program ]---Applications
 ```
 
 ### Sections of a C Program
