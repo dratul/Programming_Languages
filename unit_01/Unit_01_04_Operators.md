@@ -101,7 +101,7 @@ The final line demonstrates the optional bitwise AND operator.
 
 ---
 
-[Tutorials and assignment](Tutorial_unit_01.md)
+[Tutorials and assignment](Tutorials_and_Assignment_Unit_01.md)
 
 ## Practice Tutorials
 
@@ -119,7 +119,7 @@ The final line demonstrates the optional bitwise AND operator.
 - [Data types, variables, and constants](Unit_01_03_Data_Types_and_Variables.md)
 - [Operators and expressions](Unit_01_04_Operators.md)
 - [Type conversion](Unit_01_05_Type_Conversions.md)
-- [Tutorials and assignment](Tutorial_unit_01.md)
+- [Tutorials and assignment](Tutorials_and_Assignment_Unit_01.md)
 
 ---
 
