@@ -1,5 +1,8 @@
 # 5.1 Python Data Structures
 
+**Instructor:** Dr Atul Kumar Dwivedi  
+**Institution:** BIET Jhansi
+
 Python data structures help store and organize data. In this unit, we study the most common built-in structures: lists, tuples, dictionaries, and sets.
 
 ## Lists

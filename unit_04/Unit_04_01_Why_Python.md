@@ -1,5 +1,8 @@
 # 4.1 Introduction to Python
 
+**Instructor:** Dr Atul Kumar Dwivedi  
+**Institution:** BIET Jhansi
+
 ## What Is Python?
 
 Python is a high-level, general-purpose programming language. Its syntax is designed to be readable, so beginners can focus on solving problems instead of writing a lot of setup code.

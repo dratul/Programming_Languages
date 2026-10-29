@@ -1,4 +1,8 @@
 # Programming_Languages
+
+**Instructor:** Dr Atul Kumar Dwivedi  
+**Institution:** BIET Jhansi
+
 For BIET Jhansi/ AKTU Lucknow affilited  First Year Students
 ## [Unit-01 Programming Basics (C)](unit_01/Unit_01_programming_basics_in_c.md)
 1.1. [Introduction to C](unit_01/Unit_01_01_Introduction_to_C.md) — history, applications, and overview\

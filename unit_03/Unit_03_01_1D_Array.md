@@ -1,5 +1,8 @@
 # UNIT-03 : Syllabus
 
+**Instructor:** Dr Atul Kumar Dwivedi  
+**Institution:** BIET Jhansi
+
 **Advanced Programming Concepts (C):**
 
 3.1\. 1D array — declaration, input, output, traversal

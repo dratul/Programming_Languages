@@ -1,5 +1,8 @@
 # UNIT 02: Decision Making and Control Flow (C)
 
+**Instructor:** Dr Atul Kumar Dwivedi  
+**Institution:** BIET Jhansi
+
 ## Syllabus
 
 * **Decision Making and Control Flow (C):**
