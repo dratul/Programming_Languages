@@ -1,12 +1,12 @@
 # Programming_Languages
 For BIET Jhansi/ AKTU Lucknow affilited  First Year Students
-## [Unit-01 Programming Basics (C):](Unit_01_programming_basics_in_c.md)
- 1.1. Structure of a C program; compilation and execution \
-1.2. Data types, variables, constants, operators 
-(arithmetic, relational, logical)\
-1.3. Input/output — scanf/printf in C \
-1.4. Type conversion; simple expressions \
-1.5. [Tutorials](Tutorial_unit_01.md) \
+## [Unit-01 Programming Basics (C)](Unit_01_programming_basics_in_c.md)
+1.1. [Introduction to C](Unit_01_01_Introduction_to_C.md) — history, applications, and overview\
+1.2. [Program structure, input/output, and compilation](Unit_01_02_Program_Structure_and_Compilation.md)\
+1.3. [Data types, variables, and constants](Unit_01_03_Data_Types_and_Variables.md)\
+1.4. [Operators and expressions](Unit_01_04_Operators.md)\
+1.5. [Type conversion](Unit_01_05_Type_Conversions.md)\
+1.6. [Tutorials and assignment](Tutorial_unit_01.md); [quick practice list](tutorials/Tutorials_Unit_01.md) \
 Real connect: C powers embedded systems, microcontrollers, and OS kernels.
 ## Unit-02 Decision Making and Control Flow (C)
 2.1. [Control statements](Unit_02_01_LOOPs_in_c.md) \

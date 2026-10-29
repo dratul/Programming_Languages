@@ -57,7 +57,10 @@ int main(void) {
     float celsius, fahrenheit;
 
     printf("Enter temperature in Celsius (°C): ");
-    scanf("%f", &celsius);
+    if (scanf("%f", &celsius) != 1) {
+        printf("Error: Invalid temperature input.\n");
+        return 1;
+    }
 
     // Using 9.0 / 5.0 ensures floating-point division
     fahrenheit = (celsius * 9.0f / 5.0f) + 32.0f;
@@ -96,7 +99,7 @@ int main(void) {
 >    * Problem Statement & Algorithm / Flowchart.
 >    * Source code with comments explaining logic and variable choices.
 >    * Screenshot or text copy of test runs with at least **two distinct test cases** (including edge cases).
-> 3. Submissions must be done before due date in Hardcopy
+> 3. Submit a hard copy before the due date.
 
 ---
 
@@ -106,3 +109,6 @@ int main(void) {
 2. What is the difference between `#define PI 3.14` and `const float PI = 3.14;`?
 3. What does `scanf` return, and why is checking its return value considered best practice?
 4. Explain the difference between `printf("%.2f", x);` and `printf("%6.2f", x);`.
+5. Why does `scanf("%d", &number)` use `&`, while `scanf("%19s", name)` does not?
+6. What is the difference between `&&` (logical AND) and `&` (bitwise AND)?
+7. Why does `scanf(" %c", &ch)` have a space before `%c`?

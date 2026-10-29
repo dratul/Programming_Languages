@@ -12,7 +12,7 @@ int main(void) {
     double final_total = subtotal + (subtotal * TAX_RATE);
 
     printf("Quantity: %d (Limit: %d)\n", quantity, ITEM_LIMIT);
-    printf("Final Total with Tax: $%.2lf\n", final_total);
+    printf("Final Total with Tax: $%.2f\n", final_total);
 
     // Modifying a variable
     quantity = 15;
