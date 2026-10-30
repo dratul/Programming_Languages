@@ -82,10 +82,7 @@ C is foundational for Electrical, Electronics, and Communication Engineering (EC
 
 ## 1.1.5 Programming Languages (Optional Background)
 
-A programming language is a formal set of instructions, commands, and syntax used by programmers to write software and communicate instructions to a computer to execute specific tasks.
-* It bridges human logic with machine-readable binary code ($0\text{s}$ and $1\text{s}$).
-
-The following language classifications and translator details are additional context, not required programming syntax for this unit.
+A programming language is a formal set of instructions, commands, and syntax used by programmers to write software and communicate instructions to a computer to execute specific tasks.  It bridges human logic with machine-readable binary code ($0\text{s}$ and $1\text{s}$). The following language classifications and translator details are additional context, not required programming syntax for this unit.
 
 ### Classification of Programming Languages
 
@@ -145,7 +142,7 @@ Computers only understand machine code. Translators convert source code into mac
 
 ## 1.1.6 Tutorials / Practice Programs & Quick Quiz
 
-* Practice submissions can be made on [onlinegdb.com](https://www.onlinegdb.com/).
+* Practice and Assignment submissions can be made on [onlinegdb.com](https://www.onlinegdb.com/).
 
 ### Quick Quiz & Concept Check
 
@@ -186,11 +183,8 @@ Computers only understand machine code. Translators convert source code into mac
 
 
 ---
-
-[Tutorials and assignment](Tutorials_and_Assignment_Unit_01.md)
-
 ## Practice Tutorials
-
+[Tutorials and assignment](Tutorials_and_Assignment_Unit_01.md)
 1. Write a short C program to introduce yourself and name one place, public
    service, or tradition in India that you value.
 
