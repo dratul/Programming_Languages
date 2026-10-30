@@ -32,7 +32,7 @@ These are examples of areas where Python is used. This unit focuses on the langu
 ## A First Python Program
 
 ```python
-print("Hello, Python!")
+print("Namaste Python!")
 ```
 
 `print()` displays text on the screen. Python does not require a semicolon at the end of this statement.
