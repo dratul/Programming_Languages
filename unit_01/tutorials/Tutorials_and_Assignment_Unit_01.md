@@ -1,22 +1,5 @@
 ## Tutorials and Assignment — Unit 01
 
-```
-================================================================================
-                    DEPARTMENT OF Electrical, Electronics & Communication Engineering
-                   COURSE: ACS101 - Programming Languages 
-                   UNIT-01: BASICS OF C, DATA TYPES, OPERATORS & I/O
-================================================================================
-```
-
-### Course Objectives & Outcomes (Unit 01)
-By the end of this tutorial unit, students will be able to:
-1. Understand basic C program structure, preprocessor directives, and compilation flow.
-2. Correctly use standard formatted I/O (`printf` and `scanf`).
-3. Select appropriate primitive data types (`int`, `float`, `char`, `double`) and format specifiers.
-4. Apply arithmetic, relational, and conditional operators while avoiding integer truncation.
-
----
-
 ### Section A: Guided Tutorial Demonstrations (Solved Examples)
 
 #### Example 1.1: Average Visitors at Three Heritage Sites (Implicit vs. Explicit Type Casting)
