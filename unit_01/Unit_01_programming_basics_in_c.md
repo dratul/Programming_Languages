@@ -15,8 +15,7 @@ This unit introduces the C language and the programming fundamentals used throug
 
 ## Practice
 
-* [Tutorials and assignment](tutorials/Tutorials_and_Assignment_Unit_01.md)
-* [Quick practice list](tutorials/Tutorials_Unit_01.md)
+* [Tutorials and assignment](tutorials/Tutorials_Unit_01.md)
 
 ## Why this unit matters
 

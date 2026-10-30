@@ -128,7 +128,7 @@ int main(void) {
 
 ---
 
-[Tutorials and assignment](tutorials/Tutorials_and_Assignment_Unit_01.md)
+[Tutorials and assignment](tutorials/Tutorials_Unit_01.md)
 
 ## Practice Tutorials
 
@@ -146,7 +146,7 @@ int main(void) {
 - [Data types, variables, and constants](Unit_01_03_Data_Types_and_Variables.md)
 - [Operators and expressions](Unit_01_04_Operators.md)
 - [Type conversion](Unit_01_05_Type_Conversions.md)
-- [Tutorials and assignment](tutorials/Tutorials_and_Assignment_Unit_01.md)
+- [Tutorials and assignment](tutorials/Tutorials_Unit_01.md)
 
 ---
 
