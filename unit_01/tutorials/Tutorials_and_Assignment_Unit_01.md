@@ -114,14 +114,14 @@ int main(void) {
 7. Why does `scanf(" %c", &ch)` have a space before `%c`?
 
 ## Related topics
-- [Introduction to C](Unit_01_01_Introduction_to_C.md)
-- [Program structure, input/output, and compilation](Unit_01_02_Program_Structure_and_Compilation.md)
-- [Data types, variables, and constants](Unit_01_03_Data_Types_and_Variables.md)
-- [Operators and expressions](Unit_01_04_Operators.md)
-- [Type conversion](Unit_01_05_Type_Conversions.md)
+- [Introduction to C](../Unit_01_01_Introduction_to_C.md)
+- [Program structure, input/output, and compilation](../Unit_01_02_Program_Structure_and_Compilation.md)
+- [Data types, variables, and constants](../Unit_01_03_Data_Types_and_Variables.md)
+- [Operators and expressions](../Unit_01_04_Operators.md)
+- [Type conversion](../Unit_01_05_Type_Conversions.md)
 - [Tutorials and assignment](Tutorials_and_Assignment_Unit_01.md)
 
 ---
 
 
-[Back to syllabus](../README.md)
+[Back to syllabus](../../README.md)

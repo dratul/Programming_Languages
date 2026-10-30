@@ -15,7 +15,7 @@ Students are welcome to adapt names, places, and data to their own communities.
 1.3. [Data types, variables, and constants](unit_01/Unit_01_03_Data_Types_and_Variables.md)\
 1.4. [Operators and expressions](unit_01/Unit_01_04_Operators.md)\
 1.5. [Type conversion](unit_01/Unit_01_05_Type_Conversions.md)\
-1.6. [Tutorials and assignment](unit_01/Tutorials_and_Assignment_Unit_01.md); [quick practice list](unit_01/tutorials/Tutorials_Unit_01.md) \
+1.6. [Tutorials and assignment](unit_01/tutorials/Tutorials_and_Assignment_Unit_01.md); [quick practice list](unit_01/tutorials/Tutorials_Unit_01.md) \
 Real connect: C runs embedded systems used in Indian-made electronics, public
 transport, and communication devices.
 ## [Unit-02 Decision Making and Control Flow (C)](unit_02/Unit_02_01_LOOPs_in_c.md)
