@@ -38,7 +38,7 @@ Steps in learning C:
 #include <stdio.h>
 
 int main(void) {
-    printf("Hello World!");
+    printf("Namaste from Jhansi, India!\n");
     return 0;
 }
 ```
@@ -53,15 +53,15 @@ int main(void) {
 #include <stdio.h>
 
 /* 3. Definition Section (Optional constants/macros) */
-#define PI 3.14159
+#define VISITOR_LIMIT 100
 
 /* 4. Global Declaration Section (Optional global variables & prototypes) */
-int global_count = 0;
+int visitor_count = 0;
 
 /* 5. Main Function Section: Mandatory execution entry point */
 int main(void) {
     /* Declaration and Executable statements */
-    printf("Welcome to C Programming!\n");
+    printf("Welcome to a community heritage walk!\n");
     return 0; // Termination status
 }
 
@@ -78,16 +78,16 @@ The `<stdio.h>` header declares standard input/output functions. Use `printf()` 
 int main(void)
 {
     int age;
-    float height;
+    float battery_percent;
 
-    printf("Enter your age and height in metres: ");
-    if (scanf("%d %f", &age, &height) != 2) {
+    printf("Enter your age and phone battery percentage: ");
+    if (scanf("%d %f", &age, &battery_percent) != 2) {
         printf("Invalid input.\n");
         return 1;
     }
 
     printf("Age: %d\n", age);
-    printf("Height: %.2f metres\n", height);
+    printf("Phone battery: %.2f%%\n", battery_percent);
     return 0;
 }
 ```
@@ -176,11 +176,11 @@ If GCC is not recognized, install MinGW-w64 (e.g., via `winget install MSYS2.MSY
 
 ### Step-by-Step Execution
 
-1. **Create the C File:** Save your code in a file named `hello.c`:
+1. **Create the C File:** Save your code in a file named `namaste.c`:
    ```c
    #include <stdio.h>
    int main(void) {
-       printf("Hello from PowerShell!\n");
+       printf("Namaste from India!\n");
        return 0;
    }
    ```
@@ -190,17 +190,17 @@ If GCC is not recognized, install MinGW-w64 (e.g., via `winget install MSYS2.MSY
    ```
 3. **Compile the Program:** Run `gcc` to compile the `.c` file into an executable (`.exe`):
    ```powershell
-   gcc hello.c -o hello.exe
+   gcc namaste.c -o namaste.exe
    ```
 4. **Execute the File:** In PowerShell, running a local executable requires the `./` or `.\` relative path prefix:
    ```powershell
-   .\hello.exe
+   .\namaste.exe
    ```
 
 ### One-Liner (Compile & Run Together)
 
 ```powershell
-gcc hello.c -o hello.exe; if ($?) { .\hello.exe }
+gcc namaste.c -o namaste.exe; if ($?) { .\namaste.exe }
 ```
 
 ---
@@ -212,9 +212,9 @@ gcc hello.c -o hello.exe; if ($?) { .\hello.exe }
 
 ## Practice Tutorials
 
-1. Write a program with `#include <stdio.h>`, `int main(void)`, and `printf()`/`scanf()` to read and print two integers.
+1. Write a program with `#include <stdio.h>`, `int main(void)`, and `printf()`/`scanf()` to read and print two counts from a local community event.
 
-2. Create a small program that reads a student name and marks, then prints the values in a formatted output line.
+2. Create a small program that reads the name of an Indian city and a phone's battery percentage, then prints them in a formatted output line.
 
 ---
 

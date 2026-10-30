@@ -14,7 +14,7 @@ int global_count = 0;
 int main(void) 
 {
     /* Declaration and Executable statements */
-    printf("Welcome to C Programming!\n");
+    printf("Welcome to a community heritage walk!\n");
     
     return 0; // Termination status
 }

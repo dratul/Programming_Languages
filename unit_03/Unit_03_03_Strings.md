@@ -8,11 +8,11 @@ Unlike modern high-level languages like Python, Java, or C++, the C language **d
 A sequence of characters only becomes a valid C string if it ends with `'\0'` (ASCII value `0`). The null terminator tells functions like `printf()` where the text ends in memory.
 
 ### Visualizing Memory
-If you store the word `"HELLO"`:
+If you store the word `"INDIA"`:
 
 ```
 Index:    [ 0 ] [ 1 ] [ 2 ] [ 3 ] [ 4 ] [ 5 ]
-Value:    | 'H' | 'E' | 'L' | 'L' | 'O' | '\0'|
+Value:    | 'I' | 'N' | 'D' | 'I' | 'A' | '\0'|
 ```
 
 > **Key Takeaway:** An array holding a string must be at least **one byte larger** than the visible character count to accommodate `'\0'`.
@@ -27,22 +27,22 @@ There are two primary ways to declare strings:
 When you use double quotes (`"..."`), the C compiler automatically appends `'\0'` to the end:
 
 ```c
-// Array size inferred automatically (size = 6 bytes)
-char greeting[] = "Hello"; 
+// Array size inferred automatically (size = 8 bytes, including '\0')
+char greeting[] = "Namaste";
 
 // Explicit size with extra room for future characters
-char buffer[50] = "Hello"; 
+char buffer[50] = "Namaste"; 
 ```
 
 #### Option B: Character Array Syntax
 You can explicitly initialize an array character by character, but you must manually include `'\0'`:
 
 ```c
-// Equivalent to "Hello"
-char greeting[] = {'H', 'e', 'l', 'l', 'o', '\0'};
+// Equivalent to "Namaste"
+char greeting[] = {'N', 'a', 'm', 'a', 's', 't', 'e', '\0'};
 ```
 
-> ⚠️ **Warning:** If you write `char bad[] = {'H', 'e', 'l', 'l', 'o'};` without `'\0'`, standard string functions will continue reading garbage data from memory until they randomly hit a byte with value `0`, leading to undefined behavior or crashes.
+> ⚠️ **Warning:** If you write `char bad[] = {'I', 'N', 'D', 'I', 'A'};` without `'\0'`, standard string functions will continue reading garbage data from memory until they randomly hit a byte with value `0`, leading to undefined behavior or crashes.
 
 ---
 
@@ -55,7 +55,7 @@ Use the `%s` format specifier with `printf()` or `puts()`:
 #include <stdio.h>
 
 int main(void) {
-    char message[] = "Welcome to C!";
+    char message[] = "Namaste from India!";
 
     // Using printf
     printf("%s\n", message);
@@ -114,25 +114,25 @@ To manipulate strings, include `<string.h>`:
 #include <string.h>
 
 int main(void) {
-    char str1[50] = "Hello";
-    char str2[] = "World";
+    char str1[50] = "Namaste";
+    char str2[] = "India";
     char str3[50];
 
     // 1. Length of string (excluding '\0')
-    printf("Length of str1: %zu\n", strlen(str1)); // Output: 5
+    printf("Length of str1: %zu\n", strlen(str1)); // Output: 7
 
     // 2. Copying strings (strcpy)
-    strcpy(str3, str1); // str3 now holds "Hello"
+    strcpy(str3, str1); // str3 now holds "Namaste"
 
     // 3. Concatenation (strcat)
     strcat(str1, " ");
-    strcat(str1, str2); // str1 now holds "Hello World"
+    strcat(str1, str2); // str1 now holds "Namaste India"
     printf("Concatenated: %s\n", str1);
 
     // 4. Comparison (strcmp)
     // Returns: 0 if equal, negative if s1 < s2, positive if s1 > s2
-    if (strcmp(str3, "Hello") == 0) {
-        printf("Strings are equal!\n");
+    if (strcmp(str3, "Namaste") == 0) {
+        printf("The greeting matches!\n");
     }
 
     return 0;
@@ -146,12 +146,12 @@ int main(void) {
 It is important to understand the distinction between array strings and pointer strings:
 
 ```c
-// Modifiable: Allocates memory on the stack and copies "Hello" into it
-char strArray[] = "Hello";
-strArray[0] = 'M'; // Valid: string becomes "Mello"
+// Modifiable: Allocates memory on the stack and copies "Namaste" into it
+char strArray[] = "Namaste";
+strArray[0] = 'B'; // Valid: the first character can be changed
 
 // Read-only: Points to literal stored in read-only memory segment
-const char *strPtr = "Hello";
+const char *strPtr = "India";
 // strPtr[0] = 'M'; // CRASH / SEGMENTATION FAULT!
 ```
 

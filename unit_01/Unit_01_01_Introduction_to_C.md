@@ -12,7 +12,8 @@
   3. Data types, variables, constants
   4. Operators (arithmetic, relational, logical)
   5. Type conversion; simple expressions
-* **Real connect:** C powers embedded systems, microcontrollers, and OS kernels.
+* **Real connect:** C runs embedded systems in everyday electronics, public
+  transport displays, and communication devices used across India.
 
 ---
 
@@ -190,9 +191,11 @@ Computers only understand machine code. Translators convert source code into mac
 
 ## Practice Tutorials
 
-1. Write a short C program to print your name, branch, and college in a neat format.
+1. Write a short C program to introduce yourself and name one place, public
+   service, or tradition in India that you value.
 
-2. List the steps to compile and run a C program, and explain the role of the compiler and linker.
+2. List the steps to compile and run a C program, and explain how C could be
+   used in an everyday device such as a phone charger or railway display.
 
 ---
 

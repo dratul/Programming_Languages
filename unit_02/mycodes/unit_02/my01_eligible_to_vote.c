@@ -1,4 +1,4 @@
-// Eligible to vote
+// A simple civic volunteer age check
 #include <stdio.h>
 
 int main()
@@ -12,9 +12,9 @@ int main()
     }
 
     if (age >= 18) {
-        printf("Eligible to vote.");
+        printf("Meets the 18+ volunteer age check.");
     } else {
-        printf("Not eligible to vote.");
+        printf("Does not meet the 18+ volunteer age check.");
     }
 
     return 0;

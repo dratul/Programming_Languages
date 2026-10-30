@@ -21,19 +21,17 @@ python -c "import matplotlib; print(matplotlib.__version__)"
 ```python
 import matplotlib.pyplot as plt
 
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 6, 8, 10]
+day = [1, 2, 3, 4, 5]
+battery_percent = [35, 48, 62, 78, 91]
 
-plt.plot(x, y)
-plt.title("Simple Line Graph")
-plt.xlabel("X-axis")
-plt.ylabel("Y-axis")
+plt.plot(day, battery_percent)
+plt.title("Phone Battery Readings")
+plt.xlabel("Day")
+plt.ylabel("Battery (%)")
 plt.show()
 ```
 
-This creates a simple graph showing the relationship between `x` and `y`.
-The graph is a rising straight line through the points `(1, 2)`, `(2, 4)`,
-`(3, 6)`, `(4, 8)`, and `(5, 10)`.
+This creates a simple graph showing a sample phone's battery readings across five days.
 
 ## Basic Plot Points
 
@@ -41,9 +39,10 @@ The graph is a rising straight line through the points `(1, 2)`, `(2, 4)`,
 import matplotlib.pyplot as plt
 
 months = ["Jan", "Feb", "Mar", "Apr"]
-temperature = [18, 22, 25, 23]
+jhansi_temperature = [18, 22, 25, 23]
 
-plt.plot(months, temperature)
+plt.plot(months, jhansi_temperature)
+plt.title("Sample Monthly Temperatures in Jhansi")
 plt.ylabel("Temperature (°C)")
 plt.show()
 ```
@@ -64,9 +63,9 @@ Matplotlib helps present data clearly. Graphs are useful for comparing trends, a
 
 ## Practice Tutorials
 
-1. Use Matplotlib to plot a simple line graph of four readings with labels on both axes.
+1. Use Matplotlib to plot four phone battery readings with labels on both axes.
 
-2. Plot two lines on the same graph to compare temperature changes for two days.
+2. Plot two lines on the same graph to compare sample temperature changes in two Indian cities.
 
 ---
 

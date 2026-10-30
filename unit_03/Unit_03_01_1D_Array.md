@@ -27,9 +27,9 @@ Think of an array like a row of numbered mailboxes or lockers:
 - Each box holds **one value** of the same type (all integers, all floats, etc.).
 - Every box has an address called an **index**, starting at `0`.
 
-What is an array? Imagine you want to store the marks of five students. Without an array, you might declare five separate variables:
+What is an array? Imagine you want to store rainfall readings from five days in an Indian city. Without an array, you might declare five separate variables:
 
-### C Marks Variables & Array Example
+### C Rainfall Variables & Array Example
 
 Below is the original C code representation:
 
@@ -37,51 +37,51 @@ Below is the original C code representation:
 #include <stdio.h>
 int main() 
 {
-    int m1 = 75;
-    int m2 = 82;
-    int m3 = 68;
-    int m4 = 91;
-    int m5 = 79;
+    int rain1 = 75;
+    int rain2 = 82;
+    int rain3 = 68;
+    int rain4 = 91;
+    int rain5 = 79;
     return 0;
 }
 ```
 
-Instead of creating five individual variables (`m1` to `m5`), you can simplify the code by storing the marks in an array:
+Instead of creating five individual variables (`rain1` to `rain5`), you can simplify the code by storing the readings in an array:
 
 ```c
 #include <stdio.h>
 
 int main() 
 {
-    // Storing five integer values in a 1D array named marks
-    int marks[5] = {75, 82, 68, 91, 79};
+    // Store daily rainfall readings (millimetres) in one array
+    int daily_rainfall_mm[5] = {75, 82, 68, 91, 79};
 
-    // Example: Print all marks using a loop
+    // Example: Print all rainfall readings using a loop
     for (int i = 0; i < 5; i++) {
-        printf("Mark %d (Index %d): %d\n", i + 1, i, marks[i]);
+        printf("Day %d (Index %d): %d mm\n", i + 1, i, daily_rainfall_mm[i]);
     }
 
     return 0;
 }
 ```
 Key idea: 
-This stores five integer values in one array named `marks`.
+This stores five integer rainfall readings in one array named `daily_rainfall_mm`.
 
 ### Visual Representation of a 1D Array
 
 | Index 0 | Index 1 | Index 2 | Index 3 | Index 4 |
 | :---: | :---: | :---: | :---: | :---: |
-| **75** | **82** | **68** | **91** | **79** |
+| **75 mm** | **82 mm** | **68 mm** | **91 mm** | **79 mm** |
 
 Note: 
-* Array name: `marks`
+* Array name: `daily_rainfall_mm`
 * Number of elements: 5
 * First index: 0
 
 Each element has an index (position), and in C, array indexing starts at 0, not 1.
-*	marks[0] gives 75.
-*	marks[1] gives 82.
-*	marks[4] gives 79.
+* `daily_rainfall_mm[0]` gives 75.
+* `daily_rainfall_mm[1]` gives 82.
+* `daily_rainfall_mm[4]` gives 79.
 
 When declaring an array in C, you must specify the data type and the number of elements.
 ```c
@@ -124,7 +124,7 @@ data_type array_name[array_size];
 
 #### Example:
 ```c
-int scores[5];   // Allocates space for 5 integers
+int district_visitors[5]; // Allocates space for 5 integer visitor counts
 float prices[10]; // Allocates space for 10 floating-point numbers
 char letters[26]; // Allocates space for 26 characters
 ```
@@ -188,13 +188,13 @@ To take input from the user, use `scanf()` inside a loop. Remember that `scanf` 
 #define SIZE 5
 
 int main(void) {
-    int arr[SIZE];
+    int daily_rainfall_mm[SIZE];
 
-    printf("Enter %d integers:\n", SIZE);
+    printf("Enter rainfall readings in millimetres for %d days:\n", SIZE);
     for (int i = 0; i < SIZE; i++) {
-        printf("Element %d: ", i);
-        if (scanf("%d", &arr[i]) != 1) {
-            printf("Invalid integer.\n");
+        printf("Day %d: ", i + 1);
+        if (scanf("%d", &daily_rainfall_mm[i]) != 1) {
+            printf("Invalid rainfall reading.\n");
             return 1;
         }
     }
@@ -217,11 +217,11 @@ A standard `for` loop running from index `0` up to `size - 1` is the standard wa
 #define SIZE 5
 
 int main(void) {
-    int arr[SIZE] = {12, 24, 36, 48, 60};
+    int solar_voltage_mv[SIZE] = {120, 240, 360, 480, 600};
 
-    printf("Traversing and printing elements:\n");
+    printf("Solar panel readings (millivolts):\n");
     for (int i = 0; i < SIZE; i++) {
-        printf("arr[%d] = %d\n", i, arr[i]);
+        printf("solar_voltage_mv[%d] = %d\n", i, solar_voltage_mv[i]);
     }
 
     return 0;
@@ -247,14 +247,14 @@ int main(void) {
         return 1;
     }
 
-    int arr[100]; // 1. Declaration
+    int visitor_counts[100]; // 1. Declaration
 
     // 2. Input
-    printf("\n--- Input ---\n");
+    printf("\n--- Heritage Site Visitor Counts ---\n");
     for (int i = 0; i < n; i++) {
-        printf("Enter value for index [%d]: ", i);
-        if (scanf("%d", &arr[i]) != 1) {
-            printf("Invalid integer.\n");
+        printf("Enter visitors for site %d: ", i + 1);
+        if (scanf("%d", &visitor_counts[i]) != 1) {
+            printf("Invalid visitor count.\n");
             return 1;
         }
     }
@@ -263,13 +263,13 @@ int main(void) {
     printf("\n--- Output ---\n");
     int total_sum = 0;
     for (int i = 0; i < n; i++) {
-        printf("arr[%d] = %d\n", i, arr[i]);
-        total_sum += arr[i]; // Accumulating sum during traversal
+        printf("Site %d visitors = %d\n", i + 1, visitor_counts[i]);
+        total_sum += visitor_counts[i]; // Accumulating sum during traversal
     }
 
     // Display summary
-    printf("\nTotal Sum: %d\n", total_sum);
-    printf("Average: %.2f\n", (float)total_sum / n);
+    printf("\nTotal visitors: %d\n", total_sum);
+    printf("Average visitors per site: %.2f\n", (float)total_sum / n);
 
     return 0;
 }
@@ -292,9 +292,9 @@ int main(void) {
 
 ## Practice Tutorials
 
-1. Read five integers into an array and print their sum and average.
+1. Read five rainfall readings for a local weather station into an array and print their sum and average.
 
-2. Find the largest and smallest values in an integer array and display them.
+2. Find the largest and smallest visitor counts among several Indian heritage sites.
 
 ---
 
@@ -310,7 +310,7 @@ int main(void) {
 
 1. Write a C program to read five integers into an array and display their sum and average.
 2. Explain `strcpy()`, `strlen()`, and `strcmp()` with suitable examples in C.
-3. Define a `struct Student` with fields for name, roll number, and marks and write a program to input and print the data.
+3. Define a `struct HeritageSite` with fields for name, state, and visitor count and write a program to input and print the data.
 
 ---
 

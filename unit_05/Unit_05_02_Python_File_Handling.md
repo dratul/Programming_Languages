@@ -6,8 +6,8 @@ File handling allows a program to read and write data stored in files. This is i
 
 ```python
 with open("demo.txt", "w") as file:
-    file.write("Hello, Python!\n")
-    file.write("This is file handling.\n")
+    file.write("India has many local heritage sites.\n")
+    file.write("Communities help preserve shared history.\n")
 print("File written successfully.")
 ```
 
@@ -30,15 +30,15 @@ print(content)
 **Output:**
 
 ```text
-Hello, Python!
-This is file handling.
+India has many local heritage sites.
+Communities help preserve shared history.
 ```
 
 ## Appending to a File
 
 ```python
 with open("demo.txt", "a") as file:
-    file.write("Appended line.\n")
+    file.write("A local visit can support heritage awareness.\n")
 print("Data appended.")
 ```
 
@@ -59,9 +59,9 @@ import csv
 
 with open("data.csv", "w", newline="") as file:
     writer = csv.writer(file)
-    writer.writerow(["Name", "Marks"])
-    writer.writerow(["Asha", 90])
-    writer.writerow(["Ravi", 85])
+    writer.writerow(["City", "Rainfall_mm"])
+    writer.writerow(["Jhansi", 90])
+    writer.writerow(["Bhopal", 85])
 
 with open("data.csv", "r") as file:
     rows = csv.reader(file)
@@ -72,9 +72,9 @@ with open("data.csv", "r") as file:
 **Output:**
 
 ```text
-['Name', 'Marks']
-['Asha', '90']
-['Ravi', '85']
+['City', 'Rainfall_mm']
+['Jhansi', '90']
+['Bhopal', '85']
 ```
 
 ## Important Note
@@ -90,9 +90,9 @@ The `with` statement automatically closes the file after reading or writing, eve
 
 ## Practice Tutorials
 
-1. Write three lines to a text file and then read the file again and print its content.
+1. Write three lines about a local Indian heritage site to a text file, then read the file and print its content.
 
-2. Create a small CSV file with names and marks, and read it using Python's `csv` module.
+2. Create a small CSV file with Indian city names and sample rainfall readings, and read it using Python's `csv` module.
 
 ---
 

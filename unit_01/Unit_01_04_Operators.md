@@ -61,23 +61,24 @@ This example uses required arithmetic and logical operators first. The final bit
 #include <stdio.h>
 
 int main(void) {
-    int a = 10, b = 3;
+    int battery_percent = 76;
+    int low_battery_limit = 20;
 
     // Arithmetic
-    printf("a + b = %d\n", a + b);
-    printf("a / b = %d (Integer division)\n", a / b);
-    printf("a %% b = %d (Remainder)\n", a % b);
+    printf("Battery plus reserve = %d%%\n", battery_percent + low_battery_limit);
+    printf("Battery groups = %d (Integer division)\n", battery_percent / low_battery_limit);
+    printf("Battery remainder = %d%%\n", battery_percent % low_battery_limit);
 
     // Relational & Logical
-    int is_valid = (a > b) && (b != 0);
-    printf("Logical Result: %d\n", is_valid);
+    int needs_charging = (battery_percent < low_battery_limit) && (low_battery_limit != 0);
+    printf("Needs charging: %d\n", needs_charging);
 
     // Ternary Operator
-    int max = (a > b) ? a : b;
-    printf("Max value: %d\n", max);
+    int displayed_percent = (battery_percent > 100) ? 100 : battery_percent;
+    printf("Displayed battery: %d%%\n", displayed_percent);
 
     // Bitwise Operator
-    printf("Bitwise AND (10 & 3): %d\n", a & b);
+    printf("Bitwise AND (10 & 3): %d\n", 10 & 3);
 
     return 0;
 }
@@ -86,11 +87,11 @@ int main(void) {
 **Output:**
 
 ```text
-a + b = 13
-a / b = 3 (Integer division)
-a % b = 1 (Remainder)
-Logical Result: 1
-Max value: 10
+Battery plus reserve = 96%
+Battery groups = 3 (Integer division)
+Battery remainder = 16%
+Needs charging: 0
+Displayed battery: 76%
 Bitwise AND (10 & 3): 2
 ```
 
@@ -105,9 +106,9 @@ The final line demonstrates the optional bitwise AND operator.
 
 ## Practice Tutorials
 
-1. Write a program to calculate the sum, difference, product, and quotient of two numbers using arithmetic operators.
+1. Write a program to calculate the total cost, change, and average cost of two items priced in rupees.
 
-2. Create a small program that uses relational and logical operators to check whether a student is eligible for a scholarship.
+2. Create a small program that uses relational and logical operators to check whether a phone battery is low and needs charging.
 
 ---
 

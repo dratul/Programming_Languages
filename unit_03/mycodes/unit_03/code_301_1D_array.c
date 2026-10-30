@@ -2,8 +2,8 @@
 int main()
 {
 
-int numbers[5];
-float temperature[7];
-char letters[10];
+int community_event_visitors[5];
+float solar_panel_voltage[7];
+char city_initials[10];
 
 }

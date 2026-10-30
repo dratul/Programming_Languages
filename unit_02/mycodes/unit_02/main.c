@@ -3,6 +3,6 @@
 
 int main(void) {
     int result = add(5, 3);
-    printf("The result is: %d\n", result);
+    printf("Volunteers at two community events: %d\n", result);
     return 0;
 }

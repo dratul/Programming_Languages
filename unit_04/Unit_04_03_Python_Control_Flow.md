@@ -7,14 +7,14 @@ Control flow determines which statements run and how often they run. Python uses
 An `if` statement runs its indented block when its condition is true. Use `elif` for another condition and `else` for the remaining case:
 
 ```python
-marks = int(input("Enter your marks: "))
+battery_percent = int(input("Enter phone battery percentage: "))
 
-if marks >= 80:
-    print("Grade: A")
-elif marks >= 60:
-    print("Grade: B")
+if battery_percent >= 80:
+    print("Battery status: Good")
+elif battery_percent >= 20:
+    print("Battery status: Low")
 else:
-    print("Keep practicing.")
+    print("Battery status: Very low; consider charging.")
 ```
 
 The conditions are checked from top to bottom. Once a condition is true, its block runs and the remaining branches are skipped.
@@ -22,8 +22,8 @@ The conditions are checked from top to bottom. Once a condition is true, its blo
 For an input of `85`, the program displays:
 
 ```text
-Enter your marks: 85
-Grade: A
+Enter phone battery percentage: 85
+Battery status: Good
 ```
 
 Comparison operators such as `>=` and `==` are often used in conditions. The `and`, `or`, and `not` operators can combine or reverse conditions.
@@ -83,7 +83,7 @@ for number in range(1, 6):
     print(number)
 ```
 
-This prints `1`, `2`, `4`, and `5`; the iteration for `3` is skipped.
+This prints `1`, `2`, `4`, and `5`; the iteration for LED channel `3` is skipped.
 
 **Output:**
 
@@ -104,9 +104,9 @@ This prints `1`, `2`, `4`, and `5`; the iteration for `3` is skipped.
 
 ## Practice Tutorials
 
-1. Write a Python program that checks whether a number is even or odd using `if`/`else`.
+1. Write a Python program that checks whether the number of LED channels is even or odd using `if`/`else`.
 
-2. Read marks and print a grade using `if`/`elif`/`else`.
+2. Read a phone battery percentage and print a charging status using `if`/`elif`/`else`.
 
 ---
 

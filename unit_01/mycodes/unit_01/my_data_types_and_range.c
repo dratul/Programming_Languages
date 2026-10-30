@@ -4,7 +4,7 @@
 
 int main(void) {
     printf("=========================================\n");
-    printf("       C DATA TYPE LIMITS & SIZES        \n");
+    printf(" INDIA & ELECTRONICS: C DATA TYPE SIZES  \n");
     printf("=========================================\n\n");
 
     // Integer Types

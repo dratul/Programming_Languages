@@ -20,7 +20,7 @@ Common file modes include:
 
 ## Writing and Reading a Text File
 
-This program writes two lines to `notes.txt`, closes it, then opens it again to read and display those lines:
+This program writes two lines about local heritage to `notes.txt`, closes it, then opens it again to read and display those lines:
 
 ```c
 #include <stdio.h>
@@ -32,8 +32,8 @@ int main(void) {
         return 1;
     }
 
-    if (fputs("File handling in C\n", file) == EOF ||
-        fputs("This line is saved in a text file.\n", file) == EOF) {
+    if (fputs("India has many local heritage sites.\n", file) == EOF ||
+        fputs("Communities help preserve their shared history.\n", file) == EOF) {
         perror("Could not write to notes.txt");
         fclose(file);
         return 1;
@@ -73,8 +73,8 @@ int main(void) {
 **Output:**
 
 ```text
-File handling in C
-This line is saved in a text file.
+India has many local heritage sites.
+Communities help preserve their shared history.
 ```
 
 `fopen()` returns `NULL` if it cannot open a file, so check the result before using it. `fputs()` writes text, and `fgets()` reads one line at a time into a buffer with a specified size. Always close a file after using it.
@@ -91,9 +91,9 @@ This line is saved in a text file.
 
 ## Practice Tutorials
 
-1. Write two lines to a file, reopen it, and print the contents on the screen.
+1. Write two lines about a local Indian heritage site to a file, reopen it, and print the contents.
 
-2. Read a file, count the number of words, and display the word count.
+2. Read a file containing simple phone-sensor readings, count the number of readings, and display the count.
 
 ---
 

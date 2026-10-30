@@ -10,12 +10,12 @@ Python data structures help store and organize data. In this unit, we study the 
 A list is an ordered collection of values. Lists are mutable, meaning we can change their contents after creation.
 
 ```python
-numbers = [10, 20, 30, 40]
-print(numbers)
-print(numbers[0])
+solar_readings = [10, 20, 30, 40]
+print(solar_readings)
+print(solar_readings[0])
 
-numbers.append(50)
-print(numbers)
+solar_readings.append(50)
+print(solar_readings)
 ```
 
 **Output:**
@@ -29,12 +29,12 @@ print(numbers)
 ### Common list operations
 
 ```python
-student_names = ["Asha", "Ravi", "Meera"]
-student_names.insert(1, "Nisha")
-print(student_names)
+volunteers = ["Asha", "Ravi", "Meera"]
+volunteers.insert(1, "Nisha")
+print(volunteers)
 
-print(len(student_names))
-print(student_names[2])
+print(len(volunteers))
+print(volunteers[2])
 ```
 
 A list can store multiple values and can be modified using methods like `append()`, `insert()`, and `remove()`.
@@ -52,9 +52,9 @@ Ravi
 A tuple is similar to a list, but it is immutable. Once created, its values cannot be changed.
 
 ```python
-point = (3, 5)
-print(point)
-print(point[0])
+delhi_coordinates = (28.61, 77.21)
+print(delhi_coordinates)
+print(delhi_coordinates[0])
 ```
 
 Tuples are useful when you want values that should not be changed accidentally.
@@ -62,8 +62,8 @@ Tuples are useful when you want values that should not be changed accidentally.
 **Output:**
 
 ```text
-(3, 5)
-3
+(28.61, 77.21)
+28.61
 ```
 
 ## Dictionaries
@@ -71,21 +71,21 @@ Tuples are useful when you want values that should not be changed accidentally.
 A dictionary stores data as key-value pairs. It is useful when you want to access data using a meaningful name.
 
 ```python
-student = {
-    "name": "Asha",
-    "roll": 21,
-    "branch": "CSE"
+heritage_site = {
+    "name": "Jhansi Fort",
+    "state": "Uttar Pradesh",
+    "visitors": 1200
 }
 
-print(student["name"])
-print(student.get("branch"))
+print(heritage_site["name"])
+print(heritage_site.get("state"))
 ```
 
 **Output:**
 
 ```text
-Asha
-CSE
+Jhansi Fort
+Uttar Pradesh
 ```
 
 Dict keys are unique and each key maps to a value.
@@ -95,14 +95,14 @@ Dict keys are unique and each key maps to a value.
 A set stores unique items. It does not keep duplicate values and does not store elements in a fixed order.
 
 ```python
-items = {10, 20, 20, 30}
-print(items)
+led_channels = {1, 2, 2, 3}
+print(led_channels)
 ```
 
-**Output:**
+**Example output (the order may vary):**
 
 ```text
-{10, 20, 30}
+{1, 2, 3}
 ```
 
 Sets are useful when you need to remove duplicates.
@@ -118,9 +118,9 @@ These structures are foundational for Python programming and are used heavily in
 
 ## Practice Tutorials
 
-1. Create a list of five marks, print the list, and calculate the average.
+1. Create a list of five sensor readings, print the list, and calculate the average.
 
-2. Create a dictionary for a student and print each item using its key.
+2. Create a dictionary for an Indian heritage site and print each item using its key.
 
 ---
 
@@ -136,7 +136,7 @@ These structures are foundational for Python programming and are used heavily in
 
 1. Explain the differences between list, tuple, dictionary, and set with examples.
 2. Write a Python program to read a CSV file and display its content on the screen.
-3. Create a NumPy array of temperature values and calculate the mean, minimum, and maximum values.
+3. Create a NumPy array of rainfall readings from an Indian city and calculate the mean, minimum, and maximum values.
 
 ---
 

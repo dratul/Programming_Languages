@@ -233,7 +233,7 @@ Converting from a type capable of representing more information to one capable o
 
 ### Type Conversion and User Input
 
-Calculating the average of two numbers:
+Calculating the average visitor count for two heritage sites:
 
 ```c
 #include <stdio.h>
@@ -242,20 +242,20 @@ int main() {
     int a, b;
     float average;
 
-    printf("Enter two numbers: ");
+    printf("Enter visitor counts for two heritage sites: ");
     if (scanf("%d %d", &a, &b) != 2) {
         printf("Invalid input.\n");
         return 1;
     }
 
     average = (float)(a + b) / 2;
-    printf("Average = %.2f\n", average);
+    printf("Average visitors per site = %.2f\n", average);
     return 0;
 }
 ```
 If the user enters `5` and `6`:
 ```
-Average = 5.50
+Average visitors per site = 5.50
 ```
 
 ---
@@ -345,9 +345,9 @@ Percentage = 90.00%
 
 ## Practice Tutorials
 
-1. Write a program that shows how integer division truncates values and then corrects it using explicit casting.
+1. Use integer division and explicit casting to calculate the average daily visitor count at a local heritage site.
 
-2. Convert a temperature from Celsius to Fahrenheit and print the result with two digits after the decimal point.
+2. Convert a phone sensor reading from an integer scale to a decimal voltage value and print two digits after the decimal point.
 
 ---
 

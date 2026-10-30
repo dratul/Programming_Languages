@@ -2,24 +2,24 @@
 
 int main(void)
 {
-    int marks;
+    int battery_percent;
 
-    printf("Enter marks from 0 to 100: ");
-    if (scanf("%d", &marks) != 1 || marks < 0 || marks > 100) {
-        printf("Invalid marks.\n");
+    printf("Enter phone battery percentage from 0 to 100: ");
+    if (scanf("%d", &battery_percent) != 1 || battery_percent < 0 || battery_percent > 100) {
+        printf("Invalid battery percentage.\n");
         return 1;
     }
 
-    if (marks >= 90) {
-        printf("Grade A\n");
-    } else if (marks >= 80) {
-        printf("Grade B\n");
-    } else if (marks >= 70) {
-        printf("Grade C\n");
-    } else if (marks >= 60) {
-        printf("Grade D\n");
+    if (battery_percent >= 90) {
+        printf("Battery level: Full\n");
+    } else if (battery_percent >= 70) {
+        printf("Battery level: Good\n");
+    } else if (battery_percent >= 40) {
+        printf("Battery level: Moderate\n");
+    } else if (battery_percent >= 20) {
+        printf("Battery level: Low\n");
     } else {
-        printf("Grade F\n");
+        printf("Battery level: Very low\n");
     }
 
     return 0;

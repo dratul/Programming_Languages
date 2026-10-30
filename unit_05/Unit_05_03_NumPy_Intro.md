@@ -21,8 +21,8 @@ python -c "import numpy as np; print(np.__version__)"
 ```python
 import numpy as np
 
-arr = np.array([1, 2, 3, 4, 5])
-print(arr)
+solar_panel_readings = np.array([1, 2, 3, 4, 5])
+print(solar_panel_readings)
 ```
 
 **Output:**
@@ -36,8 +36,8 @@ print(arr)
 ```python
 import numpy as np
 
-numbers = np.array([10, 20, 30, 40])
-print(np.mean(numbers))
+rainfall_readings = np.array([10, 20, 30, 40])
+print(np.mean(rainfall_readings))
 ```
 
 **Output:**
@@ -51,11 +51,11 @@ print(np.mean(numbers))
 ```python
 import numpy as np
 
-a = np.array([1, 2, 3])
-b = np.array([4, 5, 6])
+morning_sensor_readings = np.array([1, 2, 3])
+evening_sensor_readings = np.array([4, 5, 6])
 
-print(a + b)
-print(a * 2)
+print(morning_sensor_readings + evening_sensor_readings)
+print(morning_sensor_readings * 2)
 ```
 
 **Output:**
@@ -78,7 +78,7 @@ NumPy arrays are faster and more efficient than Python lists for mathematical wo
 
 ## Practice Tutorials
 
-1. Create a NumPy array of five readings and print the mean value using `np.mean()`.
+1. Create a NumPy array of five solar-panel readings and print the mean value using `np.mean()`.
 
 2. Create a 2x3 NumPy array and print the row-wise and column-wise sums.
 

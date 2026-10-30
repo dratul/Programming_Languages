@@ -18,21 +18,21 @@ A **function** is an independent block of modular code designed to perform a dis
 #include <stdio.h>
 
 /* 1. FUNCTION DECLARATION */
-int addNumbers(int, int);
+int addVolunteerCounts(int, int);
 
 int main(void)
 {
-    int num1 = 10, num2 = 20;
+    int first_event_volunteers = 10, second_event_volunteers = 20;
 
     /* 2. FUNCTION CALL */
-    int result = addNumbers(num1, num2);
-    printf("Sum: %d\n", result);
+    int result = addVolunteerCounts(first_event_volunteers, second_event_volunteers);
+    printf("Community event volunteers: %d\n", result);
 
     return 0;
 }
 
 /* 3. FUNCTION DEFINITION */
-int addNumbers(int a, int b)
+int addVolunteerCounts(int a, int b)
 {
     int sum = a + b;
     return sum; // Returns result to caller
@@ -78,7 +78,7 @@ return 0;
 The function prints `100`, but `main` still prints `5` because `value` is a copy.
 
 ---
-### Example: Find the Maximum of Three Numbers
+### Example: Find the Largest Visitor Group
 
 ```c
 #include <stdio.h>
@@ -88,13 +88,13 @@ int find_max(int a, int b, int c);
 int main(void) {
 int a, b, c;
 
-printf("Enter three integers: ");
+printf("Enter visitor counts for three Indian heritage sites: ");
 if (scanf("%d %d %d", &a, &b, &c) != 3) {
     printf("Invalid input.\n");
     return 1;
 }
 
-printf("The maximum number is: %d\n", find_max(a, b, c));
+printf("Largest visitor count: %d\n", find_max(a, b, c));
 return 0;
 }
 
@@ -110,7 +110,7 @@ return z;
 }
 ```
 
-### Example: Check Whether a Number Is Even
+### Example: Check Whether an LED Channel Count Is Even
 
 ```c
 #include <stdio.h>
@@ -124,16 +124,16 @@ int main(void)
 {
 int number;
 
-printf("Enter an integer: ");
+printf("Enter the number of LED channels: ");
 if (scanf("%d", &number) != 1) {
     printf("Invalid input.\n");
     return 1;
 }
 
 if (is_even(number)) {
-    printf("%d is even.\n", number);
+    printf("%d LED channels is an even count.\n", number);
 } else {
-    printf("%d is odd.\n", number);
+    printf("%d LED channels is an odd count.\n", number);
 }
 
 return 0;
@@ -290,7 +290,7 @@ int main(void)
 
 ## Practice Tutorials
 
-1. Write a function to find the largest of three integers and call it from `main()`.
+1. Write a function to find the largest of three visitor counts for local heritage sites and call it from `main()`.
 
 2. Write a recursive function to find the factorial of a non-negative integer and print the result.
 

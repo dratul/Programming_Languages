@@ -27,12 +27,12 @@ Python is useful for learning programming because:
 | **Web development** | Creating the server-side parts of websites |
 | **Automation** | Automating repetitive computer tasks |
 
-These are examples of areas where Python is used. This unit focuses on the language basics needed before studying larger applications.
+Python is used by engineers and researchers in India and around the world. This unit focuses on the language basics needed before studying larger applications, including projects that explore local environmental data or everyday electronics.
 
 ## A First Python Program
 
 ```python
-print("Namaste Python!")
+print("Namaste from India!")
 ```
 
 `print()` displays text on the screen. Python does not require a semicolon at the end of this statement.
@@ -40,7 +40,7 @@ print("Namaste Python!")
 **Output:**
 
 ```text
-Hello, Python!
+Namaste from India!
 ```
 
 ## Python and C
@@ -62,9 +62,9 @@ The equivalent C program needs a `main()` function and the `stdio.h` header. The
 
 ## Practice Tutorials
 
-1. Write a Python program that prints your name, branch, and college using `print()`.
+1. Write a Python program that prints your name, branch, college, and an Indian city or community tradition you value using `print()`.
 
-2. List three real-world applications of Python and explain why it is useful in engineering.
+2. Describe how Python could help analyze local rainfall data or readings from an electronic device.
 
 ---
 

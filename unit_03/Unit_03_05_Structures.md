@@ -1,6 +1,6 @@
 # 3.5 Structures in C
 
-A **structure** (`struct`) groups related values, which may have different data types, under one name. For example, a student's record can contain a name, roll number, and marks.
+A **structure** (`struct`) groups related values, which may have different data types, under one name. For example, a record for an Indian heritage site can contain its name, state, and visitor count.
 
 ## Defining and Using a Structure
 
@@ -9,21 +9,21 @@ Define a structure with the `struct` keyword. Use the dot operator (`.`) to acce
 ```c
 #include <stdio.h>
 
-struct Student {
+struct HeritageSite {
     char name[30];
-    int roll_number;
-    float marks;
+    char state[30];
+    int visitors;
 };
 
 int main(void) {
-    struct Student student = {"Asha", 21, 88.5f};
+    struct HeritageSite site = {"Jhansi Fort", "Uttar Pradesh", 1200};
 
-    printf("Name: %s\n", student.name);
-    printf("Roll number: %d\n", student.roll_number);
-    printf("Marks: %.1f\n", student.marks);
+    printf("Heritage site: %s\n", site.name);
+    printf("State: %s\n", site.state);
+    printf("Visitors today: %d\n", site.visitors);
 
-    student.marks = 91.0f;
-    printf("Updated marks: %.1f\n", student.marks);
+    site.visitors = 1250;
+    printf("Updated visitor count: %d\n", site.visitors);
 
     return 0;
 }
@@ -32,29 +32,29 @@ int main(void) {
 **Output:**
 
 ```text
-Name: Asha
-Roll number: 21
-Marks: 88.5
-Updated marks: 91.0
+Heritage site: Jhansi Fort
+State: Uttar Pradesh
+Visitors today: 1200
+Updated visitor count: 1250
 ```
 
-`struct Student` is the structure type. The variable `student` has three members: `name`, `roll_number`, and `marks`. The initializer supplies values in the same order as the member declarations.
+`struct HeritageSite` is the structure type. The variable `site` has three members: `name`, `state`, and `visitors`. The initializer supplies values in the same order as the member declarations.
 
 ## Why Use Structures?
 
-Separate variables can hold the name, roll number, and marks, but a structure keeps values that describe the same student together. A structure can also be used as the element type of an array when a program needs several student records.
+Separate variables can hold the site name, state, and visitor count, but a structure keeps related civic and cultural information together. A structure can also be used as the element type of an array when a program needs several site records.
 
 ## Key Points
 
 * A structure groups related data that can have different types.
 * Declare a structure type with `struct`.
-* Use the dot operator to access a member, for example `student.marks`.
+* Use the dot operator to access a member, for example `site.visitors`.
 
 ## Practice Tutorials
 
-1. Define a `struct Student` and print all its fields for one student record.
+1. Define a `struct HeritageSite` and print all its fields for one Indian site.
 
-2. Store records of three students in an array and display their details in table form.
+2. Store records for three Indian heritage sites in an array and display their details in table form.
 
 ---
 

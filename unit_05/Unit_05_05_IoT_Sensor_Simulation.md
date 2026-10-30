@@ -1,50 +1,50 @@
 # 5.5 Mini Demo: IoT Sensor Simulation
 
-This tutorial shows a simple IoT sensor simulation in Python. We generate sensor values, store them in a list, and print the average temperature.
+This tutorial shows a simple IoT sensor simulation in Python. We generate sample solar-panel voltage readings for a community centre, store them in a list, and print their average.
 
 ## Example
 
 ```python
 import random
 
-sensor_readings = []
+solar_voltage_readings = []
 
 for _ in range(5):
-    reading = round(random.uniform(20, 35), 2)
-    sensor_readings.append(reading)
+    reading = round(random.uniform(15, 20), 2)
+    solar_voltage_readings.append(reading)
 
-print("Sensor readings:", sensor_readings)
-print("Average temperature:", round(sum(sensor_readings) / len(sensor_readings), 2))
+print("Solar-panel readings (V):", solar_voltage_readings)
+print("Average voltage (V):", round(sum(solar_voltage_readings) / len(solar_voltage_readings), 2))
 ```
 
 **Sample Output:**
 
 ```text
-Sensor readings: [24.18, 29.35, 21.86, 30.94, 27.12]
-Average temperature: 26.69
+Solar-panel readings (V): [17.18, 19.35, 16.86, 18.94, 17.12]
+Average voltage (V): 17.89
 ```
 
 ## Explanation
 
-* `random.uniform(20, 35)` generates a random temperature between 20 and 35.
+* `random.uniform(15, 20)` generates a sample voltage between 15 and 20 volts.
 * Each value is appended to the list.
-* The program computes the average using `sum()` and `len()`.
+* The program computes the average voltage using `sum()` and `len()`.
 
 ## Real-World Meaning
 
-This is similar to how IoT systems collect temperature values from sensors, store them, and analyze them for monitoring or alerting.
+This is similar to how an IoT system could collect solar-panel values, store them, and analyze them for monitoring.
 
 ## Key Points
 
-* Python can simulate real-world sensor behavior.
+* Python can simulate electronics sensor readings for a local project.
 * Lists are used to store readings.
 * Basic statistics such as average can be computed easily.
 
 ## Practice Tutorials
 
-1. Simulate five temperature readings and print the average value.
+1. Simulate five solar-panel voltage readings and print the average value.
 
-2. Generate a list of humidity values and display the maximum and minimum values.
+2. Generate a list of phone battery readings and display the maximum and minimum values.
 
 ---
 

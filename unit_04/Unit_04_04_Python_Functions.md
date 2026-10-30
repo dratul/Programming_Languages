@@ -8,7 +8,7 @@ Use the `def` keyword to define a function. The indented statements form the fun
 
 ```python
 def greet():
-    print("Hello!")
+    print("Namaste!")
 
 greet()
 ```
@@ -16,7 +16,7 @@ greet()
 The output is:
 
 ```text
-Hello!
+Namaste!
 ```
 
 ## Parameters and Arguments
@@ -25,7 +25,7 @@ A function can receive values through **parameters**. The values supplied when c
 
 ```python
 def greet_person(name):
-    print(f"Hello, {name}!")
+    print(f"Namaste, {name}!")
 
 greet_person("Asha")
 ```
@@ -35,7 +35,7 @@ Here, `name` is a parameter and `"Asha"` is an argument.
 **Output:**
 
 ```text
-Hello, Asha!
+Namaste, Asha!
 ```
 
 ## Returning a Value
@@ -46,14 +46,14 @@ Use `return` to send a result back to the code that called the function:
 def add_numbers(first, second):
     return first + second
 
-total = add_numbers(4, 6)
-print("Sum:", total)
+volunteers = add_numbers(4, 6)
+print("Volunteers at two community events:", volunteers)
 ```
 
 **Output:**
 
 ```text
-Sum: 10
+Volunteers at two community events: 10
 ```
 
 `return` ends the function and provides its result. If a function has no `return` statement, it returns `None`.
@@ -63,33 +63,33 @@ Sum: 10
 A parameter can have a default value. The caller may omit that argument to use the default:
 
 ```python
-def greet_person(name, greeting="Hello"):
+def greet_person(name, greeting="Namaste"):
     print(f"{greeting}, {name}!")
 
 greet_person("Asha")
-greet_person("Ravi", "Welcome")
+greet_person("Ravi", "Welcome to the heritage walk")
 ```
 
-The first call uses `"Hello"` for `greeting`; the second supplies `"Welcome"`. Parameters with defaults must come after parameters without defaults.
+The first call uses `"Namaste"` for `greeting`; the second supplies a custom welcome. Parameters with defaults must come after parameters without defaults.
 
 **Output:**
 
 ```text
-Hello, Asha!
-Welcome, Ravi!
+Namaste, Asha!
+Welcome to the heritage walk, Ravi!
 ```
 
-## Complete Example: Rectangle Area
+## Complete Example: Solar Panel Area
 
 ```python
-def rectangle_area(length, breadth=1):
+def solar_panel_area(length, breadth=1):
     return length * breadth
 
-print(rectangle_area(5, 3))
-print(rectangle_area(5))
+print(solar_panel_area(5, 3))
+print(solar_panel_area(5))
 ```
 
-The first call calculates the area of a `5` by `3` rectangle. The second uses the default breadth of `1`.
+The first call calculates the area of a `5` by `3` panel. The second uses the default breadth of `1`.
 
 **Output:**
 
@@ -109,9 +109,9 @@ The first call calculates the area of a `5` by `3` rectangle. The second uses th
 
 ## Practice Tutorials
 
-1. Write a function to add two numbers and call it from the main program.
+1. Write a function to add two counts of community event volunteers and call it from the main program.
 
-2. Create a function with a default argument and call it with and without the optional value.
+2. Create a function with a default greeting such as `"Namaste"` and call it with and without an optional greeting.
 
 ---
 

@@ -11,19 +11,19 @@ A **pointer** is a variable that stores the address of another variable. Pointer
 #include <stdio.h>
 
 int main(void) {
-    int number = 25;
-    int *number_pointer = &number;
+    int phone_battery_percent = 25;
+    int *battery_pointer = &phone_battery_percent;
 
-    printf("Value of number: %d\n", number);
-    printf("Address of number: %p\n", (void *)&number);
-    printf("Address stored in pointer: %p\n", (void *)number_pointer);
-    printf("Value through pointer: %d\n", *number_pointer);
+    printf("Phone battery percentage: %d%%\n", phone_battery_percent);
+    printf("Address of battery value: %p\n", (void *)&phone_battery_percent);
+    printf("Address stored in pointer: %p\n", (void *)battery_pointer);
+    printf("Battery value through pointer: %d%%\n", *battery_pointer);
 
     return 0;
 }
 ```
 
-The address shown by `%p` depends on the computer and may change each time the program runs. The pointer refers to `number`, so dereferencing it with `*number_pointer` reads the value `25`.
+The address shown by `%p` depends on the computer and may change each time the program runs. The pointer refers to `phone_battery_percent`, so dereferencing it with `*battery_pointer` reads the value `25`.
 
 ## Declaring a Pointer
 
@@ -53,7 +53,7 @@ At this level, focus on understanding addresses and reading a value through a po
 
 ## Practice Tutorials
 
-1. Declare an integer variable and a pointer to it, then print the value and address of both.
+1. Declare an integer variable for a phone battery percentage and a pointer to it, then print the value and address of both.
 
 2. Use a pointer to swap the values of two integers without using a third variable.
 

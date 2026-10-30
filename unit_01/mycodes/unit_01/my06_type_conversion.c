@@ -2,10 +2,10 @@
 #include<stdio.h>
 int main()
  { 
-    int a = 10; 
+    int battery_percent = 10;
     float b; 
-    b = a;
-     printf("\n a = %d \n", a); 
-     printf("\n b = %.2f \n", b); 
+    b = battery_percent;
+     printf("\n Battery percentage (integer) = %d \n", battery_percent); 
+     printf("\n Battery percentage (float) = %.2f \n", b); 
      return 0; 
 }

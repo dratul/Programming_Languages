@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-#define TAX_RATE 0.05  // Preprocessor constant
+#define SERVICE_CHARGE 0.05  // Preprocessor constant
 
 int main(void) {
-    const int ITEM_LIMIT = 100; // Read-only constant
-    int quantity = 10;          // Variable (can change)
-    double unit_price = 25.50;  // Variable
+    const int KIT_LIMIT = 100;       // Read-only constant
+    int quantity = 10;               // Variable (can change)
+    double kit_price_rupees = 25.50; // Variable
     
-    // Calculate total price
-    double subtotal = quantity * unit_price;
-    double final_total = subtotal + (subtotal * TAX_RATE);
+    // Calculate the cost of supplies for a community heritage walk
+    double subtotal = quantity * kit_price_rupees;
+    double final_total = subtotal + (subtotal * SERVICE_CHARGE);
 
-    printf("Quantity: %d (Limit: %d)\n", quantity, ITEM_LIMIT);
-    printf("Final Total with Tax: $%.2f\n", final_total);
+    printf("Walk kits: %d (Limit: %d)\n", quantity, KIT_LIMIT);
+    printf("Total cost: Rs. %.2f\n", final_total);
 
     // Modifying a variable
     quantity = 15;

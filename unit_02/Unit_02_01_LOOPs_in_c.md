@@ -10,7 +10,7 @@
   2. Loops: `for`, `while`, `do-while`; `break` and `continue`
   3. Functions: definition, call, return; call by value
   4. Recursion: factorial and Fibonacci (simple examples only)
-* **Real connect:** Control flow is the brain of every program—from traffic signal logic to drone autopilot decision-making.
+* **Real connect:** Control flow helps run traffic signals, railway information displays, and sensor-based electronics.
 
 ---
 
@@ -103,7 +103,7 @@ if (condition)
 }
 ```
 
-#### Example tutorial: Voting Eligibility Check
+#### Example tutorial: Community Volunteer Age Check
 ```c
 #include <stdio.h>
 
@@ -113,7 +113,7 @@ int main(void)
 
     if (age >= 18)
     {
-        printf("You are eligible to vote.\n");
+        printf("Meets the 18+ volunteer age check.\n");
     }
 
     return 0;
@@ -122,7 +122,7 @@ int main(void)
 
 **Output:**
 ```
-You are eligible to vote.
+Meets the 18+ volunteer age check.
 ```
 
 The condition $\text{age} \ge 18$ is true because $\text{age} = 20$.
@@ -145,7 +145,7 @@ else
 }
 ```
 
-#### Example tutorial 
+#### Example tutorial: Community Volunteer Age Check
 ```c
 #include <stdio.h>
 
@@ -161,11 +161,11 @@ int main(void)
 
     if (age >= 18)
     {
-        printf("Eligible to vote.\n");
+        printf("Meets the 18+ volunteer age check.\n");
     }
     else
     {
-        printf("Not eligible to vote.\n");
+        printf("Does not meet the 18+ volunteer age check.\n");
     }
 
     return 0;
@@ -178,13 +178,13 @@ int main(void)
 ```
 **Output:**
 ```
-Not eligible to vote.
+Does not meet the 18+ volunteer age check.
 ```
 
 ---
 
-#### example Tutorial: Checking Even or Odd
-A number is even if it is divisible by $2$ with a remainder of zero (using the modulus operator `%`).
+#### example Tutorial: Checking an LED Channel Count
+An LED channel count is even if it is divisible by $2$ with a remainder of zero (using the modulus operator `%`).
 
 ```c
 #include <stdio.h>
@@ -193,7 +193,7 @@ int main(void)
 {
     int number;
 
-    printf("Enter a number: ");
+    printf("Enter the number of LED channels: ");
     if (scanf("%d", &number) != 1) {
         printf("Invalid integer.\n");
         return 1;
@@ -201,11 +201,11 @@ int main(void)
 
     if (number % 2 == 0)
     {
-        printf("Even number\n");
+        printf("Even number of LED channels\n");
     }
     else
     {
-        printf("Odd number\n");
+        printf("Odd number of LED channels\n");
     }
 
     return 0;
@@ -218,7 +218,7 @@ int main(void)
 ```
 **Output:**
 ```
-Odd number
+Odd number of LED channels
 ```
 
 #### Practice Programs
@@ -251,45 +251,45 @@ else
 }
 ```
 
-#### Example tutorial: Grading System
-* $90 - 100 \implies \text{Grade A}$
-* $80 - 89 \implies \text{Grade B}$
-* $70 - 79 \implies \text{Grade C}$
-* $60 - 69 \implies \text{Grade D}$
-* $\text{Below } 60 \implies \text{Grade F}$
+#### Example tutorial: Phone Battery Status
+* $90 - 100 \implies \text{Full}$
+* $70 - 89 \implies \text{Good}$
+* $40 - 69 \implies \text{Moderate}$
+* $20 - 39 \implies \text{Low}$
+* $\text{Below } 20 \implies \text{Very low}$
 
 ```c
 #include <stdio.h>
 
 int main(void)
 {
-    int marks;
+    int battery_percent;
 
-    printf("Enter marks from 0 to 100: ");
-    if (scanf("%d", &marks) != 1 || marks < 0 || marks > 100) {
-        printf("Invalid marks.\n");
+    printf("Enter phone battery percentage from 0 to 100: ");
+    if (scanf("%d", &battery_percent) != 1 || battery_percent < 0 || battery_percent > 100) {
+        printf("Invalid battery percentage.\n");
         return 1;
     }
 
-    if (marks >= 90)
+    if (battery_percent >= 90)
     {
-        printf("Grade A\n");
+        printf("Battery level: Full\n");
     }
-    else if (marks >= 80)
+    else if (battery_percent >= 70)
     {
-        printf("Grade B\n");
+        printf("Battery level: Good\n");
     }
-    else if (marks >= 70)
+    else if (battery_percent >= 40)
     {
-        printf("Grade C\n");
+        printf("Battery level: Moderate\n");
     }
-    else if (marks >= 60)
+    else if (battery_percent >= 20)
     {
-        printf("Grade D\n");
+        printf("Battery level: Low\n");
     }
     else
     {
-        printf("Grade F\n");
+        printf("Battery level: Very low\n");
     }
 
     return 0;
@@ -298,11 +298,11 @@ int main(void)
 
 **Input:**
 ```
-85
+75
 ```
 **Output:**
 ```
-Grade B
+Battery level: Good
 ```
 
 #### Evaluation Mechanism
@@ -320,24 +320,25 @@ An `if` statement enclosed inside another `if` block is called a **nested if**.
 int main(void)
 {
     int age;
-    int citizen;
+    int orientation_complete;
 
     printf("Enter age: ");
     if (scanf("%d", &age) != 1 || age < 0) {
         printf("Invalid age.\n");
         return 1;
     }
-    printf("Are you a citizen? Enter 1 for Yes, 0 for No: ");
-    if (scanf("%d", &citizen) != 1 || (citizen != 0 && citizen != 1)) {
+    printf("Have you completed event orientation? Enter 1 for Yes, 0 for No: ");
+    if (scanf("%d", &orientation_complete) != 1 ||
+        (orientation_complete != 0 && orientation_complete != 1)) {
         printf("Enter 1 for Yes or 0 for No.\n");
         return 1;
     }
 
     if (age >= 18)
     {
-        if (citizen == 1)
+        if (orientation_complete == 1)
         {
-            printf("Eligible to vote.\n");
+            printf("Ready to volunteer at the community event.\n");
         }
     }
 
@@ -349,9 +350,9 @@ int main(void)
 Nested conditions can often be flattened into a single statement using logical operators:
 
 ```c
-if (age >= 18 && citizen == 1)
+if (age >= 18 && orientation_complete == 1)
 {
-    printf("Eligible to vote.\n");
+    printf("Ready to volunteer at the community event.\n");
 }
 ```
 
@@ -375,10 +376,10 @@ if (age >= 18 && citizen == 1)
 
 * **Logical OR (`||`):**
   ```c
-  // Special recognition eligibility
-  if (marks >= 90 || sports == 1)
+  // Recognize a well-attended local heritage event
+  if (site_visitors >= 1000 || heritage_day == 1)
   {
-      printf("Special recognition.\n");
+      printf("Community event recognized.\n");
   }
   ```
 
@@ -419,7 +420,7 @@ int main(void)
 {
     int choice;
 
-    printf("Enter a number from 1 to 3: ");
+    printf("Choose an Indian heritage site: 1) Jhansi Fort 2) Sanchi Stupa 3) Konark Sun Temple: ");
     if (scanf("%d", &choice) != 1) {
         printf("Invalid choice.\n");
         return 1;
@@ -428,13 +429,13 @@ int main(void)
     switch (choice)
     {
         case 1:
-            printf("You selected One\n");
+            printf("Jhansi Fort selected\n");
             break;
         case 2:
-            printf("You selected Two\n");
+            printf("Sanchi Stupa selected\n");
             break;
         case 3:
-            printf("You selected Three\n");
+            printf("Konark Sun Temple selected\n");
             break;
         default:
             printf("Invalid choice\n");
@@ -478,7 +479,7 @@ for (initialization; condition; update)
 }
 ```
 
-#### Example: Counting from $1$ to $5$
+#### Example: Numbering Heritage Walk Checkpoints
 ```c
 #include <stdio.h>
 
@@ -487,7 +488,7 @@ int main(void)
     int i;
     for (i = 1; i <= 5; i++)
     {
-        printf("%d\n", i);
+        printf("Checkpoint %d\n", i);
     }
     return 0;
 }
@@ -498,7 +499,7 @@ int main(void)
 2. **Condition (`i <= 5`):** Checked before every iteration. If false, the loop terminates.
 3. **Update (`i++`):** Executed after each iteration.
 
-#### Example: Printing Even Numbers
+#### Example: Printing Even LED Channel Numbers
 ```c
 #include <stdio.h>
 
@@ -528,7 +529,7 @@ while (condition)
 }
 ```
 
-#### Example
+#### Example: Numbering Community Event Groups
 ```c
 #include <stdio.h>
 
@@ -560,7 +561,7 @@ do
 ```
 *(Notice the trailing semicolon after `while (condition);`)*
 
-#### Example
+#### Example: Issuing Heritage Walk Tokens
 ```c
 #include <stdio.h>
 
@@ -616,7 +617,7 @@ int main(void)
 **Output:** `1 2 3 4`
 
 #### The `continue` Statement
-Skips the remainder of the current iteration and jumps to the update step of the loop.
+Skips the remainder of the current iteration and jumps to the update step of the loop. This example skips a reserved LED channel number.
 
 ```c
 #include <stdio.h>
@@ -639,7 +640,7 @@ int main(void)
 
 ---
 
-### Nested Loops
+### Nested Loops: Community Hall Seating Rows
 
 A loop placed inside another loop.
 
@@ -653,7 +654,7 @@ int main(void)
     {
         for (j = 1; j <= 3; j++)
         {
-            printf("* ");
+            printf("O ");
         }
         printf("\n");
     }
@@ -662,9 +663,9 @@ int main(void)
 ```
 **Output:**
 ```
-* * * 
-* * * 
-* * * 
+O O O 
+O O O 
+O O O 
 ```
 
 ---
@@ -694,7 +695,7 @@ start:
 
 ### Comprehensive Program Examples
 
-#### 1. Arithmetic Menu Driven Program
+#### 1. Solar Sensor Reading Calculator
 ```c
 #include <stdio.h>
 
@@ -703,7 +704,7 @@ int main(void)
     int choice;
     float a, b;
 
-    printf("Enter two numbers: ");
+    printf("Enter two solar-panel sensor readings: ");
     if (scanf("%f %f", &a, &b) != 2) {
         printf("Invalid numbers.\n");
         return 1;
@@ -748,31 +749,31 @@ int main(void)
 }
 ```
 
-#### 2. Password Attempts Counter
+#### 2. Community Heritage Quiz Attempts
 ```c
 #include <stdio.h>
 
 int main(void)
 {
-    int password;
+    int answer;
     int attempts;
 
     for (attempts = 1; attempts <= 3; attempts++)
     {
-        printf("Enter password: ");
-        if (scanf("%d", &password) != 1) {
-            printf("Invalid password input.\n");
+        printf("In which year did India become a republic? ");
+        if (scanf("%d", &answer) != 1) {
+            printf("Invalid year input.\n");
             return 1;
         }
 
-        if (password == 1234)
+        if (answer == 1950)
         {
-            printf("Login successful.\n");
+            printf("Correct!\n");
             break;
         }
         else
         {
-            printf("Incorrect password.\n");
+            printf("Try again.\n");
         }
     }
     return 0;
@@ -781,9 +782,9 @@ int main(void)
 
 ## Practice Tutorials
 
-1. Write a program to print the multiplication table of a number entered by the user using a `for` loop.
+1. Write a program to print the multiplication table for the number of LED channels in a small device using a `for` loop.
 
-2. Use a `while` loop to add numbers from 1 to 10 and display the total.
+2. Use a `while` loop to total visitor counts collected at a local heritage site.
 
 ---
 

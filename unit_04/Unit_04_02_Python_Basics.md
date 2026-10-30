@@ -7,10 +7,10 @@ This lesson introduces variables, data types, output, input, and operators in Py
 A **variable** is a name that refers to a value. Python creates a variable when a value is assigned to it:
 
 ```python
-student_name = "Asha"
-roll_number = 12
-marks = 86.5
-is_present = True
+volunteer_name = "Asha"
+event_number = 12
+battery_percent = 86.5
+is_registered = True
 ```
 
 Common built-in data types include:
@@ -19,13 +19,13 @@ Common built-in data types include:
 | --- | --- | --- |
 | `int` | Whole numbers | `12` |
 | `float` | Numbers with a decimal part | `86.5` |
-| `str` | Text | `"Asha"` |
+| `str` | Text | `"Jhansi"` |
 | `bool` | `True` or `False` values | `True` |
 
 Python determines the type from the assigned value. Use `type()` to inspect a value's type:
 
 ```python
-print(type(roll_number))
+print(type(event_number))
 ```
 
 **Output:**
@@ -34,7 +34,7 @@ print(type(roll_number))
 <class 'int'>
 ```
 
-Python is case-sensitive: `marks` and `Marks` are different names. Use descriptive variable names, and do not put spaces in a variable name.
+Python is case-sensitive: `battery_percent` and `Battery_percent` are different names. Use descriptive variable names, and do not put spaces in a variable name.
 
 ## Displaying Values with `print()`
 
@@ -42,10 +42,10 @@ The `print()` function displays one or more values:
 
 ```python
 name = "Asha"
-marks = 86.5
+event_role = "heritage walk volunteer"
 
-print("Student:", name)
-print(f"{name} scored {marks} marks.")
+print("Volunteer:", name)
+print(f"{name} is a {event_role}.")
 ```
 
 An **f-string** begins with `f` and lets you place variable values inside `{}`.
@@ -53,8 +53,8 @@ An **f-string** begins with `f` and lets you place variable values inside `{}`.
 **Output:**
 
 ```text
-Student: Asha
-Asha scored 86.5 marks.
+Volunteer: Asha
+Asha is a heritage walk volunteer.
 ```
 
 ## Reading Input with `input()`
@@ -63,7 +63,7 @@ The `input()` function displays a prompt and returns the entered value as text (
 
 ```python
 name = input("Enter your name: ")
-print(f"Hello, {name}!")
+print(f"Namaste, {name}!")
 ```
 
 Convert input to a number when doing arithmetic:
@@ -120,11 +120,11 @@ Python uses `and`, `or`, and `not` for logical operations.
 ## Complete Example: Rectangle Area
 
 ```python
-length = float(input("Enter the length: "))
-breadth = float(input("Enter the breadth: "))
+length = float(input("Enter solar panel length in metres: "))
+breadth = float(input("Enter solar panel breadth in metres: "))
 
 area = length * breadth
-print(f"Area of the rectangle: {area}")
+print(f"Solar panel area: {area} square metres")
 ```
 
 The program reads two decimal-capable values, multiplies them, and displays the result.
@@ -132,9 +132,9 @@ The program reads two decimal-capable values, multiplies them, and displays the 
 For example, with length `5` and breadth `3`, the interaction is:
 
 ```text
-Enter the length: 5
-Enter the breadth: 3
-Area of the rectangle: 15.0
+Enter solar panel length in metres: 5
+Enter solar panel breadth in metres: 3
+Solar panel area: 15.0 square metres
 ```
 
 ## Key Points
@@ -146,9 +146,9 @@ Area of the rectangle: 15.0
 
 ## Practice Tutorials
 
-1. Read two numbers from the user and display their sum, difference, product, and quotient.
+1. Read two rupee amounts for a community event and display their sum, difference, product, and quotient.
 
-2. Write a Python program to calculate the area of a rectangle using `input()` and arithmetic operators.
+2. Write a Python program to calculate the area of a small solar panel using `input()` and arithmetic operators.
 
 ---
 

@@ -5,28 +5,28 @@ This lesson builds on the array concepts introduced in [1D arrays](Unit_03_01_1D
 ## Practice Examples
 
 ### Example 3.1: Calculating Sum and Average :
-Calculate the total sum and average score of a student's marks stored in an array.
+Calculate the total and average daily rainfall recorded by a local weather station.
 
 ```c
 #include <stdio.h>
 
 int main() {
-    int marks[5] = {75, 82, 68, 91, 79};
+    int rainfall_mm[5] = {75, 82, 68, 91, 79};
     int sum = 0;
     float average;
     int length = 5;
 
     // Calculate sum of elements
     for (int i = 0; i < length; i++) {
-        sum += marks[i];
+        sum += rainfall_mm[i];
     }
 
     // Calculate average
     average = (float)sum / length;
 
     // Display results
-    printf("Total Marks: %d\n", sum);
-    printf("Average Score: %.2f\n", average);
+    printf("Total rainfall: %d mm\n", sum);
+    printf("Average daily rainfall: %.2f mm\n", average);
 
     return 0;
 }
@@ -34,35 +34,35 @@ int main() {
 
 #### Output
 ```text
-Total Marks: 395
-Average Score: 79.00
+Total rainfall: 395 mm
+Average daily rainfall: 79.00 mm
 ```
 
 ---
 
 ### Example 3.2: Finding Maximum and Minimum Elements
-Find the highest and lowest grades in an array of test scores.
+Find the highest and lowest rainfall readings in an array.
 
 #### C Source Code
 ```c
 #include <stdio.h>
 
 int main() {
-    int marks[5] = {75, 82, 68, 91, 79};
-    int max = marks[0];
-    int min = marks[0];
+    int rainfall_mm[5] = {75, 82, 68, 91, 79};
+    int max = rainfall_mm[0];
+    int min = rainfall_mm[0];
 
     for (int i = 1; i < 5; i++) {
-        if (marks[i] > max) {
-            max = marks[i];
+        if (rainfall_mm[i] > max) {
+            max = rainfall_mm[i];
         }
-        if (marks[i] < min) {
-            min = marks[i];
+        if (rainfall_mm[i] < min) {
+            min = rainfall_mm[i];
         }
     }
 
-    printf("Highest Mark: %d\n", max);
-    printf("Lowest Mark: %d\n", min);
+    printf("Highest rainfall: %d mm\n", max);
+    printf("Lowest rainfall: %d mm\n", min);
 
     return 0;
 }
@@ -70,8 +70,8 @@ int main() {
 
 #### Output
 ```text
-Highest Mark: 91
-Lowest Mark: 68
+Highest rainfall: 91 mm
+Lowest rainfall: 68 mm
 ```
 
 ---
@@ -84,26 +84,26 @@ Reverse the order of elements inside an array directly without using an auxiliar
 #include <stdio.h>
 
 int main() {
-    int arr[5] = {75, 82, 68, 91, 79};
+    int rainfall_mm[5] = {75, 82, 68, 91, 79};
     int n = 5;
 
-    printf("Original Array: ");
+    printf("Original rainfall readings (mm): ");
     for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+        printf("%d ", rainfall_mm[i]);
     }
     printf("\n");
 
     // Reverse array logic
     for (int i = 0; i < n / 2; i++)
    {
-        int temp = arr[i]; //stores in temporary variable
-        arr[i] = arr[n - 1 - i];
-        arr[n - 1 - i] = temp;
+        int temp = rainfall_mm[i]; // stores one reading temporarily
+        rainfall_mm[i] = rainfall_mm[n - 1 - i];
+        rainfall_mm[n - 1 - i] = temp;
     }
 
-    printf("Reversed Array: ");
+    printf("Reversed rainfall readings (mm): ");
     for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+        printf("%d ", rainfall_mm[i]);
     }
     printf("\n");
 
@@ -113,8 +113,8 @@ int main() {
 
 #### Output
 ```text
-Original Array: 75 82 68 91 79 
-Reversed Array: 79 91 68 82 75 
+Original rainfall readings (mm): 75 82 68 91 79 
+Reversed rainfall readings (mm): 79 91 68 82 75 
 ```
 
 ---
@@ -127,21 +127,21 @@ Search for a target value within an array and display its index position if foun
 #include <stdio.h>
 
 int main() {
-    int marks[5] = {75, 82, 68, 91, 79};
+    int rainfall_mm[5] = {75, 82, 68, 91, 79};
     int target = 91;
     int found_index = -1;
 
     for (int i = 0; i < 5; i++) {
-        if (marks[i] == target) {
+        if (rainfall_mm[i] == target) {
             found_index = i;
             break;
         }
     }
 
     if (found_index != -1) {
-        printf("Element %d found at index %d.\n", target, found_index);
+        printf("%d mm reading found at index %d.\n", target, found_index);
     } else {
-        printf("Element %d not found in the array.\n", target);
+        printf("%d mm reading not found in the array.\n", target);
     }
 
     return 0;
@@ -150,13 +150,13 @@ int main() {
 
 #### Output
 ```text
-Element 91 found at index 3.
+91 mm reading found at index 3.
 ```
 
 ---
 
 ### Example 3.5: Counting Even and Odd Numbers
-Count how many values in an array are even numbers and how many are odd.
+Count even and odd LED channels in a small electronic display.
 
 ### C Source Code
 ```c
@@ -201,9 +201,9 @@ Total Odd Numbers: 3
 
 ## Practice Tutorials
 
-1. Write a program to reverse the elements of an array in place and display the reversed result.
+1. Write a program to reverse daily rainfall readings in place and display the reversed result.
 
-2. Count how many even and odd numbers are present in a given array.
+2. Count how many even and odd LED channels are present in a given array.
 
 ---
 

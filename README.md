@@ -5,6 +5,10 @@
 
 For first-year students of any institute affiliated with AKTU Lucknow).
 
+Examples across the course use inclusive Indian civic, cultural, and everyday
+contexts, alongside familiar electronics such as phones, LEDs, and sensors.
+Students are welcome to adapt names, places, and data to their own communities.
+
 ## [Unit-01 Programming Basics (C)](unit_01/Unit_01_programming_basics_in_c.md)
 1.1. [Introduction to C](unit_01/Unit_01_01_Introduction_to_C.md) — history, applications, and overview\
 1.2. [Program structure, input/output, and compilation](unit_01/Unit_01_02_Program_Structure_and_Compilation.md)\
@@ -12,7 +16,8 @@ For first-year students of any institute affiliated with AKTU Lucknow).
 1.4. [Operators and expressions](unit_01/Unit_01_04_Operators.md)\
 1.5. [Type conversion](unit_01/Unit_01_05_Type_Conversions.md)\
 1.6. [Tutorials and assignment](unit_01/Tutorials_and_Assignment_Unit_01.md); [quick practice list](unit_01/tutorials/Tutorials_Unit_01.md) \
-Real connect: C powers embedded systems, microcontrollers, and OS kernels.
+Real connect: C runs embedded systems used in Indian-made electronics, public
+transport, and communication devices.
 ## [Unit-02 Decision Making and Control Flow (C)](unit_02/Unit_02_01_LOOPs_in_c.md)
 2.1. [Control statements](unit_02/Unit_02_01_LOOPs_in_c.md) \
 2.2. [Loops](unit_02/Unit_02_01_LOOPs_in_c.md) — for, while, do-while; break and
@@ -22,9 +27,8 @@ call by value \
 2.4. Recursion — factorial and Fibonacci (simple examples in
 [Functions and Recursion](unit_02/Unit_02_02_Functions_in_c.md)) \
 2.5. [Tutorials](unit_02/tutorials/Tutorials_Unit_02.md)\
-Real connect: Control flow is the brain of every
-program — from traffic signal logic to drone
-autopilot decision-making.
+Real connect: Control flow helps operate traffic signals, railway information
+displays, and sensor-based electronics.
 ## [Unit-03 Advanced Programming Concepts (C)](unit_03/Unit_03_01_1D_Array.md)
 3.1. [1D array](unit_03/Unit_03_01_1D_Array.md) — declaration, input, output,
 traversal\
@@ -37,10 +41,8 @@ average\
 3.5. [Structures](unit_03/Unit_03_05_Structures.md)\
 3.6. [File handling](unit_03/Unit_03_06_File_Handling.md)\
 Practice: [Unit 3 tutorials](unit_03/tutorials/Tutorials_Unit_03.md)\
-Real connect: Arrays store sensor readings,
-image pixels, and stock prices. Pointers are the
-foundation of memory management in
-embedded systems.
+Real connect: Arrays can store rainfall or solar-panel readings from across
+India. Pointers help embedded programs work with device memory.
 ## [Unit-04 Python Introduction](unit_04/Unit_04_01_Why_Python.md)
 4.1. [Why Python](unit_04/Unit_04_01_Why_Python.md) — where it is used (AI, Data
 Science, Web, Automation)\
@@ -51,9 +53,8 @@ while loop\
 4.4. [Python functions](unit_04/Unit_04_04_Python_Functions.md) — def, return, default
 arguments\
 Practice: [Unit 4 tutorials](unit_04/tutorials/Tutorials_Unit_04.md)\
-Real connect: Python is #1 in AI/ML, Data
-Science, and automation — same syntax, more
-power, less boilerplate.
+Real connect: Python can help students explore Indian public datasets, analyze
+local environmental readings, and automate everyday tasks.
 
 ## [Unit-05 Python Data Structures and Emerging Applications](unit_05/Unit_05_01_Python_Data_Structures.md)
 5.1. [Python data structures](unit_05/Unit_05_01_Python_Data_Structures.md) — list, tuple,
@@ -66,12 +67,8 @@ simple arithmetic (5 lines)\
 line graph (5 lines)\
 5.5. [Mini demo: IoT sensor simulation](unit_05/Unit_05_05_IoT_Sensor_Simulation.md)\
 Practice: [Unit 5 tutorials](unit_05/tutorials/Tutorials_Unit_05.md)\
-Real connect: Python lists power NumPy which
-powers TensorFlow. Matplotlib plots are used
-in every engineering report and data science
-notebook. This unit opens the door to AI, IoT,
-and Data Science using the same Python
-basics introduced in Units 1–4.
+Real connect: Python lists, NumPy, and Matplotlib can help analyze local
+environmental data and readings from simple electronics and IoT sensors.
 
 ## Tutorial coverage rule
 

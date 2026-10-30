@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int x,y,s;
-x=4;
-y=5;
-s=x+y;
-printf("\n The sum of %d and %d is %d \n",x,y, s);
+int first_group = 4;
+int second_group = 5;
+int total_volunteers = first_group + second_group;
+printf("Volunteers at two community clean-ups: %d\n", total_volunteers);
 return 0;
 }

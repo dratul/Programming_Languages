@@ -19,31 +19,31 @@ By the end of this tutorial unit, students will be able to:
 
 ### Section A: Guided Tutorial Demonstrations (Solved Examples)
 
-#### Example 1.1: Average of Three Numbers (Implicit vs. Explicit Type Casting)
+#### Example 1.1: Average Visitors at Three Heritage Sites (Implicit vs. Explicit Type Casting)
 * **Objective:** Understand how integer division causes truncation and how explicit casting preserves precision.
 
 ```c
 #include <stdio.h>
 
 int main(void) {
-    int num1, num2, num3;
+    int site1_visitors, site2_visitors, site3_visitors;
     float average;
 
-    printf("Enter three integer values (separated by space): ");
-    if (scanf("%d %d %d", &num1, &num2, &num3) != 3) {
+    printf("Enter visitor counts for three Indian heritage sites: ");
+    if (scanf("%d %d %d", &site1_visitors, &site2_visitors, &site3_visitors) != 3) {
         printf("Error: Invalid numeric input.\n");
         return 1;
     }
 
     // Explicit cast prevents integer truncation: (int / int -> int)
-    average = (float)(num1 + num2 + num3) / 3.0f;
+    average = (float)(site1_visitors + site2_visitors + site3_visitors) / 3.0f;
 
-    printf("Calculated Average: %.2f\n", average);
+    printf("Average visitors per site: %.2f\n", average);
     return 0;
 }
 ```
 * **Sample Input:** `10 20 25`
-* **Sample Output:** `Calculated Average: 18.33`
+* **Sample Output:** `Average visitors per site: 18.33`
 
 ---
 
@@ -56,7 +56,7 @@ int main(void) {
 int main(void) {
     float celsius, fahrenheit;
 
-    printf("Enter temperature in Celsius (°C): ");
+    printf("Enter an Indian weather-station temperature in Celsius (°C): ");
     if (scanf("%f", &celsius) != 1) {
         printf("Error: Invalid temperature input.\n");
         return 1;
@@ -80,14 +80,14 @@ int main(void) {
 
 | Level | Problem No. | Title | Description | Concepts Tested |
 | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1** | **P-01** | Student Profile Card | Print formatted student info (Name, Roll No, Branch, College) using escape sequences (`\n`, `\t`). | Basic `printf`, formatting |
+| **Tier 1** | **P-01** | Community Volunteer Card | Print a volunteer's name, local event, and Indian city using escape sequences (`\n`, `\t`). | Basic `printf`, formatting |
 | **Tier 1** | **P-02** | Arithmetic Suite | Input two integers and print their sum, difference, product, quotient, and remainder (`%`). Handle divisor $= 0$. | Basic operators, `scanf` |
-| **Tier 1** | **P-03** | Rectangle Geometry | Read length and breadth from user; compute and display area and perimeter. | Sequential logic |
-| **Tier 2** | **P-04** | Circle Metrics | Input radius as `float`. Compute Area ($A = \pi r^2$) and Perimeter ($P = 2 \pi r$). Use constant `#define PI 3.14159`. | Symbolic constants, precision |
-| **Tier 2** | **P-05** | Variable Swapping | (a) Swap values of two variables using a temporary third variable.<br>(b) Swap two variables **without** using a third variable. | Memory, variable manipulation |
-| **Tier 2** | **P-06** | Relational Thresholding | Input a number and compare it to a reference threshold (e.g., `100`). Output `1` if greater, `0` otherwise, **using relational operators only** (no `if` statements). | Relational expressions |
-| **Tier 3** | **P-07** | Parity Checker | Determine if an integer is even or odd using the modulus operator `%`. As an optional extension, compare with bitwise `&`. | Modulus; optional bitwise extension |
-| **Tier 3** | **P-08** | Time Conversion | Input a total number of seconds; convert and display it into `Hours : Minutes : Seconds`. | Integer division & modulus |
+| **Tier 1** | **P-03** | Solar Panel Dimensions | Read a small panel's length and breadth; compute and display its area and perimeter. | Sequential logic |
+| **Tier 2** | **P-04** | Community Garden Bed | Input the radius of a circular garden bed; compute area and perimeter using `#define PI 3.14159`. | Symbolic constants, precision |
+| **Tier 2** | **P-05** | Sensor Reading Swap | Swap two sensor readings, first with a temporary variable and then (optionally) without one. | Memory, variable manipulation |
+| **Tier 2** | **P-06** | Rainwater Tank Threshold | Compare a rainwater tank reading with a chosen threshold; output `1` or `0` using relational operators only (no `if`). | Relational expressions |
+| **Tier 3** | **P-07** | LED Channel Checker | Determine whether the number of active LED channels is even or odd using `%`; optionally compare with bitwise `&`. | Modulus; optional bitwise extension |
+| **Tier 3** | **P-08** | Railway Display Timer | Convert a total number of seconds into `Hours : Minutes : Seconds` for a simple display timer. | Integer division & modulus |
 
 ---
 
