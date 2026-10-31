@@ -5,10 +5,6 @@
 
 For first-year students of institutes affiliated with AKTU Lucknow.
 
-Examples across the course use inclusive Indian civic, cultural, and everyday
-contexts, alongside familiar electronics such as phones, LEDs, and sensors.
-Students are welcome to adapt names, places, and data to their own communities.
-
 ## Course at a glance
 
 | Item | Details |
