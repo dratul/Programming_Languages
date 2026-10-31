@@ -101,7 +101,7 @@ int main(void) {
 }
 ```
 
-> 🛑 **Never use `gets()`!** It lacks boundary checks and causes buffer overflow vulnerabilities. It was removed from modern C standards.
+> **Syllabus note:** The official syllabus lists `gets()`/`puts()`. This course uses `fgets()` instead of `gets()`: `gets()` cannot limit how many characters are read and was removed from the C standard. `fgets()` is the safe alternative for reading a line; `puts()` remains safe for displaying one.
 
 ---
 

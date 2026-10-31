@@ -40,6 +40,32 @@ This is similar to how an IoT system could collect solar-panel values, store the
 * Lists are used to store readings.
 * Basic statistics such as average can be computed easily.
 
+## Plot the readings (Week 15 extension)
+
+This short extension uses Matplotlib from [Unit 5.4](Unit_05_04_Matplotlib_Intro.md)
+to plot five simulated temperature readings. Install Matplotlib as shown in
+that lesson, or run the example in Google Colab.
+
+```python
+import random
+import matplotlib.pyplot as plt
+
+temperatures = [round(random.uniform(20, 35), 1) for _ in range(5)]
+measurements = range(1, len(temperatures) + 1)
+
+print("Temperatures (°C):", temperatures)
+print("Average temperature (°C):", round(sum(temperatures) / len(temperatures), 1))
+
+plt.plot(measurements, temperatures, marker="o")
+plt.title("Simulated IoT Temperature Readings")
+plt.xlabel("Measurement")
+plt.ylabel("Temperature (°C)")
+plt.show()
+```
+
+Each run can produce different temperatures. The graph displays the five
+readings in the order they were generated.
+
 ## Practice Tutorials
 
 1. Simulate five solar-panel voltage readings and print the average value.
