@@ -283,12 +283,12 @@ int main(void) {
 
 ### Quick Reference Summary
 
-| Operation | Typical Logic | Time Complexity |
-| :--- | :--- | :--- |
-| **Sum / Avg** | Loop through every element using `sum += arr[i]` | $O(n)$ |
-| **Max / Min** | Compare current element with running `max` or `min` | $O(n)$ |
-| **Reverse** | Swap `arr[i]` with `arr[n - 1 - i]` up to `n / 2` | $O(n)$ |
-| **Linear Search** | Compare each element against `target` | $O(n)$ |
+| Operation | Typical Logic |
+| :--- | :--- |
+| **Sum / Avg** | Loop through every element using `sum += arr[i]` |
+| **Max / Min** | Compare current element with running `max` or `min` |
+| **Reverse** | Swap `arr[i]` with `arr[n - 1 - i]` up to `n / 2` |
+| **Linear Search** | Compare each element against `target` |
 
 ## Practice Tutorials
 
