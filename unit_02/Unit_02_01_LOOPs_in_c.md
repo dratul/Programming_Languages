@@ -6,10 +6,10 @@
 ## Syllabus
 
 * **Decision Making and Control Flow (C):**
-  1. Control Statements
-  2. Loops: `for`, `while`, `do-while`; `break` and `continue`
-  3. Functions: definition, call, return; call by value
-  4. Recursion: factorial and Fibonacci (simple examples only)
+  1. [Control Statements](#21-control-statements)
+  2. [Loops: `for`, `while`, `do-while`; `break` and `continue`](#22-iteration-statements-loops)
+  3. [Functions: definition, call, return; call by value](Unit_02_02_Functions_in_c.md#23-functions)
+  4. [Recursion: factorial and Fibonacci (simple examples only)](Unit_02_02_Functions_in_c.md#24-recursion)
 * **Real connect:** Control flow helps run traffic signals, railway information displays, and sensor-based electronics.
 
 ---

@@ -3,6 +3,13 @@
 **Instructor:** Dr Atul Kumar Dwivedi  
 **Institution:** BIET Jhansi
 
+## Syllabus
+
+1. [Why Python](Unit_04_01_Why_Python.md)
+2. [Python basics](Unit_04_02_Python_Basics.md) — variables, data types, output, input, and operators.
+3. [Python control flow](Unit_04_03_Python_Control_Flow.md) — decisions and loops.
+4. [Python functions](Unit_04_04_Python_Functions.md) — defining and calling functions.
+
 ## What Is Python?
 
 Python is a high-level, general-purpose programming language. Its syntax is designed to be readable, so beginners can focus on solving problems instead of writing a lot of setup code.

@@ -5,17 +5,17 @@
 
 **Advanced Programming Concepts (C):**
 
-3.1\. 1D array — declaration, input, output, traversal
+3.1\. [1D array — declaration, input, output, traversal](#31-1d-array)
 
-3.2\. Simple operations — find max, min, sum, average
+3.2\. [Simple operations — find max, min, sum, average](Unit_03_02_Array_Applications.md)
 
-3.3\. Strings in C — `fgets`/`puts`, `strlen`, `strcpy`, `strcmp`
+3.3\. [Strings in C — `fgets`/`puts`, `strlen`, `strcpy`, `strcmp`](Unit_03_03_Strings.md)
 
-3.4\. Pointer — concept of address and pointer variable (concept only, not deep)
+3.4\. [Pointer — concept of address and pointer variable (concept only, not deep)](Unit_03_04_Pointers.md)
 
-3.5\. Structures,
+3.5\. [Structures](Unit_03_05_Structures.md)
 
-3.6\. File Handling
+3.6\. [File Handling](Unit_03_06_File_Handling.md)
 
 ## 3.1 1D Array
 

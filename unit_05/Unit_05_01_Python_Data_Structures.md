@@ -3,6 +3,14 @@
 **Instructor:** Dr Atul Kumar Dwivedi  
 **Institution:** BIET Jhansi
 
+## Syllabus
+
+1. [Python data structures](Unit_05_01_Python_Data_Structures.md) — lists, tuples, dictionaries, and sets.
+2. [Python file handling](Unit_05_02_Python_File_Handling.md) — text files and CSV files.
+3. [Introduction to NumPy](Unit_05_03_NumPy_Intro.md) — arrays, mean, and simple arithmetic.
+4. [Introduction to Matplotlib](Unit_05_04_Matplotlib_Intro.md) — plotting a simple line graph.
+5. [IoT sensor simulation](Unit_05_05_IoT_Sensor_Simulation.md) — a simple Python sensor-reading simulation.
+
 Python data structures help store and organize data. In this unit, we study the most common built-in structures: lists, tuples, dictionaries, and sets.
 
 ## Lists
