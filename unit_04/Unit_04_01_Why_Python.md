@@ -54,6 +54,15 @@ Namaste from India!
 
 Both C and Python let us store data, make decisions, repeat instructions, and organize code into functions. Python generally needs less syntax for a small program. For example:
 
+| Feature | Python | C |
+| --- | --- | --- |
+| **Syntax** | Usually fewer lines and no semicolons are needed for statements. | Uses semicolons to end statements and braces to group code. |
+| **Variables** | A variable can be assigned without declaring its type first. | A variable's type is declared before it is used. |
+| **Running a program** | Runs through a Python interpreter. | Usually compiled before the program runs. |
+| **Common strength** | Often chosen for quick development, automation, and data work. | Often chosen when low-level control or high performance is important. |
+
+For example:
+
 ```python
 print("Welcome")
 ```
