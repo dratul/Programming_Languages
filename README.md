@@ -9,7 +9,7 @@ For first-year students of institutes affiliated with AKTU Lucknow.
 
 | Item | Details |
 | --- | --- |
-| University / programme | Dr. A.P.J. Abdul Kalam Technical University, Lucknow — B.Tech. First Year, ECE Stream |
+| University / programme | Dr. A.P.J. Abdul Kalam Technical University, Lucknow — B.Tech. First Year,EE, ECE Stream |
 | Course code and title | ACS101 — Programming Languages |
 | Credits / NCrF hours | 3 credits / 45 hours |
 | Languages | C and Python |
