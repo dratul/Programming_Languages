@@ -1,6 +1,6 @@
 # 4.1 Introduction to Python
 
-**Instructor:** Dr Atul Kumar Dwivedi  
+**Instructor:** [Dr Atul Kumar Dwivedi](https://www.linkedin.com/in/eratul/)  
 **Institution:** BIET Jhansi
 
 ## Syllabus

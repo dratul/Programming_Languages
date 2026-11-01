@@ -1,6 +1,6 @@
 # UNIT-03 : Syllabus
 
-**Instructor:** Dr Atul Kumar Dwivedi  
+**Instructor:** [Dr Atul Kumar Dwivedi](https://www.linkedin.com/in/eratul/)  
 **Institution:** BIET Jhansi
 
 **Advanced Programming Concepts (C):**

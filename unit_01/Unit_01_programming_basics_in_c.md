@@ -1,6 +1,6 @@
 # Unit 1: Programming Basics (C)
 
-**Instructor:** Dr Atul Kumar Dwivedi  
+**Instructor:** [Dr Atul Kumar Dwivedi](https://www.linkedin.com/in/eratul/)  
 **Institution:** BIET Jhansi
 
 This unit introduces the C language and the programming fundamentals used throughout the course. The original Unit 1 lesson has been organized into the following topic files; its lesson content and examples are preserved in those files.

@@ -1,6 +1,6 @@
 # Programming_Languages
 
-**Instructor:** Dr Atul Kumar Dwivedi  
+**Instructor:** [Dr Atul Kumar Dwivedi](https://www.linkedin.com/in/eratul/)  
 **Institution:** BIET Jhansi
 
 For first-year students of institutes affiliated with AKTU Lucknow.
