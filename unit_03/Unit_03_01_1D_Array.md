@@ -19,7 +19,7 @@
 
 ## 3.1 1D Array
 
-A one-dimensional array (1D array) is one of the most basic and useful concepts in programming. It allows us to store multiple values of the same data type under a single variable name.
+A one-dimensional array (1D array) allows us to store multiple values of the same data type under a single variable name.
 
 A **one-dimensional (1D) array** is one of the most fundamental data structures in C. It stores a fixed-size, sequential collection of elements of the **same data type** in contiguous (adjacent) memory locations.
 
