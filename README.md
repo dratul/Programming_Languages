@@ -48,14 +48,13 @@ apply Python to a small data, automation, or IoT task.
 1.6. [Tutorials and assignment](unit_01/tutorials/Tutorials_Unit_01.md) \
 Real connect: C runs embedded systems used in Indian-made electronics, public
 transport, and communication devices.
-## [Unit-02 Decision Making and Control Flow (C)](unit_02/Unit_02_01_LOOPs_in_c.md)
-2.1. [Control statements](unit_02/Unit_02_01_LOOPs_in_c.md) \
-2.2. [Loops](unit_02/Unit_02_01_LOOPs_in_c.md) — for, while, do-while; break and
+## [Unit-02 Decision Making and Control Flow (C)](unit_02/Unit_02_01_Control_Statements_in_c.md)
+2.1. [Control statements](unit_02/Unit_02_01_Control_Statements_in_c.md) \
+2.2. [Loops](unit_02/Unit_02_02_Loops_in_c.md) — for, while, do-while; break and
 continue \
-2.3. [Functions](unit_02/Unit_02_02_Functions_in_c.md) — definition, call, return;
+2.3. [Functions](unit_02/Unit_02_03_Functions_in_c.md) — definition, call, return;
 call by value \
-2.4. Recursion — factorial and Fibonacci (simple examples in
-[Functions and Recursion](unit_02/Unit_02_02_Functions_in_c.md)) \
+2.4. [Recursion](unit_02/Unit_02_04_Recursion_in_c.md) — factorial and Fibonacci \
 2.5. [Tutorials](unit_02/tutorials/Tutorials_Unit_02.md)\
 Real connect: Control flow helps operate traffic signals, railway information
 displays, and sensor-based electronics.

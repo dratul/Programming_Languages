@@ -341,7 +341,7 @@ Percentage = 90.00%
 
 [Tutorials and assignment](tutorials/Tutorials_Unit_01.md)
 
-[Next unit: Decision making and control flow](../unit_02/Unit_02_01_LOOPs_in_c.md)
+[Next unit: Decision making and control flow](../unit_02/Unit_02_01_Control_Statements_in_c.md)
 
 ## Practice Tutorials
 
