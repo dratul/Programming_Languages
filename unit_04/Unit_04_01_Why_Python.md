@@ -16,7 +16,7 @@ Python is a high-level, general-purpose programming language. Its syntax is desi
 
 Python is an interpreted language. A Python interpreter reads and runs a program. Python programs are commonly saved in files ending in `.py`.
 
-## Why Learn Python?
+## Why Learn Python? Where Is Python Used?
 
 Python is useful for learning programming because:
 
@@ -25,8 +25,7 @@ Python is useful for learning programming because:
 * It can be used in many different fields.
 * A large community creates learning resources and libraries for Python.
 
-## Where Is Python Used?
-
+Python is used for many applications
 | Area | Example uses |
 | --- | --- |
 | **Artificial intelligence (AI)** | Building and experimenting with intelligent applications |
