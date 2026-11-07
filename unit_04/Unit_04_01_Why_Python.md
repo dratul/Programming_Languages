@@ -14,7 +14,7 @@
 
 Python is a high-level, general-purpose programming language. Its syntax is designed to be readable, so beginners can focus on solving problems instead of writing a lot of setup code.
 
-Python is an interpreted language: a Python interpreter reads and runs a program. Python programs are commonly saved in files ending in `.py`.
+Python is an interpreted language. A Python interpreter reads and runs a program. Python programs are commonly saved in files ending in `.py`.
 
 ## Why Learn Python?
 
