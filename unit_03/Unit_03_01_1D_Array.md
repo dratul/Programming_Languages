@@ -293,8 +293,8 @@ int main(void) {
 ## Practice Tutorials
 
 1. Read five rainfall readings for a local weather station into an array and print their sum and average.
-
-2. Find the largest and smallest visitor counts among several Indian heritage sites.
+2. Save marks otained and total marks of a students in five subjects in an array. Print their sum, average and percentage.
+3. Find the largest and smallest visitor counts among several Indian heritage sites.
 
 ---
 
