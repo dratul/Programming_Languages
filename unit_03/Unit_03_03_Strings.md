@@ -76,7 +76,7 @@ int main(void) {
 char name[30];
 printf("Enter your first name: ");
 // Note: No '&' needed before name because an array decays to a pointer
-scanf("%29s", name); // '%29s' prevents buffer overflows
+scanf("%s", name); // '%29s' prevents buffer overflows
 puts(name);
 ```
 
