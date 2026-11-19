@@ -76,7 +76,7 @@ int main(void) {
 char name[30];
 printf("Enter your first name: ");
 // Note: No '&' needed before name because an array decays to a pointer
-scanf("%s", name); // '%29s' prevents buffer overflows
+scanf("%30s", name); // '%30s' prevents buffer overflows. 30 is taken an approx
 puts(name);
 ```
 
@@ -120,7 +120,7 @@ int main(void) {
     char str3[50];
 
     // 1. Length of string (excluding '\0')
-    printf("Length of str1: %zu\n", strlen(str1)); // Output: 7
+    printf("Length of str1: %zu\n", strlen(str1)); // Output: 7 //zu is for unsigned integer, you can also use %d
 
     // 2. Copying strings (strcpy)
     strcpy(str3, str1); // str3 now holds "Namaste"
