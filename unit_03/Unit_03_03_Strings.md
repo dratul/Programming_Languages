@@ -77,6 +77,7 @@ char name[30];
 printf("Enter your first name: ");
 // Note: No '&' needed before name because an array decays to a pointer
 scanf("%29s", name); // '%29s' prevents buffer overflows
+puts(name);
 ```
 
 #### 2. Using `fgets` (Recommended for full lines)
