@@ -10,11 +10,11 @@ Unlike modern high-level languages like Python, Java, or C++, the C language **d
 A sequence of characters only becomes a valid C string if it ends with `'\0'` (ASCII value `0`). The null terminator tells functions like `printf()` where the text ends in memory.
 
 ### Visualizing Memory
-If you store the word `"INDIA"`:
+If you store the word `"BHARAT"`:
 
 ```
-Index:    [ 0 ] [ 1 ] [ 2 ] [ 3 ] [ 4 ] [ 5 ]
-Value:    | 'I' | 'N' | 'D' | 'I' | 'A' | '\0'|
+Index:    [ 0 ] [ 1 ] [ 2 ] [ 3 ] [ 4 ] [ 5 ][6]
+Value:    | 'B' | 'H' | 'A' | 'R' | 'A' | 'T' |'\0'|
 ```
 
 > **Key Takeaway:** An array holding a string must be at least **one byte larger** than the visible character count to accommodate `'\0'`.
