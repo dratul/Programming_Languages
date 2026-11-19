@@ -71,7 +71,7 @@ average\
 3.6. [File handling](unit_03/Unit_03_06_File_Handling.md)\
 Practice: [Unit 3 tutorials](unit_03/tutorials/Tutorials_Unit_03.md)\
 Real connect: Arrays can store rainfall or solar-panel readings from across
-India. Pointers help embedded programs work with device memory.
+Bhaarat. Pointers help embedded programs work with device memory.
 ## [Unit-04 Python Introduction](unit_04/Unit_04_01_Why_Python.md)
 4.1. [Why Python](unit_04/Unit_04_01_Why_Python.md) — where it is used (AI, Data
 Science, Web, Automation)\

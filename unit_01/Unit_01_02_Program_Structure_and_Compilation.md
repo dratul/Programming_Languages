@@ -38,7 +38,7 @@ Steps in learning C:
 #include <stdio.h>
 
 int main(void) {
-    printf("Namaste from Jhansi, India!\n");
+    printf("Namaste from Jhansi, Bhaarat!\n");
     return 0;
 }
 ```
@@ -180,7 +180,7 @@ If GCC is not recognized, install MinGW-w64 (e.g., via `winget install MSYS2.MSY
    ```c
    #include <stdio.h>
    int main(void) {
-       printf("Namaste from India!\n");
+       printf("Namaste from Bhaarat!\n");
        return 0;
    }
    ```

@@ -32,7 +32,7 @@ int main(void) {
         return 1;
     }
 
-    if (fputs("India has many local heritage sites.\n", file) == EOF ||
+    if (fputs("Bhaarat has many local heritage sites.\n", file) == EOF ||
         fputs("Communities help preserve their shared history.\n", file) == EOF) {
         perror("Could not write to notes.txt");
         fclose(file);
@@ -73,7 +73,7 @@ int main(void) {
 **Output:**
 
 ```text
-India has many local heritage sites.
+Bhaarat has many local heritage sites.
 Communities help preserve their shared history.
 ```
 

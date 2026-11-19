@@ -13,7 +13,7 @@
   4. Operators (arithmetic, relational, logical)
   5. Type conversion; simple expressions
 * **Real connect:** C runs embedded systems in everyday electronics, public
-  transport displays, and communication devices used across India.
+  transport displays, and communication devices used across Bhaarat.
 
 ---
 

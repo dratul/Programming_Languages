@@ -55,7 +55,7 @@ Use the `%s` format specifier with `printf()` or `puts()`:
 #include <stdio.h>
 
 int main(void) {
-    char message[] = "Namaste from India!";
+    char message[] = "Namaste from Bhaarat!";
 
     // Using printf
     printf("%s\n", message);
@@ -116,7 +116,7 @@ To manipulate strings, include `<string.h>`:
 
 int main(void) {
     char str1[50] = "Namaste";
-    char str2[] = "India";
+    char str2[] = "Bhaarat";
     char str3[50];
 
     // 1. Length of string (excluding '\0')
@@ -127,7 +127,7 @@ int main(void) {
 
     // 3. Concatenation (strcat)
     strcat(str1, " ");
-    strcat(str1, str2); // str1 now holds "Namaste India"
+    strcat(str1, str2); // str1 now holds "Namaste Bhaarat"
     printf("Concatenated: %s\n", str1);
 
     // 4. Comparison (strcmp)
@@ -152,7 +152,7 @@ char strArray[] = "Namaste";
 strArray[0] = 'B'; // Valid: the first character can be changed
 
 // Read-only: Points to literal stored in read-only memory segment
-const char *strPtr = "India";
+const char *strPtr = "Bhaarat";
 // strPtr[0] = 'M'; // CRASH / SEGMENTATION FAULT!
 ```
 

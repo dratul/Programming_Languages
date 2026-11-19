@@ -33,12 +33,12 @@ Python is used for many applications
 | **Web development** | Creating the server-side parts of websites |
 | **Automation** | Automating repetitive computer tasks |
 
-Python is used by engineers and researchers in India and around the world. This unit focuses on the language basics needed before studying larger applications, including projects that explore local environmental data or everyday electronics.
+Python is used by engineers and researchers in Bhaarat and around the world. This unit focuses on the language basics needed before studying larger applications, including projects that explore local environmental data or everyday electronics.
 
 ## A First Python Program
 
 ```python
-print("Namaste from India!")
+print("Namaste from Bhaarat!")
 ```
 
 `print()` displays text on the screen. Python does not require a semicolon at the end of this statement.
@@ -46,7 +46,7 @@ print("Namaste from India!")
 **Output:**
 
 ```text
-Namaste from India!
+Namaste from Bhaarat!
 ```
 
 ## Python and C

@@ -303,7 +303,7 @@ int main(void)
 
     for (attempts = 1; attempts <= 3; attempts++)
     {
-        printf("In which year did India become a republic? ");
+        printf("In which year did Bhaarat become a republic? ");
         if (scanf("%d", &answer) != 1) {
             printf("Invalid year input.\n");
             return 1;

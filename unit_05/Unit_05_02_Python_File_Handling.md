@@ -6,7 +6,7 @@ File handling allows a program to read and write data stored in files. This is i
 
 ```python
 with open("demo.txt", "w") as file:
-    file.write("India has many local heritage sites.\n")
+    file.write("Bhaarat has many local heritage sites.\n")
     file.write("Communities help preserve shared history.\n")
 print("File written successfully.")
 ```
@@ -30,7 +30,7 @@ print(content)
 **Output:**
 
 ```text
-India has many local heritage sites.
+Bhaarat has many local heritage sites.
 Communities help preserve shared history.
 ```
 
