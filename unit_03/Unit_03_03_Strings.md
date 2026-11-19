@@ -166,6 +166,17 @@ const char *strPtr = "India";
 - [ ] Ensure array size has at least `length + 1` bytes allocated.
 - [ ] Prefer `fgets()` over `scanf()` or `gets()` when taking user input.
 - [ ] Use functions from `<string.h>` (`strlen`, `strcpy`, `strcat`, `strcmp`) rather than attempting assignment like `str1 = str2`.
+## Additional Practice Questions
+
+### Basic
+1. Read a name using `fgets()` and print it.
+2. Find the length of a string without printing the null character.
+3. Copy one string into another using `strcpy()`.
+
+### A Little Advanced
+1. Write a program to count the vowels in a string.
+2. Reverse a string in place and print the result.
+
 ## Practice Tutorials
 
 1. Read a line of text using `fgets()` and print its length with `strlen()`.

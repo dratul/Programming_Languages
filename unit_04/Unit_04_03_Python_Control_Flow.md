@@ -102,6 +102,17 @@ This prints `1`, `2`, `4`, and `5`; the iteration for LED channel `3` is skipped
 * Use `while` when repetition depends on a condition.
 * `break` exits a loop; `continue` skips to its next iteration.
 
+## Additional Practice Questions
+
+### Basic
+1. Check whether an integer is positive, negative, or zero.
+2. Print all even numbers from 1 to 20.
+3. Use a `while` loop to print a countdown.
+
+### A Little Advanced
+1. Print a multiplication table using nested loops.
+2. Count how many positive numbers the user enters before entering zero.
+
 ## Practice Tutorials
 
 1. Write a Python program that checks whether the number of LED channels is even or odd using `if`/`else`.

@@ -210,6 +210,17 @@ gcc namaste.c -o namaste.exe; if ($?) { .\namaste.exe }
 
 [Tutorials and assignment](tutorials/Tutorials_Unit_01.md)
 
+## Additional Practice Questions
+
+### Basic
+1. Write the basic structure of a C program.
+2. Print your name using `printf()`.
+3. Read an integer and print it using `scanf()` and `printf()`.
+
+### A Little Advanced
+1. Explain the difference between compiling and linking.
+2. Create a program that reads two integers and prints their sum and average.
+
 ## Practice Tutorials
 
 1. Write a program with `#include <stdio.h>`, `int main(void)`, and `printf()`/`scanf()` to read and print two counts from a local community event.

@@ -199,6 +199,17 @@ Total Odd Numbers: 3
 | **Reverse** | Swap `arr[i]` with `arr[n - 1 - i]` up to `n / 2` | $O(n)$ |
 | **Linear Search** | Compare each element against `target` | $O(n)$ |
 
+## Additional Practice Questions
+
+### Basic
+1. Find the maximum value in an integer array.
+2. Count the number of even elements in an array.
+3. Search for a number in an array and print its position.
+
+### A Little Advanced
+1. Reverse an array without using an additional array.
+2. Count how many times a specific value occurs in an array.
+
 ## Practice Tutorials
 
 1. Write a program to reverse daily rainfall readings in place and display the reversed result.

@@ -323,6 +323,17 @@ int main(void)
 }
 ```
 
+## Additional Practice Questions
+
+### Basic
+1. Print numbers 1 to 20 using a `for` loop.
+2. Use a `while` loop to calculate the sum of the first 10 natural numbers.
+3. Use a `do-while` loop to repeat a menu once before checking a user's choice.
+
+### A Little Advanced
+1. Print a multiplication table for a number entered by the user.
+2. Use nested loops to print a 5-row right-angled number pattern.
+
 ## Practice Tutorials
 
 1. Write a program to print the multiplication table for the number of LED channels in a small device using a `for` loop.

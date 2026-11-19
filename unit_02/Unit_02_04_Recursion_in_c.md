@@ -121,6 +121,17 @@ int main(void)
 }
 ```
 
+## Additional Practice Questions
+
+### Basic
+1. Write a recursive function to print numbers from 1 to `n`.
+2. Use recursion to calculate the sum of numbers from 1 to `n`.
+3. Write a recursive function to return `n` raised to the power 2.
+
+### A Little Advanced
+1. Use recursion to calculate the Fibonacci number at position `n`.
+2. Explain the base case and recursive call in a recursive factorial function.
+
 ## Practice Tutorials
 
 1. Write a recursive function to find the factorial of a non-negative integer and print the result.

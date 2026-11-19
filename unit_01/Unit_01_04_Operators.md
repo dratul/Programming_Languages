@@ -104,6 +104,17 @@ The final line demonstrates the optional bitwise AND operator.
 
 [Tutorials and assignment](tutorials/Tutorials_Unit_01.md)
 
+## Additional Practice Questions
+
+### Basic
+1. Write a program to add, subtract, multiply, and divide two numbers.
+2. Use relational operators to compare two integers.
+3. Use `&&` and `||` to combine two conditions.
+
+### A Little Advanced
+1. Predict and explain the result of `10 + 5 * 2 / 4`.
+2. Write a program to check whether a number is positive, even, and less than 100.
+
 ## Practice Tutorials
 
 1. Write a program to calculate the total cost, change, and average cost of two items priced in rupees.

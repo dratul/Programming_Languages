@@ -144,6 +144,17 @@ Solar panel area: 15.0 square metres
 * Use `print()` to display values and f-strings to include values in text.
 * Python provides arithmetic, comparison, and logical operators.
 
+## Additional Practice Questions
+
+### Basic
+1. Create variables for a name, age, and temperature.
+2. Read two numbers and print their sum.
+3. Use arithmetic operators to calculate the area of a rectangle.
+
+### A Little Advanced
+1. Read a Celsius temperature and convert it to Fahrenheit.
+2. Validate that an entered percentage is between 0 and 100.
+
 ## Practice Tutorials
 
 1. Read two rupee amounts for a community event and display their sum, difference, product, and quotient.

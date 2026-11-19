@@ -457,6 +457,17 @@ The `default` case executes if none of the explicit `case` values match the expr
 
 ---
 
+## Additional Practice Questions
+
+### Basic
+1. Use `if` to check whether a number is positive.
+2. Use `if-else` to check whether a number is even or odd.
+3. Use a `switch` statement to display the name of a day from 1 to 7.
+
+### A Little Advanced
+1. Use a nested `if` to check whether a year is a leap year.
+2. Create a menu that chooses an arithmetic operation using `switch`.
+
 ## Why this unit matters
 
 * Decision-making and loops are used in real systems such as traffic lights, menus, and automated control logic.

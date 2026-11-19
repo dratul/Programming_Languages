@@ -130,6 +130,17 @@ int main(void) {
 
 [Tutorials and assignment](tutorials/Tutorials_Unit_01.md)
 
+## Additional Practice Questions
+
+### Basic
+1. Declare variables to store a student's name, age, and height.
+2. Print the values of `int`, `float`, and `char` variables.
+3. Change the value of a variable and print both values.
+
+### A Little Advanced
+1. Compare `short int`, `int`, and `long int` for storing an integer.
+2. Write a program that selects a suitable data type for an item count and its price.
+
 ## Practice Tutorials
 
 1. Declare variables for an Indian city name, the number of volunteers at a local event, and a phone's battery percentage; print each with a suitable format specifier.

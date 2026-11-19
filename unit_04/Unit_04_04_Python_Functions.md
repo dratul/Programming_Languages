@@ -107,6 +107,17 @@ The first call calculates the area of a `5` by `3` panel. The second uses the de
 
 [Next unit: Python data structures and applications](../unit_05/Unit_05_01_Python_Data_Structures.md)
 
+## Additional Practice Questions
+
+### Basic
+1. Define a function that prints a welcome message.
+2. Create a function that returns the square of a number.
+3. Call a function with a default argument.
+
+### A Little Advanced
+1. Create a function that checks whether a number is prime.
+2. Write a function that returns both the sum and average of a list.
+
 ## Practice Tutorials
 
 1. Write a function to add two counts of community event volunteers and call it from the main program.

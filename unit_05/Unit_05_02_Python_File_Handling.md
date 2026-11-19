@@ -88,6 +88,17 @@ The `with` statement automatically closes the file after reading or writing, eve
 * `"a"` appends new content to the file.
 * CSV files are useful for storing tabular data.
 
+## Additional Practice Questions
+
+### Basic
+1. Write three names to a text file.
+2. Read and print all lines from a text file.
+3. Append one line to an existing text file.
+
+### A Little Advanced
+1. Read a CSV file and calculate the average of a numeric column.
+2. Write a report file containing pass/fail totals for a list of marks.
+
 ## Practice Tutorials
 
 1. Write three lines about a local Indian heritage site to a text file, then read the file and print its content.

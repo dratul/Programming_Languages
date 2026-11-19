@@ -89,6 +89,17 @@ Communities help preserve their shared history.
 
 [Next unit: Python introduction](../unit_04/Unit_04_01_Why_Python.md)
 
+## Additional Practice Questions
+
+### Basic
+1. Create a text file and write a message to it.
+2. Open a text file and print every line it contains.
+3. Append a record to an existing text file.
+
+### A Little Advanced
+1. Read integer records from a file and calculate their average.
+2. Write a menu-based program that adds and lists student records in a text file.
+
 ## Practice Tutorials
 
 1. Write two lines about a local Indian heritage site to a file, reopen it, and print the contents.

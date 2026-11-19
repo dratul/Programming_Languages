@@ -179,6 +179,17 @@ return 0;
 }
 ```
 
+## Additional Practice Questions
+
+### Basic
+1. Create a function that prints "Welcome".
+2. Create a function that accepts two integers and returns their sum.
+3. Write a `main()` function that calls a function to calculate the square of a number.
+
+### A Little Advanced
+1. Create a function that returns the largest of three numbers.
+2. Create separate functions for addition and subtraction and call them from a menu.
+
 ## Practice Tutorials
 
 1. Write a function to find the largest of three visitor counts for local heritage sites and call it from `main()`.

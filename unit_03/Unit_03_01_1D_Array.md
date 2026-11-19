@@ -290,6 +290,17 @@ int main(void) {
 | **Reverse** | Swap `arr[i]` with `arr[n - 1 - i]` up to `n / 2` |
 | **Linear Search** | Compare each element against `target` |
 
+## Additional Practice Questions
+
+### Basic
+1. Declare an array of five integers and initialize it.
+2. Print all elements of an array using a loop.
+3. Read five temperatures into an array and print them in reverse order.
+
+### A Little Advanced
+1. Find the sum and average of values stored in an array.
+2. Count how many array elements are greater than a value entered by the user.
+
 ## Practice Tutorials
 
 1. Read five rainfall readings for a local weather station into an array and print their sum and average.
