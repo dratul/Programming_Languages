@@ -1,18 +1,20 @@
 # 3.3 Strings in C
+**String** is a sequence of characters stored in a contiguous block of memory (character array) and terminated by a special null character '\0'.
+
 Unlike modern high-level languages like Python, Java, or C++, the C language **does not have a native `string` data type**. Instead, a string in C is simply a **one-dimensional array of characters (`char`) terminated by a special character called the null terminator (`'\0'`)**.
 
 ---
 
-## 3.3.1. The Anatomy of a C String
+## 3.3.1. The structure of a C String
 
 A sequence of characters only becomes a valid C string if it ends with `'\0'` (ASCII value `0`). The null terminator tells functions like `printf()` where the text ends in memory.
 
 ### Visualizing Memory
-If you store the word `"INDIA"`:
+If you store the word `"BHARAT"`:
 
 ```
-Index:    [ 0 ] [ 1 ] [ 2 ] [ 3 ] [ 4 ] [ 5 ]
-Value:    | 'I' | 'N' | 'D' | 'I' | 'A' | '\0'|
+Index:    [ 0 ] [ 1 ] [ 2 ] [ 3 ] [ 4 ] [ 5 ][6]
+Value:    | 'B' | 'H' | 'A' | 'R' | 'A' | 'T' |'\0'|
 ```
 
 > **Key Takeaway:** An array holding a string must be at least **one byte larger** than the visible character count to accommodate `'\0'`.
@@ -76,7 +78,7 @@ int main(void) {
 char name[30];
 printf("Enter your first name: ");
 // Note: No '&' needed before name because an array decays to a pointer
-scanf("%s", name); // '%29s' prevents buffer overflows
+scanf("%30s", name); // '%30s' prevents buffer overflows. 30 is taken an approx
 puts(name);
 ```
 
@@ -120,7 +122,7 @@ int main(void) {
     char str3[50];
 
     // 1. Length of string (excluding '\0')
-    printf("Length of str1: %zu\n", strlen(str1)); // Output: 7
+    printf("Length of str1: %zu\n", strlen(str1)); // Output: 7 //zu is for unsigned integer, you can also use %d
 
     // 2. Copying strings (strcpy)
     strcpy(str3, str1); // str3 now holds "Namaste"
