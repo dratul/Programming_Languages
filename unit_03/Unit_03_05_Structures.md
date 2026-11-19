@@ -50,22 +50,15 @@ Separate variables can hold the site name, state, and visitor count, but a struc
 * Declare a structure type with `struct`.
 * Use the dot operator to access a member, for example `site.visitors`.
 
-## Additional Practice Questions
+## Practice Tutorials
 
-### Basic
 1. Define a structure to store an employee's ID and name.
 2. Read and print the values of one structure variable.
 3. Create an array of three structure variables.
-
-### A Little Advanced
-1. Write a function that returns the structure variable with the highest salary.
-2. Create a nested structure for a student and that student's address.
-
-## Practice Tutorials
-
-1. Define a `struct HeritageSite` and print all its fields for one Indian site.
-
-2. Store records for three Indian heritage sites in an array and display their details in table form.
+4. Write a function that returns the structure variable with the highest salary.
+5. Create a nested structure for a student and that student's address.
+6. Define a `struct HeritageSite` and print all its fields for one Indian site.
+7. Store records for three Indian heritage sites in an array and display their details in table form.
 
 ---
 

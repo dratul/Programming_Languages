@@ -124,22 +124,15 @@ Sets are useful when you need to remove duplicates.
 
 These structures are foundational for Python programming and are used heavily in data science and automation tasks.
 
-## Additional Practice Questions
+## Practice Tutorials
 
-### Basic
 1. Create a list of five cities and print the third city.
 2. Add and remove an item from a list.
 3. Create a dictionary that stores a student's name and marks.
-
-### A Little Advanced
-1. Count the frequency of each item in a list using a dictionary.
-2. Merge two dictionaries and remove duplicate keys.
-
-## Practice Tutorials
-
-1. Create a list of five sensor readings, print the list, and calculate the average.
-
-2. Create a dictionary for an Indian heritage site and print each item using its key.
+4. Count the frequency of each item in a list using a dictionary.
+5. Merge two dictionaries and remove duplicate keys.
+6. Create a list of five sensor readings, print the list, and calculate the average.
+7. Create a dictionary for an Indian heritage site and print each item using its key.
 
 ---
 

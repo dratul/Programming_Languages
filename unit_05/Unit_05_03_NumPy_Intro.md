@@ -76,22 +76,15 @@ NumPy arrays are faster and more efficient than Python lists for mathematical wo
 * Functions like `np.mean()` help compute statistical values.
 * Arithmetic can be performed element-wise on arrays.
 
-## Additional Practice Questions
+## Practice Tutorials
 
-### Basic
 1. Create a NumPy array from five numbers.
 2. Print the maximum and minimum values in a NumPy array.
 3. Add 10 to every element in a NumPy array.
-
-### A Little Advanced
-1. Create a 3x3 array and calculate the sum of each row.
-2. Generate 20 random sensor readings and calculate their mean and standard deviation.
-
-## Practice Tutorials
-
-1. Create a NumPy array of five solar-panel readings and print the mean value using `np.mean()`.
-
-2. Create a 2x3 NumPy array and print the row-wise and column-wise sums.
+4. Create a 3x3 array and calculate the sum of each row.
+5. Generate 20 random sensor readings and calculate their mean and standard deviation.
+6. Create a NumPy array of five solar-panel readings and print the mean value using `np.mean()`.
+7. Create a 2x3 NumPy array and print the row-wise and column-wise sums.
 
 ---
 

@@ -66,22 +66,15 @@ plt.show()
 Each run can produce different temperatures. The graph displays the five
 readings in the order they were generated.
 
-## Additional Practice Questions
+## Practice Tutorials
 
-### Basic
 1. Generate five random temperature readings and print them.
 2. Print readings only when the temperature exceeds a threshold.
 3. Plot three generated sensor readings using Matplotlib.
-
-### A Little Advanced
-1. Simulate hourly readings for a week and find the daily maximum.
-2. Save generated sensor readings to a CSV file and read their average.
-
-## Practice Tutorials
-
-1. Simulate five solar-panel voltage readings and print the average value.
-
-2. Generate a list of phone battery readings and display the maximum and minimum values.
+4. Simulate hourly readings for a week and find the daily maximum.
+5. Save generated sensor readings to a CSV file and read their average.
+6. Simulate five solar-panel voltage readings and print the average value.
+7. Generate a list of phone battery readings and display the maximum and minimum values.
 
 ---
 

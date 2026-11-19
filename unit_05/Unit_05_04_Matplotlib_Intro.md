@@ -61,22 +61,15 @@ Matplotlib helps present data clearly. Graphs are useful for comparing trends, a
 * Titles and labels make the chart easier to understand.
 * Graphs are useful for reporting scientific and engineering data.
 
-## Additional Practice Questions
+## Practice Tutorials
 
-### Basic
 1. Plot a line graph of five integer values.
 2. Add a title and labels to an existing graph.
 3. Plot three points using a scatter plot.
-
-### A Little Advanced
-1. Plot and compare two temperature trends on the same axes.
-2. Create a two-panel graph showing line and bar plots for the same data.
-
-## Practice Tutorials
-
-1. Use Matplotlib to plot four phone battery readings with labels on both axes.
-
-2. Plot two lines on the same graph to compare sample temperature changes in two Indian cities.
+4. Plot and compare two temperature trends on the same axes.
+5. Create a two-panel graph showing line and bar plots for the same data.
+6. Use Matplotlib to plot four phone battery readings with labels on both axes.
+7. Plot two lines on the same graph to compare sample temperature changes in two Indian cities.
 
 ---
 

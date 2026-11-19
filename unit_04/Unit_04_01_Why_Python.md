@@ -75,22 +75,15 @@ The equivalent C program needs a `main()` function and the `stdio.h` header. The
 * A Python program can be saved in a `.py` file and run with a Python interpreter.
 * This unit introduces Python syntax and programming fundamentals.
 
-## Additional Practice Questions
+## Practice Tutorials
 
-### Basic
 1. Print a short introduction to Python.
 2. Name three areas where Python is commonly used.
 3. Explain why Python does not require variable type declarations.
-
-### A Little Advanced
-1. Compare Python and C for writing a beginner-friendly data-processing program.
-2. Give two examples of tasks best handled with existing Python libraries.
-
-## Practice Tutorials
-
-1. Write a Python program that prints your name, branch, college, and an Indian city or community tradition you value using `print()`.
-
-2. Describe how Python could help analyze local rainfall data or readings from an electronic device.
+4. Compare Python and C for writing a beginner-friendly data-processing program.
+5. Give two examples of tasks best handled with existing Python libraries.
+6. Write a Python program that prints your name, branch, college, and an Indian city or community tradition you value using `print()`.
+7. Describe how Python could help analyze local rainfall data or readings from an electronic device.
 
 ---
 

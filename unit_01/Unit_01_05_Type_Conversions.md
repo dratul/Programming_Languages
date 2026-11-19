@@ -343,22 +343,15 @@ Percentage = 90.00%
 
 [Next unit: Decision making and control flow](../unit_02/Unit_02_01_Control_Statements_in_c.md)
 
-## Additional Practice Questions
+## Practice Tutorials
 
-### Basic
 1. Store an integer in a `float` variable and print the result.
 2. Use a cast to convert `7.8` to an integer.
 3. Predict the result of `5 / 2` and `5.0 / 2`.
-
-### A Little Advanced
-1. Explain why `(float)total / count` may give a more accurate average.
-2. Write a program that prevents integer division when calculating a percentage.
-
-## Practice Tutorials
-
-1. Use integer division and explicit casting to calculate the average daily visitor count at a local heritage site.
-
-2. Convert a phone sensor reading from an integer scale to a decimal voltage value and print two digits after the decimal point.
+4. Explain why `(float)total / count` may give a more accurate average.
+5. Write a program that prevents integer division when calculating a percentage.
+6. Use integer division and explicit casting to calculate the average daily visitor count at a local heritage site.
+7. Convert a phone sensor reading from an integer scale to a decimal voltage value and print two digits after the decimal point.
 
 ---
 

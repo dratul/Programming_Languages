@@ -51,22 +51,15 @@ At this level, focus on understanding addresses and reading a value through a po
 * `&variable` obtains a variable's address.
 * `*pointer` accesses the value at the address it stores.
 
-## Additional Practice Questions
+## Practice Tutorials
 
-### Basic
 1. Declare an integer and a pointer to it; print the address and value.
 2. Modify an integer by assigning a value through its pointer.
 3. Swap two integers using pointers.
-
-### A Little Advanced
-1. Explain the result of using `*p++` and `(*p)++` for pointer `p`.
-2. Write a function that updates both values returned through pointer parameters.
-
-## Practice Tutorials
-
-1. Declare an integer variable for a phone battery percentage and a pointer to it, then print the value and address of both.
-
-2. Use a pointer to swap the values of two integers without using a third variable.
+4. Explain the result of using `*p++` and `(*p)++` for pointer `p`.
+5. Write a function that updates both values returned through pointer parameters.
+6. Declare an integer variable for a phone battery percentage and a pointer to it, then print the value and address of both.
+7. Use a pointer to swap the values of two integers without using a third variable.
 
 ---
 

@@ -183,24 +183,15 @@ Computers only understand machine code. Translators convert source code into mac
 
 
 ---
-## Additional Practice Questions
+## Practice Tutorials
 
-### Basic
 1. List three reasons C is useful for first-year engineering students.
 2. Name one difference between an interpreter and a compiler.
 3. Write a short description of low-level and high-level languages.
-
-### A Little Advanced
-1. Explain why C is called a middle-level language.
-2. Describe two areas where C is still useful in modern computing.
-
-## Practice Tutorials
-[Tutorials and assignment](tutorials/Tutorials_Unit_01.md)
-1. Write a short C program to introduce yourself and name one place, public
-   service, or tradition in India that you value.
-
-2. List the steps to compile and run a C program, and explain how C could be
-   used in an everyday device such as a phone charger or railway display.
+4. Explain why C is called a middle-level language.
+5. Describe two areas where C is still useful in modern computing.
+6. Write a short C program to introduce yourself and name one place, public
+7. List the steps to compile and run a C program, and explain how C could be
 
 ---
 
