@@ -5,7 +5,7 @@ Unlike modern high-level languages like Python, Java, or C++, the C language **d
 
 ---
 
-## 3.3.1. The Anatomy of a C String
+## 3.3.1. The structure of a C String
 
 A sequence of characters only becomes a valid C string if it ends with `'\0'` (ASCII value `0`). The null terminator tells functions like `printf()` where the text ends in memory.
 
