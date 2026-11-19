@@ -1,4 +1,6 @@
 # 3.3 Strings in C
+**String** is a sequence of characters stored in a contiguous block of memory (character array) and terminated by a special null character '\0'.
+
 Unlike modern high-level languages like Python, Java, or C++, the C language **does not have a native `string` data type**. Instead, a string in C is simply a **one-dimensional array of characters (`char`) terminated by a special character called the null terminator (`'\0'`)**.
 
 ---
